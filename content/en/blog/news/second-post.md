@@ -7,6 +7,10 @@ description: >
   A short lead description about this content page. Text here can also be **bold** or _italic_ and can even be split over multiple paragraphs.
 ---
 
+{{< param "title" >}}
+
+{{< figure src="https://placekitten.com/200/200" title="Kitty" alt="lil kitty" caption="A cute kitten" width="200" height="200" >}}
+
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
