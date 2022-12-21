@@ -10,15 +10,23 @@ collections_config:
     filter: strict
     parse_branch_index: true
     path: content/en
+    icon: Auto Stories
   blog:
     path: content/en/blog
     output: true
+    icon: Library Books
   about:
     path: content/en/about
     output: true
+    icon: Psychology
+  community:
+    path: content/en/community
+    output: true
+    icon: Groups
   docs:
     path: content/en/docs
     output: true
+    icon: Description
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
