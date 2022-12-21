@@ -1,5 +1,6 @@
 ---
 title: The second blog post changed
+randomParam: This could work?
 linkTitle: Second blog post
 date: 2018-10-06T00:00:00Z
 description: >
@@ -7,6 +8,7 @@ description: >
   **bold** or _italic_ and can even be split over multiple paragraphs.
 ---
 {{< param "title" >}}
+{{< param "randomParam" >}}
 
 {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="lil kitty" caption="A cute kitten" width="200" height="200" >}}
 
