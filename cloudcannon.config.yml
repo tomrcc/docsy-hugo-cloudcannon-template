@@ -10,6 +10,10 @@ _enabled_editors:
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.
 collections_config:
+  home:
+    path: content/en/
+    output: true
+    icon: home
   pages:
     output: true
     filter: strict
