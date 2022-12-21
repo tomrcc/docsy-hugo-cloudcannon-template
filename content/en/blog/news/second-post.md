@@ -1,17 +1,16 @@
-
 ---
-title: "The second blog post"
-linkTitle: "Second blog post"
-date: 2018-10-06
+title: The second blog post changed
+linkTitle: Second blog post
+date: 2018-10-06T00:00:00Z
 description: >
-  A short lead description about this content page. Text here can also be **bold** or _italic_ and can even be split over multiple paragraphs.
+  A short lead description about this content page. Text here can also be
+  **bold** or _italic_ and can even be split over multiple paragraphs.
 ---
-
 {{< param "title" >}}
 
 {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="lil kitty" caption="A cute kitten" width="200" height="200" >}}
 
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
+Text can be **bold**, *italic*, or <s>strikethrough</s>. [Links](https://github.com) should be blue with no underlines (unless hovered over).
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
@@ -19,26 +18,23 @@ There should be whitespace between paragraphs. There should be whitespace betwee
 
 > There should be no margin above this first sentence.
 >
+>
 > Blockquotes should be a lighter gray with a border along the left side in the secondary color.
+>
 >
 > There should be no margin below this final sentence.
 
 ## First Header
 
-This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.  Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.  Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
-
-
+This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
 
 Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
 
 On big screens, paragraphs and headings should not take up the full container width, but we want tables, code blocks and similar to take the full width.
 
-Lorem markdownum tuta hospes stabat; idem saxum facit quaterque repetito
-occumbere, oves novem gestit haerebat frena; qui. Respicit recurvam erat:
-pignora hinc reppulit nos **aut**, aptos, ipsa.
+Lorem markdownum tuta hospes stabat; idem saxum facit quaterque repetito occumbere, oves novem gestit haerebat frena; qui. Respicit recurvam erat: pignora hinc reppulit nos **aut**, aptos, ipsa.
 
-Meae optatos *passa est* Epiros utiliter *Talibus niveis*, hoc lata, edidit.
-Dixi ad aestum.
+Meae optatos *passa est* Epiros utiliter *Talibus niveis*, hoc lata, edidit. Dixi ad aestum.
 
 ## Header 2
 
@@ -64,17 +60,34 @@ This is a code block following a header.
 
 ###### Header 6
 
-| What      | Follows         |
-|-----------|-----------------|
-| A table   | A header        |
-| A table   | A header        |
-| A table   | A header        |
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Follows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A table</td>
+<td>A header</td>
+</tr>
+<tr>
+<td>A table</td>
+<td>A header</td>
+</tr>
+<tr>
+<td>A table</td>
+<td>A header</td>
+</tr>
+</tbody>
+</table>
 
-----------------
+---
 
 There's a horizontal rule above and below this.
 
-----------------
+---
 
 Here is an unordered list:
 
@@ -90,15 +103,15 @@ And an ordered list:
 
 And an unordered task list:
 
-- [x] Create a sample markdown document
-- [x] Add task lists to it
-- [ ] Take a vacation
+* \[x\] Create a sample markdown document
+* \[x\] Add task lists to it
+* \[ \] Take a vacation
 
 And a "mixed" task list:
 
-- [ ] Steal underpants
-- ?
-- [ ] Profit!
+* \[ \] Steal underpants
+* ?
+* \[ \] Profit\!
 
 And a nested list:
 
@@ -116,42 +129,91 @@ And a nested list:
 
 Definition lists can be used with Markdown syntax. Definition terms are bold.
 
-Name
-: Godzilla
+Name : Godzilla
 
-Born
-: 1952
+Born : 1952
 
-Birthplace
-: Japan
+Birthplace : Japan
 
-Color
-: Green
+Color : Green
 
-
-----------------
+---
 
 Tables should have bold headings and alternating shaded rows.
 
-| Artist            | Album           | Year |
-|-------------------|-----------------|------|
-| Michael Jackson   | Thriller        | 1982 |
-| Prince            | Purple Rain     | 1984 |
-| Beastie Boys      | License to Ill  | 1986 |
+<table>
+<thead>
+<tr>
+<th>Artist</th>
+<th>Album</th>
+<th>Year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Michael Jackson</td>
+<td>Thriller</td>
+<td>1982</td>
+</tr>
+<tr>
+<td>Prince</td>
+<td>Purple Rain</td>
+<td>1984</td>
+</tr>
+<tr>
+<td>Beastie Boys</td>
+<td>License to Ill</td>
+<td>1986</td>
+</tr>
+</tbody>
+</table>
 
 If a table is too wide, it should scroll horizontally.
 
-| Artist            | Album           | Year | Label       | Awards   | Songs     |
-|-------------------|-----------------|------|-------------|----------|-----------|
-| Michael Jackson   | Thriller        | 1982 | Epic Records | Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical | Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life |
-| Prince            | Purple Rain     | 1984 | Warner Brothers Records | Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal | Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain |
-| Beastie Boys      | License to Ill  | 1986 | Mercury Records | noawardsbutthistablecelliswide | Rhymin & Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill |
+<table>
+<thead>
+<tr>
+<th>Artist</th>
+<th>Album</th>
+<th>Year</th>
+<th>Label</th>
+<th>Awards</th>
+<th>Songs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Michael Jackson</td>
+<td>Thriller</td>
+<td>1982</td>
+<td>Epic Records</td>
+<td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical</td>
+<td>Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life</td>
+</tr>
+<tr>
+<td>Prince</td>
+<td>Purple Rain</td>
+<td>1984</td>
+<td>Warner Brothers Records</td>
+<td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal</td>
+<td>Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain</td>
+</tr>
+<tr>
+<td>Beastie Boys</td>
+<td>License to Ill</td>
+<td>1986</td>
+<td>Mercury Records</td>
+<td>noawardsbutthistablecelliswide</td>
+<td>Rhymin &amp; Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill</td>
+</tr>
+</tbody>
+</table>
 
-----------------
+---
 
 Code snippets like `var foo = "bar";` can be shown inline.
 
-Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
+Also, `this should vertically align` <s><code>with this</code></s> <s>and this</s>.
 
 Code can also be shown in a block element.
 
@@ -184,12 +246,26 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 Inline code inside table cells should still be distinguishable.
 
-| Language    | Code               |
-|-------------|--------------------|
-| Javascript  | `var foo = "bar";` |
-| Ruby        | `foo = "bar"{`      |
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Javascript</td>
+<td><code>var foo = &quot;bar&quot;;</code></td>
+</tr>
+<tr>
+<td>Ruby</td>
+<td><code>foo = &quot;bar&quot;{</code></td>
+</tr>
+</tbody>
+</table>
 
-----------------
+---
 
 Small images should be shown at their actual size.
 
@@ -203,12 +279,7 @@ Large images should always scale down and fit in the content container.
 
 ### Alerts
 
-{{< alert >}}This is an alert.{{< /alert >}}
-{{< alert title="Note:" >}}This is an alert with a title.{{< /alert >}}
-{{< alert type="success" >}}This is a successful alert.{{< /alert >}}
-{{< alert type="warning" >}}This is a warning!{{< /alert >}}
-{{< alert type="warning" title="Warning!" >}}This is a warning with a title!{{< /alert >}}
-
+{{< alert >}}This is an alert.{{< /alert >}} {{< alert title="Note:" >}}This is an alert with a title.{{< /alert >}} {{< alert type="success" >}}This is a successful alert.{{< /alert >}} {{< alert type="warning" >}}This is a warning!{{< /alert >}} {{< alert type="warning" title="Warning!" >}}This is a warning with a title!{{< /alert >}}
 
 ## Sizing
 
@@ -241,8 +312,6 @@ Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta ch
 ### Used RAM
 
 Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
-
-
 
 ```
 This is the final element on the page and there should be no margin below this.
