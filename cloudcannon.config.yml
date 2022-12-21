@@ -23,6 +23,8 @@ collections_config:
     path: content/en/community
     output: true
     icon: groups
+    _enabled_editors:
+      - visual
   docs:
     path: content/en/docs
     output: true
