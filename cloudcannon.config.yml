@@ -10,7 +10,7 @@ collections_config:
     filter: strict
     parse_branch_index: true
     path: content/en
-    icon: Auto Stories
+    icon: auto_stories
   blog:
     path: content/en/blog
     output: true
