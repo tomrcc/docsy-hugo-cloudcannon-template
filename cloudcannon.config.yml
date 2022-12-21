@@ -14,19 +14,19 @@ collections_config:
   blog:
     path: content/en/blog
     output: true
-    icon: Library Books
+    icon: library_books
   about:
     path: content/en/about
     output: true
-    icon: Psychology
+    icon: psychology
   community:
     path: content/en/community
     output: true
-    icon: Groups
+    icon: groups
   docs:
     path: content/en/docs
     output: true
-    icon: Description
+    icon: description
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
