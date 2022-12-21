@@ -10,23 +10,19 @@ _enabled_editors:
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.
 collections_config:
-  home:
-    path: content/en/
-    output: true
-    icon: home
-    _enabled_editors:
-      - visual
-      - content
   pages:
     output: true
     filter: strict
     parse_branch_index: true
     path: content/en
-    icon: auto_stories
+    icon: home
+    _enabled_editors:
+      - visual
+      - content
   blog:
     path: content/en/blog
     output: true
-    icon: library_books
+    icon: auto_stories
     _enabled_editors:
       - content
       - visual
@@ -44,6 +40,9 @@ collections_config:
     path: content/en/docs
     output: true
     icon: description
+    _enabled_editors:
+      - content
+      - visual
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
