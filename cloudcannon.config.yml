@@ -39,6 +39,18 @@ _editables:
     snippet: true
 
 _snippets:
+  alert:
+    template: hugo_paired_shortcode_named_args
+    inline: true
+    definitions:
+      shortcode_name: alert
+      content_key: inner_text
+    preview:
+      text: 'Alert'
+      subtext:
+        - key: inner_text
+        - No text defined
+
   pageinfo:
     template: hugo_paired_markdown_shortcode_named_args
     inline: false
@@ -75,7 +87,7 @@ _snippets:
             - gray-800
             - gray-900
             - black
-            
+
     preview:
       text: 'Page info'
       subtext:
