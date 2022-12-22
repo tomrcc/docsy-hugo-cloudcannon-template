@@ -39,6 +39,24 @@ _editables:
     image_size_attributes: true
     snippet: true
 
+_snippets:
+  pageinfo:
+    template: hugo_paired_shortcode_named_args
+    inline: false
+    preview:
+      text: Tint
+    definitions:
+      shortcode_name: pageinfo
+      content_key: inner_text
+      positional_args:
+        - editor_key: info
+          type: string
+    _inputs:
+      pageinfo:
+        type: color
+      inner_text:
+        comment: This text will be tinted
+
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.
