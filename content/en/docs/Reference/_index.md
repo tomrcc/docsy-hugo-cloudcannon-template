@@ -8,7 +8,7 @@ description: |
 {{% pageinfo color="primary" %}}
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
-{{% pageinfo color="gray-700" %}}{{% /pageinfo %}}
+{{% pageinfo color="gray-700" %}}Does having it empty break it?{{% /pageinfo %}}
 
 If your project has an API, configuration, or other reference - anything that users need to look up that’s at an even lower level than a single task - put (or link to it) here. You can serve and link to generated reference docs created using Doxygen, Javadoc, or other doc generation tools by putting them in your `static/` directory.
 
