@@ -75,6 +75,12 @@ _snippets:
             - gray-800
             - gray-900
             - black
+            
+    preview:
+      text: 'Page info'
+      subtext:
+        - key: inner_text
+        - No text defined
     _inputs:
       color:
         type: select
