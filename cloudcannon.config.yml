@@ -45,7 +45,6 @@ _snippets:
     definitions:
       shortcode_name: pageinfo
       content_key: inner_text
-      positional_args:
 
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
