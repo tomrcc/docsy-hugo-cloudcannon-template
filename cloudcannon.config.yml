@@ -45,6 +45,41 @@ _snippets:
     definitions:
       shortcode_name: pageinfo
       content_key: inner_text
+      named_args:
+        - source_key: color
+          editor_key: color
+          default: primary
+          optional: true
+          remove_empty: true
+          type: string
+          allowed_values: &css_colors
+            - primary
+            - primary-light
+            - secondary
+            - success
+            - info
+            - warning
+            - danger
+            - white
+            - light
+            - dark
+            - blue
+            - orange
+            - gray-100
+            - gray-200
+            - gray-300
+            - gray-400
+            - gray-500
+            - gray-600
+            - gray-700
+            - gray-800
+            - gray-900
+            - black
+      _inputs:
+        color:
+          type: select
+          options:
+            values: *css_colors
 
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
