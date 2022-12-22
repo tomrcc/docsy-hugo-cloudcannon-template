@@ -75,11 +75,11 @@ _snippets:
             - gray-800
             - gray-900
             - black
-      _inputs:
-        color:
-          type: select
-          options:
-            values: *css_colors
+    _inputs:
+      color:
+        type: select
+        options:
+          values: *css_colors
 
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
