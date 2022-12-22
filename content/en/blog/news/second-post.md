@@ -7,8 +7,7 @@ description: >
   A short lead description about this content page. Text here can also be
   **bold** or _italic_ and can even be split over multiple paragraphs.
 ---
-{{< param "title" >}}
-{{< param "randomParam" >}}
+{{< param "title" >}} {{< param "randomParam" >}}
 
 {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="lil kitty" caption="A cute kitten" width="200" height="200" >}}
 
@@ -62,28 +61,7 @@ This is a code block following a header.
 
 ###### Header 6
 
-<table>
-<thead>
-<tr>
-<th>What</th>
-<th>Follows</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A table</td>
-<td>A header</td>
-</tr>
-<tr>
-<td>A table</td>
-<td>A header</td>
-</tr>
-<tr>
-<td>A table</td>
-<td>A header</td>
-</tr>
-</tbody>
-</table>
+<table><thead><tr><th>What</th><th>Follows</th></tr></thead><tbody><tr><td>A table</td><td>A header</td></tr><tr><td>A table</td><td>A header</td></tr><tr><td>A table</td><td>A header</td></tr></tbody></table>
 
 ---
 
@@ -143,73 +121,11 @@ Color : Green
 
 Tables should have bold headings and alternating shaded rows.
 
-<table>
-<thead>
-<tr>
-<th>Artist</th>
-<th>Album</th>
-<th>Year</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Michael Jackson</td>
-<td>Thriller</td>
-<td>1982</td>
-</tr>
-<tr>
-<td>Prince</td>
-<td>Purple Rain</td>
-<td>1984</td>
-</tr>
-<tr>
-<td>Beastie Boys</td>
-<td>License to Ill</td>
-<td>1986</td>
-</tr>
-</tbody>
-</table>
+<table><thead><tr><th>Artist</th><th>Album</th><th>Year</th></tr></thead><tbody><tr><td>Michael Jackson</td><td>Thriller</td><td>1982</td></tr><tr><td>Prince</td><td>Purple Rain</td><td>1984</td></tr><tr><td>Beastie Boys</td><td>License to Ill</td><td>1986</td></tr></tbody></table>
 
 If a table is too wide, it should scroll horizontally.
 
-<table>
-<thead>
-<tr>
-<th>Artist</th>
-<th>Album</th>
-<th>Year</th>
-<th>Label</th>
-<th>Awards</th>
-<th>Songs</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Michael Jackson</td>
-<td>Thriller</td>
-<td>1982</td>
-<td>Epic Records</td>
-<td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical</td>
-<td>Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life</td>
-</tr>
-<tr>
-<td>Prince</td>
-<td>Purple Rain</td>
-<td>1984</td>
-<td>Warner Brothers Records</td>
-<td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal</td>
-<td>Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain</td>
-</tr>
-<tr>
-<td>Beastie Boys</td>
-<td>License to Ill</td>
-<td>1986</td>
-<td>Mercury Records</td>
-<td>noawardsbutthistablecelliswide</td>
-<td>Rhymin &amp; Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill</td>
-</tr>
-</tbody>
-</table>
+<table><thead><tr><th>Artist</th><th>Album</th><th>Year</th><th>Label</th><th>Awards</th><th>Songs</th></tr></thead><tbody><tr><td>Michael Jackson</td><td>Thriller</td><td>1982</td><td>Epic Records</td><td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical</td><td>Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life</td></tr><tr><td>Prince</td><td>Purple Rain</td><td>1984</td><td>Warner Brothers Records</td><td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal</td><td>Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain</td></tr><tr><td>Beastie Boys</td><td>License to Ill</td><td>1986</td><td>Mercury Records</td><td>noawardsbutthistablecelliswide</td><td>Rhymin &amp; Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill</td></tr></tbody></table>
 
 ---
 
@@ -248,24 +164,7 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 Inline code inside table cells should still be distinguishable.
 
-<table>
-<thead>
-<tr>
-<th>Language</th>
-<th>Code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Javascript</td>
-<td><code>var foo = &quot;bar&quot;;</code></td>
-</tr>
-<tr>
-<td>Ruby</td>
-<td><code>foo = &quot;bar&quot;{</code></td>
-</tr>
-</tbody>
-</table>
+<table><thead><tr><th>Language</th><th>Code</th></tr></thead><tbody><tr><td>Javascript</td><td><code>var foo = "bar";</code></td></tr><tr><td>Ruby</td><td><code>foo = "bar"{</code></td></tr></tbody></table>
 
 ---
 
