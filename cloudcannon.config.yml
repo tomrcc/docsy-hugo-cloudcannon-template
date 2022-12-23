@@ -44,7 +44,7 @@ _snippets:
     inline: true
     definitions:
       shortcode_name: alert
-      content_key: message
+      content_key: inner_text
       named_args:
         - source_key: color
           editor_key: color
@@ -79,7 +79,7 @@ _snippets:
     preview:
       text: 'Alert'
       subtext:
-        - key: message
+        - key: inner_text
         - No text defined
     _inputs:
       color:
