@@ -20,9 +20,7 @@ The front matter specifies the date of the blog post, its title, a short descrip
 
 Here's an image (`featured-sunset-get.png`) that includes a byline and a caption.
 
-{{< imgproc sunset Fit "900x900" >}}
-Fetch and scale an image in the upcoming Hugo 0.43.
-{{< /imgproc >}}
+{{< imgproc sunset Fit "900x900" >}}changed{{< /imgproc >}}
 
 The front matter of this post specifies properties to be assigned to all image resources:
 
@@ -37,9 +35,9 @@ resources:
 To include the image in a page, specify its details like this:
 
 ```
-{% raw %}{{&lt; imgproc sunset Fill "600x300" &gt;}}
+{% raw %}{{&amp;lt; imgproc sunset Fill "600x300" &amp;gt;}}
 Fetch and scale an image in the upcoming Hugo 0.43.
-{{&lt; /imgproc &gt;}}{% endraw %}
+{{&amp;lt; /imgproc &amp;gt;}}{% endraw %}
 ```
 
 The image will be rendered at the size and byline specified in the front matter.
