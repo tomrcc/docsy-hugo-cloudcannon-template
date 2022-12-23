@@ -180,7 +180,7 @@ Large images should always scale down and fit in the content container.
 
 ### Alerts
 
-{{< alert >}}This is an alert.{{< /alert >}} {{< alert title="Note:" >}}This is an alert with a title.{{< /alert >}} {{< alert type="success" >}}This is a successful alert.{{< /alert >}} {{< alert type="warning" >}}This is a warning!{{< /alert >}} {{< alert type="warning" title="Warning!" >}}This is a warning with a title!{{< /alert >}}
+{{< alert color="danger" >}}This is an alert.{{< /alert >}} {{< alert color="warning" title="Note: Changed" >}}This is an alert with a title.{{< /alert >}} {{< alert color="danger" type="success" >}}This is a successful alert.{{< /alert >}} {{< alert color="danger" type="warning" >}}This is a warning!{{< /alert >}} {{< alert color="gray-100" title="Warning!" type="warning" >}}This is a warning with a title!{{< /alert >}}
 
 ## Sizing
 
