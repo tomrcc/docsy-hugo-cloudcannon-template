@@ -110,7 +110,7 @@ _snippets:
         - editor_key: dimensions
           type: string
     preview:
-      text: 'Alert'
+      text: 'imgproc'
       subtext:
         - key: inner_text
         - No text defined
