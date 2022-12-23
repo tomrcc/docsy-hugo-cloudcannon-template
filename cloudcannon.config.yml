@@ -44,12 +44,48 @@ _snippets:
     inline: true
     definitions:
       shortcode_name: alert
-      content_key: inner_text
+      content_key: message
+      named_args:
+        - source_key: color
+          editor_key: color
+          default: danger
+          optional: true
+          remove_empty: true
+          type: string
+          allowed_values: &css_colors
+            - primary
+            - primary-light
+            - secondary
+            - success
+            - info
+            - warning
+            - danger
+            - white
+            - light
+            - dark
+            - blue
+            - orange
+            - gray-100
+            - gray-200
+            - gray-300
+            - gray-400
+            - gray-500
+            - gray-600
+            - gray-700
+            - gray-800
+            - gray-900
+            - black
+
     preview:
       text: 'Alert'
       subtext:
-        - key: inner_text
+        - key: message
         - No text defined
+    _inputs:
+      color:
+        type: select
+        options:
+          values: *css_colors
 
   pageinfo:
     template: hugo_paired_markdown_shortcode_named_args
