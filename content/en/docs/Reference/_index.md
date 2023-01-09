@@ -17,4 +17,8 @@ Find out more in [Adding static content](https://docsy.dev/docs/adding-content/c
 
 &nbsp;
 
+{{% pageinfo color="primary" %}}What does this look like{{% /pageinfo %}}
+
+&nbsp;
+
 &nbsp;
