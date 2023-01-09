@@ -17,7 +17,7 @@ Find out more in [Adding static content](https://docsy.dev/docs/adding-content/c
 
 &nbsp;
 
-{{% pageinfo color="primary" %}}What does this look like{{% /pageinfo %}}
+{{< alert color="danger" title="Danger" >}}This is a danger alert {{< /alert >}}
 
 &nbsp;
 
