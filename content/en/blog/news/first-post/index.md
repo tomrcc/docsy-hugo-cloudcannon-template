@@ -21,7 +21,7 @@ The front matter specifies the date of the blog post, its title, a short descrip
 
 Here's an image (`featured-sunset-get.png`) that includes a byline and a caption.
 
-{{< imgproc sunset Resize "100x100" >}Fetch and scale an image in the upcoming Hugo 0.43.{{< /imgproc >}}
+{{< imgproc sunset Resize "100x100" >}}Fetch and scale an image in the upcoming Hugo 0.43.{{< /imgproc >}}
 
 The front matter of this post specifies properties to be assigned to all image resources:
 
