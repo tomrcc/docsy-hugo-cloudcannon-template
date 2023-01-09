@@ -7,11 +7,8 @@ description: >
   A short lead description about this content page. Text here can also be
   **bold** or _italic_ and can even be split over multiple paragraphs.
 ---
-{{< param "title" >}} {{< param "randomParam" >}}
 
-{{< figure src="https://placekitten.com/200/200" title="Kitty" alt="lil kitty" caption="A cute kitten" width="200" height="200" >}}
-
-Text can be **bold**, *italic*, or <s>strikethrough</s>. [Links](https://github.com) should be blue with no underlines (unless hovered over).
+Text can be **bold**, _italic_, or <s>strikethrough</s>. [Links](https://github.com) should be blue with no underlines (unless hovered over).
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
@@ -19,9 +16,7 @@ There should be whitespace between paragraphs. There should be whitespace betwee
 
 > There should be no margin above this first sentence.
 >
->
 > Blockquotes should be a lighter gray with a border along the left side in the secondary color.
->
 >
 > There should be no margin below this final sentence.
 
@@ -35,7 +30,7 @@ On big screens, paragraphs and headings should not take up the full container wi
 
 Lorem markdownum tuta hospes stabat; idem saxum facit quaterque repetito occumbere, oves novem gestit haerebat frena; qui. Respicit recurvam erat: pignora hinc reppulit nos **aut**, aptos, ipsa.
 
-Meae optatos *passa est* Epiros utiliter *Talibus niveis*, hoc lata, edidit. Dixi ad aestum.
+Meae optatos _passa est_ Epiros utiliter _Talibus niveis_, hoc lata, edidit. Dixi ad aestum.
 
 ## Header 2
 
@@ -49,9 +44,9 @@ This is a code block following a header.
 
 #### Header 4
 
-* This is an unordered list following a header.
-* This is an unordered list following a header.
-* This is an unordered list following a header.
+- This is an unordered list following a header.
+- This is an unordered list following a header.
+- This is an unordered list following a header.
 
 ##### Header 5
 
@@ -71,9 +66,9 @@ There's a horizontal rule above and below this.
 
 Here is an unordered list:
 
-* Salt-n-Pepa
-* Bel Biv DeVoe
-* Kid 'N Play
+- Salt-n-Pepa
+- Bel Biv DeVoe
+- Kid 'N Play
 
 And an ordered list:
 
@@ -83,29 +78,29 @@ And an ordered list:
 
 And an unordered task list:
 
-* \[x\] Create a sample markdown document
-* \[x\] Add task lists to it
-* \[ \] Take a vacation
+- \[x\] Create a sample markdown document
+- \[x\] Add task lists to it
+- \[ \] Take a vacation
 
 And a "mixed" task list:
 
-* \[ \] Steal underpants
-* ?
-* \[ \] Profit\!
+- \[ \] Steal underpants
+- ?
+- \[ \] Profit\!
 
 And a nested list:
 
-* Jackson 5
-  * Michael
-  * Tito
-  * Jackie
-  * Marlon
-  * Jermaine
-* TMNT
-  * Leonardo
-  * Michelangelo
-  * Donatello
-  * Raphael
+- Jackson 5
+  - Michael
+  - Tito
+  - Jackie
+  - Marlon
+  - Jermaine
+- TMNT
+  - Leonardo
+  - Michelangelo
+  - Donatello
+  - Raphael
 
 Definition lists can be used with Markdown syntax. Definition terms are bold.
 
