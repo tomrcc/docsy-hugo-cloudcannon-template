@@ -1,10 +1,8 @@
 ---
-date: 2018-10-06T00:00:00Z
-title: Easy documentation with Docsy
-linkTitle: Announcing Docsy
-description: >-
-  The Docsy Hugo theme lets project maintainers and contributors focus on
-  content, not on reinventing a website infrastructure from scratch
+date: 2018-10-06
+title: 'Easy documentation with Docsy'
+linkTitle: 'Announcing Docsy'
+description: 'The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch'
 author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
 resources:
   - src: '**.{png,jpg}'
@@ -21,7 +19,9 @@ The front matter specifies the date of the blog post, its title, a short descrip
 
 Here's an image (`featured-sunset-get.png`) that includes a byline and a caption.
 
-{{< imgproc sunset Resize "100x100" >}}Fetch and scale an image in the upcoming Hugo 0.43.{{< /imgproc >}}
+{{< imgproc sunset Fill "600x300" >}}
+Fetch and scale an image in the upcoming Hugo 0.43.
+{{< /imgproc >}}
 
 The front matter of this post specifies properties to be assigned to all image resources:
 
@@ -36,9 +36,9 @@ resources:
 To include the image in a page, specify its details like this:
 
 ```
-{% raw %}{{&amp;amp;lt; imgproc sunset Fill "600x300" &amp;amp;gt;}}
+{{< imgproc sunset Fill "600x300" >}}
 Fetch and scale an image in the upcoming Hugo 0.43.
-{{&amp;amp;lt; /imgproc &amp;amp;gt;}}{% endraw %}
+{{< /imgproc >}}
 ```
 
 The image will be rendered at the size and byline specified in the front matter.
