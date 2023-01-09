@@ -15,6 +15,7 @@ These are the shortcodes configured in cloudcannon.config
 
 {{< alert color="danger" title="An alert" >}}This is an example alert{{< /alert >}}
 
+{{< imgproc "second" "Fit" "350x700" >}}Another image{{< /imgproc >}}
 {{% pageinfo color="primary" %}}
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
