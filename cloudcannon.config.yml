@@ -196,6 +196,51 @@ _snippets:
     preview:
       text: 'Card'
       subtext:
+        - key: title
+        - No text defined
+
+  cardpane:
+    template: hugo_paired_shortcode_named_args
+    inline: false
+    definitions:
+      shortcode_name: cardpane
+      content_key: inner_text
+    preview:
+      text: 'cardpane'
+      subtext:
+        - key: inner_text
+        - No text defined
+
+  card-code:
+    template: hugo_paired_shortcode_named_args
+    inline: false
+    definitions:
+      shortcode_name: card-code
+      content_key: inner_text
+      named_args:
+        - source_key: header
+          editor_key: header
+          optional: true
+          remove_empty: true
+          type: string
+        - source_key: title
+          editor_key: title
+          optional: true
+          remove_empty: true
+          type: string
+        - source_key: subtitle
+          editor_key: subtitle
+          optional: true
+          remove_empty: true
+          type: string
+        - source_key: footer
+          editor_key: footer
+          optional: true
+          remove_empty: true
+          type: string
+    preview:
+      text: 'card-code'
+      subtext:
         - key: inner_text
         - No text defined
 
