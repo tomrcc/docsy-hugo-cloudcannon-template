@@ -210,12 +210,37 @@ _snippets:
       subtext:
         - key: card
         - No cards in this pane
+    _inputs:
+      card:
+        type: markdown
 
   card-code:
     template: hugo_paired_shortcode_named_args
     inline: false
     definitions:
       shortcode_name: card-code
+      content_key: inner_text
+      named_args:
+        - source_key: header
+          editor_key: header
+          optional: true
+          remove_empty: true
+          type: string
+        - source_key: lang
+          editor_key: lang
+          optional: true
+          remove_empty: true
+          type: string
+    preview:
+      text: 'card-code'
+      subtext:
+        - A card used for displaying code
+
+  tabpane:
+    template: hugo_paired_shortcode_named_args
+    inline: false
+    definitions:
+      shortcode_name: tab-pane
       content_key: inner_text
       named_args:
         - source_key: header
