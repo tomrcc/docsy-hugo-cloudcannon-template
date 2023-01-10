@@ -26,7 +26,7 @@ These are the shortcodes configured in cloudcannon.config
   This is a porridge card
 {{< /card >}}
 {{< card header="Header 3" title="A title 3" subtitle="A subtitle 3" footer="A footer 3" >}}
-  {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="Lil kitty" caption="A cute kitten" width="200" height="200" >}}
+
   This is another cat card
 {{< /card >}}{{< /cardpane >}}
 {{< card-code header="**JS**" lang="JS" >}}
