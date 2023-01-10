@@ -204,12 +204,12 @@ _snippets:
     inline: false
     definitions:
       shortcode_name: cardpane
-      content_key: inner_text
+      content_key: card
     preview:
       text: 'cardpane'
       subtext:
-        - key: inner_text
-        - No text defined
+        - key: card
+        - No cards in this pane
 
   card-code:
     template: hugo_paired_shortcode_named_args
@@ -223,26 +223,15 @@ _snippets:
           optional: true
           remove_empty: true
           type: string
-        - source_key: title
-          editor_key: title
-          optional: true
-          remove_empty: true
-          type: string
-        - source_key: subtitle
-          editor_key: subtitle
-          optional: true
-          remove_empty: true
-          type: string
-        - source_key: footer
-          editor_key: footer
+        - source_key: lang
+          editor_key: lang
           optional: true
           remove_empty: true
           type: string
     preview:
       text: 'card-code'
       subtext:
-        - key: inner_text
-        - No text defined
+        - key: header
 
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
