@@ -80,7 +80,6 @@ _snippets:
           optional: true
           remove_empty: true
           type: string
-
     preview:
       text: 'Alert'
       subtext:
@@ -156,7 +155,6 @@ _snippets:
             - gray-800
             - gray-900
             - black
-
     preview:
       text: 'Page info'
       subtext:
@@ -167,6 +165,24 @@ _snippets:
         type: select
         options:
           values: *css_colors
+  
+  card:
+    template: hugo_paired_shortcode_named_args
+    inline: false
+    definitions:
+      shortcode_name: card
+      content_key: inner_text
+      named_args:
+        - source_key: header
+          editor_key: header
+          optional: true
+          remove_empty: true
+          type: string
+    preview:
+      text: 'Card'
+      subtext:
+        - key: inner_text
+        - No text defined
 
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
