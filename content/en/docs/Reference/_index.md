@@ -47,7 +47,7 @@ These are the shortcodes configured in cloudcannon.config
 {{< /alert >}}
 
 {{< tabpane text=true right=true >}}
-  {{% tab header="**Kittens**:" disabled=true %}}{{< /tab >}}
+  {{< tab header="**Kittens**:" disabled=true >}}{{< /tab >}}
   {{< tab header="Kitten 1" >}}
     <img src="https://placekitten.com/500/500" alt="Kitty" />
     Welcome Kitty 1!
