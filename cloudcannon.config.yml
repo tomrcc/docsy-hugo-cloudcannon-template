@@ -248,6 +248,11 @@ _snippets:
           optional: true
           remove_empty: true
           type: string
+        - source_key: disabled
+          editor_key: disabled
+          optional: true
+          remove_empty: true
+          type: boolean
     preview:
       text: 'tab'
       subtext:
