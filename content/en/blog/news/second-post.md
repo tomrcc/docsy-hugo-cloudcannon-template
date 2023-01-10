@@ -1,6 +1,5 @@
 ---
-title: The second blog post changed
-randomParam: This could work?
+title: The second blog post
 linkTitle: Second blog post
 date: 2018-10-06T00:00:00Z
 description: >
