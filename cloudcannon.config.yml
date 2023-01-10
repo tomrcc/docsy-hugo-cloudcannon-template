@@ -188,6 +188,11 @@ _snippets:
           optional: true
           remove_empty: true
           type: string
+        - source_key: image
+          editor_key: image
+          optional: true
+          remove_empty: true
+          type: image
         - source_key: footer
           editor_key: footer
           optional: true
@@ -199,7 +204,9 @@ _snippets:
         - key: title
         - No text defined
       icon:
-      image: image
+    _inputs:
+      image:
+        type: image
 
   cardpane:
     template: hugo_paired_shortcode_named_args
