@@ -46,6 +46,22 @@ console.log(`${greeting} It's ${name}.`) // "Ello World! It's Docsy."
 This is an example alert
 {{< /alert >}}
 
+{{< tabpane text=true right=true >}}
+  {{% tab header="**Kittens**:" disabled=true /%}}
+  {{% tab header="Kitten 1" %}}
+    ![Kitten 1](http://placekitten.com/500/500)
+    Welcome Kitty 1!
+  {{% /tab %}}
+  {{% tab header="Kitten 2" %}}
+    ![Kitten 2](http://placekitten.com/400/500)
+    Welcome Kitty 2!
+  {{% /tab %}}
+  {{% tab header="Kitten 3" %}}
+    ![Kitten 3](http://placekitten.com/500/400)
+    Welcome Kitty 3!
+  {{% /tab %}}
+{{< /tabpane >}}
+
 {{< imgproc "sunset" "Fit" "400x400" >}}
 A sunset to test using the imgproc shortcode
 {{< /imgproc >}}
