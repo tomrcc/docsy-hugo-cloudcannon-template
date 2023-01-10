@@ -18,13 +18,13 @@ These are the shortcodes configured in cloudcannon.config
 
 &nbsp;
 
-{{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" image="https://placekitten.com/300/300" >}}{{< /card >}}
+{{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer">}}{{< /card >}}
 {{< cardpane >}}{{< card header="Header 2" title="A title 2" subtitle="A subtitle 2" footer="A footer 2" >}}
   ![porridge](second-image.jpg) <br>
   This is a porridge card
 {{< /card >}}
 {{< card header="Header 3" title="A title 3" subtitle="A subtitle 3" footer="A footer 3" >}}
-  <img src="https://placekitten.com/300/300" alt="An internet kitten"/>
+  {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="Lil kitty" caption="A cute kitten" width="200" height="200" >}}
   This is another cat card
 {{< /card >}}{{< /cardpane >}}
 {{< card-code header="**JS**" lang="JS" >}}
