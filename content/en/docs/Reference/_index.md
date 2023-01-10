@@ -4,6 +4,11 @@ linkTitle: Reference
 weight: 9
 description: |
   Low level reference docs for your project.
+resources:
+  - src: '**.{png,jpg}'
+    title: 'Image #:counter'
+    params:
+      byline: 'Photo: Riona MacNamara / CC-BY-CA'
 ---
 If your project has an API, configuration, or other reference - anything that users need to look up that’s at an even lower level than a single task - put (or link to it) here. You can serve and link to generated reference docs created using Doxygen, Javadoc, or other doc generation tools by putting them in your `static/` directory.
 
@@ -13,11 +18,44 @@ These are the shortcodes configured in cloudcannon.config
 
 &nbsp;
 
-{{< alert color="danger" title="An alert" >}}This is an example alert{{< /alert >}}
+{{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" >}}
+![cat](http://placekitten.com/300/300) <br>
+This is a cat card
+{{< /card >}}
 
-{{< imgproc "second" "Fit" "350x700" >}}Another image{{< /imgproc >}}
+{{< cardpane >}}
+{{< card header="Header 2" title="A title 2" subtitle="A subtitle 2" footer="A footer 2" >}}
+![porridge](second-image.jpg) <br>
+This is a porridge card
+{{< /card >}}
+
+{{< card header="Header 3" title="A title 3" subtitle="A subtitle 3" footer="A footer 3" >}}
+![cat](http://placekitten.com/200/400) <br>
+This is another cat card
+{{< /card >}}
+{{< /cardpane >}}
+
+{{< card-code header="**JS**" lang="JS" >}}
+const greeting = "Ello World!"
+const name = "Docsy"
+
+console.log(`${greeting} It's ${name}.`) // "Ello World! It's Docsy."
+{{< /card-code >}}
+
+{{< alert color="danger" title="An alert" >}}
+This is an example alert
+{{< /alert >}}
+
+{{< imgproc "sunset" "Fit" "400x400" >}}
+A sunset to test using the imgproc shortcode
+{{< /imgproc >}}
+
+{{< imgproc "second" "Fit" "350x700" >}}
+Another image
+{{< /imgproc >}}
+
 {{% pageinfo color="primary" %}}
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
+
 {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="Lil kitty" caption="A cute kitten" width="200" height="200" >}}
-{{< imgproc "sunset" "Fit" "400x400" >}}A sunset to test using the imgproc shortcode{{< /imgproc >}}
