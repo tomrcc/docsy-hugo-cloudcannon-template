@@ -209,6 +209,7 @@ _snippets:
       text: 'cardpane'
       subtext:
         - key: card
+          type: markdown
         - No cards in this pane
     _inputs:
       card:
@@ -236,6 +237,24 @@ _snippets:
       subtext:
         - A card used for displaying code
 
+  tab:
+    template: hugo_paired_shortcode_named_args
+    inline: false
+    definitions:
+      shortcode_name: tab
+      content_key: inner_text
+      named_args:
+        - source_key: header
+          editor_key: header
+          optional: true
+          remove_empty: true
+          type: string
+    preview:
+      text: 'tab'
+      subtext:
+        - key: title
+        - No text defined
+
   tabpane:
     template: hugo_paired_shortcode_named_args
     inline: false
@@ -257,6 +276,9 @@ _snippets:
       text: 'card-code'
       subtext:
         - A card used for displaying code
+    _inputs:
+      tab:
+        type: markdown
 
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
