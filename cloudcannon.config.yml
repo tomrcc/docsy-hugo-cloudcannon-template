@@ -231,7 +231,7 @@ _snippets:
     preview:
       text: 'card-code'
       subtext:
-        - key: header
+        - key: lang "card"
 
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
