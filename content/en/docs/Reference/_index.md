@@ -19,7 +19,7 @@ These are the shortcodes configured in cloudcannon.config
 &nbsp;
 
 {{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" >}}
-<img src="http://placekitten.com/300/300" alt="An internet kitten"/>
+<img src="https://placekitten.com/400/500" alt="An internet kitten"/>
 This is a cat card
 {{< /card >}}
 
@@ -29,10 +29,10 @@ This is a cat card
 This is a porridge card
 {{< /card >}}
 
-{{< card header="Header 3" title="A title 3" subtitle="A subtitle 3" footer="A footer 3" >}}
+{{% card header="Header 3" title="A title 3" subtitle="A subtitle 3" footer="A footer 3" %}}
 ![cat](http://placekitten.com/200/400) <br>
 This is another cat card
-{{< /card >}}
+{{% /card %}}
 {{< /cardpane >}}
 
 {{< card-code header="**JS**" lang="JS" >}}
@@ -48,18 +48,18 @@ This is an example alert
 
 {{< tabpane text=true right=true >}}
   {{% tab header="**Kittens**:" disabled=true /%}}
-  {{% tab header="Kitten 1" %}}
-    ![Kitten 1](http://placekitten.com/500/500)
+  {{< tab header="Kitten 1" >}}
+    <img src="https://placekitten.com/500/500" alt="Kitty" />
     Welcome Kitty 1!
-  {{% /tab %}}
+  {{< /tab >}}
   {{< tab header="Kitten 2" >}}
     <img src="https://placekitten.com/400/500" alt="Kitty" />
     Welcome Kitty 2!
   {{< /tab >}}
-  {{% tab header="Kitten 3" %}}
-    ![Kitten 3](http://placekitten.com/500/400)
+  {{< tab header="Kitten 3" >}}
+    <img src="https://placekitten.com/500/400" alt="Kitty" />
     Welcome Kitty 3!
-  {{% /tab %}}
+  {{< /tab >}}
 {{< /tabpane >}}
 
 {{< imgproc "sunset" "Fit" "400x400" >}}
