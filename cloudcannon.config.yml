@@ -171,7 +171,7 @@ _snippets:
     inline: false
     definitions:
       shortcode_name: card
-      content_key: image
+      content_key: inner_text
       named_args:
         - source_key: header
           editor_key: header
