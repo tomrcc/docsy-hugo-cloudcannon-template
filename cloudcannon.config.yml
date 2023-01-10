@@ -171,7 +171,7 @@ _snippets:
     inline: false
     definitions:
       shortcode_name: card
-      content_key: inner_text
+      content_key: image
       named_args:
         - source_key: header
           editor_key: header
@@ -198,6 +198,8 @@ _snippets:
       subtext:
         - key: title
         - No text defined
+      icon:
+      image: image
 
   cardpane:
     template: hugo_paired_shortcode_named_args
@@ -208,8 +210,7 @@ _snippets:
     preview:
       text: 'cardpane'
       subtext:
-        - key: card
-        - No cards in this pane
+        - A wrapper used to display multiple cards
     _inputs:
       card:
         type: markdown
