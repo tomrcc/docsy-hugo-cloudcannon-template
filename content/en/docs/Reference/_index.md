@@ -19,7 +19,6 @@ These are the shortcodes configured in cloudcannon.config
 &nbsp;
 
 {{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer">}}
-  {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="Lil kitty" caption="A cute kitten" width="200" height="200" >}}
   This is a cat card
 {{< /card >}}
 {{< cardpane >}}{{< card header="Header 2" title="A title 2" subtitle="A subtitle 2" footer="A footer 2" >}}
