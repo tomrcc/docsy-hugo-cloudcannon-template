@@ -49,13 +49,10 @@ This is an example alert
 {{< imgproc "sunset" "Fit" "400x400" >}}
 A sunset to test using the imgproc shortcode
 {{< /imgproc >}}
-
 {{< imgproc "second" "Fit" "350x700" >}}
 Another image
 {{< /imgproc >}}
-
 {{% pageinfo color="primary" %}}
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
-
 {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="Lil kitty" caption="A cute kitten" width="200" height="200" >}}
