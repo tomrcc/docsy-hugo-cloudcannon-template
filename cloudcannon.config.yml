@@ -251,14 +251,14 @@ _snippets:
     preview:
       text: 'tab'
       subtext:
-        - key: title
+        - key: header
         - No text defined
 
   tabpane:
     template: hugo_paired_shortcode_named_args
     inline: false
     definitions:
-      shortcode_name: tab-pane
+      shortcode_name: tabpane
       content_key: tab
       named_args:
         - source_key: header
@@ -272,9 +272,9 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: 'card-code'
+      text: 'tabpane'
       subtext:
-        - A card used for displaying code
+        - A pane used for displaying tabs
     _inputs:
       tab:
         type: markdown
