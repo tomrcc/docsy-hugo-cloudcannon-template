@@ -178,6 +178,21 @@ _snippets:
           optional: true
           remove_empty: true
           type: string
+        - source_key: title
+          editor_key: title
+          optional: true
+          remove_empty: true
+          type: string
+        - source_key: subtitle
+          editor_key: subtitle
+          optional: true
+          remove_empty: true
+          type: string
+        - source_key: footer
+          editor_key: footer
+          optional: true
+          remove_empty: true
+          type: string
     preview:
       text: 'Card'
       subtext:
