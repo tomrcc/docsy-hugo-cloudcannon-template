@@ -18,7 +18,7 @@ These are the shortcodes configured in cloudcannon.config
 
 &nbsp;
 
-{{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" >}}https://placekitten.com/300/300{{< /card >}}
+{{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" image="https://placekitten.com/300/300" >}}{{< /card >}}
 {{< cardpane >}}{{< card header="Header 2" title="A title 2" subtitle="A subtitle 2" footer="A footer 2" >}}
   ![porridge](second-image.jpg) <br>
   This is a porridge card
