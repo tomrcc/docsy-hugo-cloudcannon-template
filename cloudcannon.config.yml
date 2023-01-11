@@ -201,7 +201,7 @@ _snippets:
       subtext:
         - key: title
         - No text defined
-      icon: page
+      icon: tab
 
   cardpane:
     template: hugo_paired_shortcode_named_args
