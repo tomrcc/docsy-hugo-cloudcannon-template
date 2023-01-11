@@ -16,6 +16,7 @@ Find out more in [Adding static content](https://docsy.dev/docs/adding-content/c
 
 These are the shortcodes configured in cloudcannon.config
 
+[Swagger Example](swagger-example.md)
 
 {{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" >}}
   <img src="https://placekitten.com/350/400" alt="Kitty" />
@@ -68,6 +69,6 @@ These are the shortcodes configured in cloudcannon.config
 {{% /pageinfo %}}
 {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="Lil kitty" caption="A cute kitten" width="200" height="200" >}}
 
-{{< iframe src="/swagger-example.md" width="80%" tryautoheight=true style="min-height: 15vh; border: none;" sandbox=false name="swagger" id="swagger" >}}
+{{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="min-height: 15vh; border: none;" sandbox=false name="cloudcannon" id="cloudcannon" >}}
 
 {{< readfile file="parameter-reference.md" code=false lang="md" >}}
