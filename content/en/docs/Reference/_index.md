@@ -24,7 +24,7 @@ These are the shortcodes configured in cloudcannon.config
 {{< /card >}}
 {{< cardpane >}}
 {{< card header="Header 2" title="A title 2" subtitle="A subtitle 2" footer="A footer 2" >}}
-  ![porridge](second-image.jpg) <br>
+  ![porridge](images/second-image.jpg) <br>
   This is a porridge card
 {{< /card >}}
 {{< card header="Header 3" title="A title 3" subtitle="A subtitle 3" footer="A footer 3" >}}
@@ -58,10 +58,10 @@ These are the shortcodes configured in cloudcannon.config
     Welcome Kitty 3!
   {{< /tab >}}
 {{< /tabpane >}}
-{{< imgproc "sunset" "Fit" "400x400" >}}
+{{< imgproc "images/sunset" "Fit" "400x400" >}}
   A sunset to test using the imgproc shortcode
 {{< /imgproc >}}
-{{< imgproc "second" "Fit" "350x700" >}}
+{{< imgproc "images/second" "Fit" "350x700" >}}
   Another image
 {{< /imgproc >}}
 {{% pageinfo color="primary" %}}
