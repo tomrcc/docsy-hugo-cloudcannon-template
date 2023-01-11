@@ -369,7 +369,7 @@ _snippets:
     preview:
       text: 'readfile'
       subtext:
-        - key: file.title
+        - Display another file's contents
       icon: search
 
 # Collections are related sets of content files, typically grouped by folder.
