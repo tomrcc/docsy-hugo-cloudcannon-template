@@ -388,6 +388,20 @@ _snippets:
         - Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
       icon: description
 
+  redoc:
+    template: hugo_shortcode_positional_args
+    inline: false
+    definitions:
+      shortcode_name: redoc
+      positional_args:
+        - editor_key: src
+          type: string
+    preview:
+      text: 'redoc'
+      subtext:
+        - Placed inside any page, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
+      icon: description
+
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.
