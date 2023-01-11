@@ -58,10 +58,10 @@ These are the shortcodes configured in cloudcannon.config
     Welcome Kitty 3!
   {{< /tab >}}
 {{< /tabpane >}}
-{{< imgproc "images/sunset" "Fit" "400x400" >}}
+{{< imgproc "sunset" "Fit" "400x400" >}}
   A sunset to test using the imgproc shortcode
 {{< /imgproc >}}
-{{< imgproc "images/second" "Fit" "350x700" >}}
+{{< imgproc "second" "Fit" "350x700" >}}
   Another image
 {{< /imgproc >}}
 {{% pageinfo color="primary" %}}
