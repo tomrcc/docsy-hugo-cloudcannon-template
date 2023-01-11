@@ -38,7 +38,13 @@ These are the shortcodes configured in cloudcannon.config
   This is an example alert
 {{< /alert >}}
 
-{{< card-code header="JS" lang="javascript" highlight="true" >}}console.log('Hello world'){{< /card-code >}}
+{{< card-code header="**JS**" lang="javascript" >}}
+  const greeting = "Ello World!"
+  const name = "Docsy"
+
+  console.log(`${greeting} It's ${name}.`) // "Ello World! It's Docsy."
+{{< /card-code >}}
+
 {{< tabpane text=true right=true >}}
   {{< tab header="**Kittens**:" disabled=true >}}{{< /tab >}}
   {{< tab header="Kitten 1" disabled=false >}}
