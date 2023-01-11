@@ -215,7 +215,7 @@ _snippets:
       card:
         type: markdown
         _editables:
-          snippets: true
+          snippet: true
 
   card-code:
     template: hugo_paired_shortcode_named_args
