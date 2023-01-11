@@ -18,7 +18,7 @@ These are the shortcodes configured in cloudcannon.config
 
 &nbsp;
 
-{{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer">}}
+{{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" >}}
   <img src="https://placekitten.com/350/400" alt="Kitty" />
   This is a cat card
 {{< /card >}}
