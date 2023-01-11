@@ -69,6 +69,10 @@ These are the shortcodes configured in cloudcannon.config
 {{% /pageinfo %}}
 {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="Lil kitty" caption="A cute kitten" width="200" height="200" >}}
 
+{{% conditional-text include-if="foo" %}}
+This text appears in the output only if `buildCondition = "foo" is set in your config file`.
+{{% /conditional-text %}}
+
 {{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="min-height: 15vh; border: none;" sandbox=false name="cloudcannon" id="cloudcannon" >}}
 
 {{< readfile file="parameter-reference.md" code=false lang="md" >}}
