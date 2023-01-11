@@ -215,7 +215,7 @@ _snippets:
       card:
         type: markdown
     _editables:
-      content:
+      card:
         snippets: true
 
   card-code:
