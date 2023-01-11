@@ -69,8 +69,6 @@ These are the shortcodes configured in cloudcannon.config
 {{% /pageinfo %}}
 {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="Lil kitty" caption="A cute kitten" width="200" height="200" >}}
 
-{{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="min-height:50vh; border:none;" sandbox=false name="cloudcannon" id="cloudcannon" sub="Your browser cannot display embedded frames. You can access the embedded page via the following link:" >}}
-
-{{< iframe src="https://cloudcannon.com/" width="25%" tryautoheight=true style="min-height: 15vh; border: none;" sandbox=false name="cloudcannon" id="cloudcannon" >}}
+{{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="min-height: 15vh; border: none;" sandbox=false name="cloudcannon" id="cloudcannon" >}}
 
 &nbsp;
