@@ -347,6 +347,31 @@ _snippets:
         - Embed a webpage on your site
       icon: dashboard
 
+  readfile:
+    template: hugo_shortcode_named_args
+    inline: false
+    definitions:
+      shortcode_name: readfile
+      named_args:
+        - source_key: file
+          editor_key: file
+          type: string
+        - source_key: code
+          editor_key: code
+          optional: true
+          remove_empty: true
+          type: string
+        - source_key: lang
+          editor_key: lang
+          optional: true
+          remove_empty: true
+          type: string
+    preview:
+      text: 'readfile'
+      subtext:
+        - key: file
+      icon: search
+
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.
