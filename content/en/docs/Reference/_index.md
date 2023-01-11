@@ -18,9 +18,6 @@ These are the shortcodes configured in cloudcannon.config
 
 [Swagger Example](swagger-example.md) using swaggerui snippet
 
-&nbsp;
-
-{{< imgproc "/images/featured-sunset-get.png" "Fit" "250x250" >}}text{{< /imgproc >}}
 {{< redoc "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v2.0/yaml/petstore.yaml" >}}
 {{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" >}}
   <img src="https://placekitten.com/350/400" alt="Kitty" />
