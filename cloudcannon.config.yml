@@ -296,6 +296,57 @@ _snippets:
         options:
           snippet: true
 
+  iframe:
+    template: hugo_shortcode_named_args
+    inline: false
+    definitions:
+      shortcode_name: iframe
+      named_args:
+        - source_key: src
+          editor_key: src
+          optional: false
+          type: string
+        - source_key: width
+          editor_key: width
+          optional: true
+          remove_empty: true
+          type: string
+        - source_key: tryautoheight
+          editor_key: tryautoheight
+          optional: true
+          remove_empty: true
+          type: boolean
+        - source_key: style
+          editor_key: style
+          optional: true
+          remove_empty: true
+          type: string
+        - source_key: sandbox
+          editor_key: sandbox
+          optional: true
+          remove_empty: true
+          type: boolean 
+        - source_key: name
+          editor_key: name
+          optional: true
+          remove_empty: true
+          type: string 
+        - source_key: id
+          editor_key: id
+          optional: true
+          remove_empty: true
+          type: string 
+        - source_key: sub
+          editor_key: sub
+          optional: true
+          remove_empty: true
+          type: string 
+    preview:
+      text: 'iframe'
+      subtext:
+        - Embed a webpage on your site
+      icon: dashboard
+
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.
