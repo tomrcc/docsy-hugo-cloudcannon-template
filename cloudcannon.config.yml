@@ -372,6 +372,22 @@ _snippets:
         - Display another file's contents
       icon: search
 
+  swaggerui:
+    template: hugo_shortcode_named_args
+    inline: false
+    definitions:
+      shortcode_name: swaggerui
+      named_args:
+        - source_key: src
+          editor_key: src
+          optional: false
+          type: string
+    preview:
+      text: 'swaggerui'
+      subtext:
+        - Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
+      icon: description
+
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.
