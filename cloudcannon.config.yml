@@ -199,6 +199,9 @@ _snippets:
         - key: title
         - No text defined
       icon:
+    _editables:
+      content:
+       snippet: true
     _inputs:
 
   cardpane:
@@ -214,9 +217,7 @@ _snippets:
     _inputs:
       card:
         type: markdown
-        _editables:
-          content:
-            snippet: true
+ 
 
   card-code:
     template: hugo_paired_shortcode_named_args
