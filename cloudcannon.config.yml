@@ -372,27 +372,6 @@ _snippets:
         - Display another file's contents
       icon: search
 
-  conditional-text:
-    template: hugo_paired_shortcode_named_args
-    inline: false
-    definitions:
-      shortcode_name: 'conditional-text'
-      content_key: inner_text
-      named_args:
-        - source_key: include-if
-          optional: true
-          remove_empty: true
-          type: string
-        - source_key: exclude-if
-          optional: true
-          remove_empty: true
-          type: string
-    preview:
-      text: 'conditional-text'
-      subtext:
-        - key: inner_text
-      icon: search
-
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.

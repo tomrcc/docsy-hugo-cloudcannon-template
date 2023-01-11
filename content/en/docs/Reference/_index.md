@@ -16,11 +16,6 @@ Find out more in [Adding static content](https://docsy.dev/docs/adding-content/c
 
 These are the shortcodes configured in cloudcannon.config
 
-&nbsp;
-
-{{% conditional-text include-if="foo" %}}
-This text appears in the output only if `buildCondition = "foo" is set in your config file`.
-{{% /conditional-text %}}
 
 {{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" >}}
   <img src="https://placekitten.com/350/400" alt="Kitty" />
