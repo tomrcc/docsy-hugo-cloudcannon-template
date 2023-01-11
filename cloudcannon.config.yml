@@ -210,6 +210,9 @@ _snippets:
     definitions:
       shortcode_name: cardpane
       content_key: card
+    _editables:
+      content:
+        snippet: true
     preview:
       text: 'cardpane'
       subtext:
