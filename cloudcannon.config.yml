@@ -99,8 +99,8 @@ _snippets:
       shortcode_name: imgproc
       content_key: inner_text
       positional_args:
-        - editor_key: name
-          type: string
+        - editor_key: src
+          type: image
         - editor_key: imgProcessing
           type: string
           allowed_values: &imgProcessing
