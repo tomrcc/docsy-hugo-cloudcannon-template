@@ -100,7 +100,7 @@ _snippets:
       content_key: inner_text
       positional_args:
         - editor_key: src
-          type: image
+          type: string
         - editor_key: imgProcessing
           type: string
           allowed_values: &imgProcessing
@@ -116,6 +116,8 @@ _snippets:
         - No text defined
       icon: image
     _inputs:
+      src:
+        type: image
       imgProcessing:
         type: select
         options:
