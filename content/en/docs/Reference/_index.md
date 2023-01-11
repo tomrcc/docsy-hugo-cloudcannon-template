@@ -33,7 +33,8 @@ These are the shortcodes configured in cloudcannon.config
   This is another cat card
 {{< /card >}}
 {{< /cardpane >}}
-{{< card-code header="**JS**" lang="JS" >}}
+
+{{< card-code header="**JS**" lang="js" >}}
   const greeting = "Ello World!"
   const name = "Docsy"
 
