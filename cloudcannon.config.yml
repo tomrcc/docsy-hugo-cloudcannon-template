@@ -85,6 +85,7 @@ _snippets:
       subtext:
         - key: inner_text
         - No text defined
+      icon: warning
     _inputs:
       color:
         type: select
@@ -113,6 +114,7 @@ _snippets:
       subtext:
         - key: inner_text
         - No text defined
+      icon: image
     _inputs:
       imgProcessing:
         type: select
@@ -160,6 +162,7 @@ _snippets:
       subtext:
         - key: inner_text
         - No text defined
+      icon: info
     _inputs:
       color:
         type: select
@@ -198,6 +201,7 @@ _snippets:
       subtext:
         - key: title
         - No text defined
+      icon: tab
 
   cardpane:
     template: hugo_paired_shortcode_named_args
@@ -238,6 +242,7 @@ _snippets:
       text: 'card-code'
       subtext:
         - A card used for displaying code
+      icon: tab
 
   tab:
     template: hugo_paired_shortcode_named_args
@@ -261,6 +266,7 @@ _snippets:
       subtext:
         - key: header
         - No text defined
+      icon: tab
 
   tabpane:
     template: hugo_paired_shortcode_named_args
@@ -284,7 +290,6 @@ _snippets:
       subtext:
         - A pane used for displaying tabs
       icon: dashboard
-      gallery: /tabpane.png
     _inputs:
       tab:
         type: markdown
