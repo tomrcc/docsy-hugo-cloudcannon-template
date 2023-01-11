@@ -209,7 +209,7 @@ _snippets:
       text: 'cardpane'
       subtext:
         - A wrapper used to display multiple cards
-      icon: Dashboard
+      icon: dashboard
     _inputs:
       card:
         type: markdown
@@ -283,7 +283,7 @@ _snippets:
       text: 'tabpane'
       subtext:
         - A pane used for displaying tabs
-      icon: Dashboard
+      icon: dashboard
     _inputs:
       tab:
         type: markdown
