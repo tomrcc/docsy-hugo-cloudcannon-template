@@ -22,7 +22,6 @@ These are the shortcodes configured in cloudcannon.config
   <img src="https://placekitten.com/350/400" alt="Kitty" />
   This is a cat card
 {{< /card >}}
-
 {{< cardpane >}}
 {{< card header="Header 2" title="A title 2" subtitle="A subtitle 2" footer="A footer 2" >}}
   ![porridge](second-image.jpg) <br>
@@ -33,7 +32,6 @@ These are the shortcodes configured in cloudcannon.config
   This is another cat card
 {{< /card >}}
 {{< /cardpane >}}
-
 {{< card-code header="**JS**" lang="JS" >}}
   const greeting = "Ello World!"
   const name = "Docsy"
@@ -70,4 +68,9 @@ These are the shortcodes configured in cloudcannon.config
   This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
 {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="Lil kitty" caption="A cute kitten" width="200" height="200" >}}
-{{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight="true" style="min-height:50vh; border:none;" sandbox="false" name="cloudcannon" id="cloudcannon" sub="Your browser cannot display embedded frames. You can access the embedded page via the following link:">}}
+
+{{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight="true" style="min-height:50vh; border:none;" sandbox="false" name="cloudcannon" id="cloudcannon" sub="Your browser cannot display embedded frames. You can access the embedded page via the following link:" >}}
+
+{{< iframe src="https://cloudcannon.com/" width="25%" tryautoheight=true style="min-height: 15vh; border: none;" sandbox=false name="cloudcannon" id="cloudcannon" >}}
+
+&nbsp;
