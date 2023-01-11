@@ -376,16 +376,14 @@ _snippets:
     template: hugo_paired_shortcode_named_args
     inline: false
     definitions:
-      shortcode_name: conditional-text
+      shortcode_name: 'conditional-text'
       content_key: inner_text
       named_args:
         - source_key: include-if
-          editor_key: include-if
           optional: true
           remove_empty: true
           type: string
         - source_key: exclude-if
-          editor_key: exclude-if
           optional: true
           remove_empty: true
           type: string
