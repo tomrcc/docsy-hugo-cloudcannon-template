@@ -199,9 +199,6 @@ _snippets:
         - key: title
         - No text defined
       icon:
-    _editables:
-      content:
-        snippet: true
     _inputs:
 
   cardpane:
@@ -210,9 +207,6 @@ _snippets:
     definitions:
       shortcode_name: cardpane
       content_key: card
-    _editables:
-      content:
-        snippet: true
     preview:
       text: 'cardpane'
       subtext:
@@ -220,6 +214,8 @@ _snippets:
     _inputs:
       card:
         type: markdown
+        content:
+          snippet: true
  
 
   card-code:
