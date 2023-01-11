@@ -360,7 +360,7 @@ _snippets:
           editor_key: code
           optional: true
           remove_empty: true
-          type: string
+          type: boolean
         - source_key: lang
           editor_key: lang
           optional: true
