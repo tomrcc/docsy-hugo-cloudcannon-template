@@ -193,9 +193,6 @@ _snippets:
           optional: true
           remove_empty: true
           type: string
-    _editables:
-      content:
-        snippet: true
     preview:
       text: 'Card'
       subtext:
@@ -212,12 +209,11 @@ _snippets:
       text: 'cardpane'
       subtext:
         - A wrapper used to display multiple cards
-    _editables:
-      content:
-        snippet: true
     _inputs:
       card:
         type: markdown
+        options:
+          snippet: true
  
 
   card-code:
