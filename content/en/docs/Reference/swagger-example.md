@@ -5,4 +5,4 @@ weight: 1
 description: Reference for the Pet Store API
 ---
 
-{{< swaggerui src="petstore.yaml" >}}
+{{< swaggerui src="/openapi/petstore.yaml" >}}
