@@ -201,7 +201,7 @@ _snippets:
       icon:
     _editables:
       content:
-       snippet: true
+        snippet: true
     _inputs:
 
   cardpane:
