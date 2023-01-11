@@ -1,6 +1,6 @@
 baseURL = "/"
 title = "Goldydocs"
-buildCondition = "test"
+buildCondition = "foo"
 
 # Language settings
 contentDir = "content/en"

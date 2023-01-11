@@ -18,8 +18,11 @@ These are the shortcodes configured in cloudcannon.config
 
 &nbsp;
 
-{{% conditional-text include-if="test" %}}
+{{% conditional-text include-if="foo" %}}
 This text appears in the output only if `buildCondition = "foo" is set in your config file`.
+{{% /conditional-text %}}
+{{% conditional-text exclude-if="bar" %}}
+This text does not appear in the output if `buildCondition = "bar" is set in your config file`.
 {{% /conditional-text %}}
 
 {{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" >}}
