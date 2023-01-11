@@ -71,4 +71,4 @@ These are the shortcodes configured in cloudcannon.config
 
 {{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="min-height: 15vh; border: none;" sandbox=false name="cloudcannon" id="cloudcannon" >}}
 
-{{% readfile file="parameter-reference.md" code=false %}}
+{{< readfile file="parameter-reference.md" code=false lang="md" >}}
