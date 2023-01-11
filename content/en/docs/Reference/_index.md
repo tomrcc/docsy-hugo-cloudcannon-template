@@ -18,7 +18,7 @@ These are the shortcodes configured in cloudcannon.config
 
 &nbsp;
 
-{{< conditional-text include-if="foo" >}}
+{{< conditional-text include-if="test" >}}
 This text appears in the output only if `buildCondition = "foo" is set in your config file`.
 {{< /conditional-text >}}
 
