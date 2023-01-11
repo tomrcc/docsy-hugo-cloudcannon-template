@@ -284,6 +284,7 @@ _snippets:
       subtext:
         - A pane used for displaying tabs
       icon: dashboard
+      gallery: /tabpane.png
     _inputs:
       tab:
         type: markdown
