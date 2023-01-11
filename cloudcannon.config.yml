@@ -209,6 +209,7 @@ _snippets:
       text: 'cardpane'
       subtext:
         - A wrapper used to display multiple cards
+      icon: Dashboard
     _inputs:
       card:
         type: markdown
@@ -282,9 +283,12 @@ _snippets:
       text: 'tabpane'
       subtext:
         - A pane used for displaying tabs
+      icon: Dashboard
     _inputs:
       tab:
         type: markdown
+        options:
+          snippet: true
 
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
