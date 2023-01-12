@@ -240,6 +240,9 @@ _snippets:
       gallery: 
         image: /preview-images/card.png
         text: A basic card
+    _inputs:
+      inner_text:
+        type: markdown
 
   cardpane:
     template: hugo_paired_shortcode_named_args
@@ -294,6 +297,9 @@ _snippets:
       gallery: 
         image: /preview-images/card-code.png
         text: A card used to display code
+    _inputs:
+      inner_text:
+        type: markdown
     
   tab:
     template: hugo_paired_shortcode_named_args
@@ -325,7 +331,10 @@ _snippets:
       gallery: 
         image: /preview-images/tabpane.png
         text: A tab to be used inside a tabpane wrapper
-
+    _inputs:
+      inner_text:
+        type: markdown
+        
   tabpane:
     template: hugo_paired_shortcode_named_args
     inline: false
