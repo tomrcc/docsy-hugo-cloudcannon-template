@@ -33,6 +33,11 @@ You can use the card snippet to insert a single card, or use card pane as a wrap
 &nbsp;{{< /card >}}
 
 &nbsp;{{< /cardpane >}}
+{{< card-code header="Code Card" lang="js" >}}const highlighting = "Highlights code based on the language specified"
+
+console.log(highlighting) // "Highlights code based on the language specified"{{< /card-code >}}
+
+### &nbsp;
 
 ### Tabs
 
@@ -47,4 +52,4 @@ console.log(highlight) // "Setting the language as a programming language provid
 
 &nbsp;{{< /tabpane >}}
 
-&nbsp;
+### &nbsp;
