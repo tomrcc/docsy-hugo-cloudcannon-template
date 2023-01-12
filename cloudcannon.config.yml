@@ -288,12 +288,25 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: 'tabpane'
+      text: 
+        - key: header
+        - 'Tab pane'
       subtext:
-        - A pane used for displaying tabs
+        - key: lang
+        - No lang defined
       icon: dashboard
-      image: /tabpane.png
-      gallery: icon
+      gallery:
+        image: 
+          - key: lang
+          - /preview-images/tabpane.png
+        text: A set of tabs
+    picker_preview:
+      text: 'Tab pane'
+      subtext: No lang defined
+      icon: dashboard
+      gallery: 
+        image: /preview-images/tabpane.png
+        text: A set of tabs
     _inputs:
       tab:
         type: markdown
