@@ -19,9 +19,11 @@ These are the shortcodes configured in cloudcannon.config
 [Swagger Example](/docs/reference/swagger-example/) using swaggerui snippet
 
 {{< redoc "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v2.0/yaml/petstore.yaml" >}}
+
+
 {{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" >}}
-  <img src="https://placekitten.com/350/400" alt="Kitty" />
-  This is a cat card
+  <img src="https://placekitten.com/800/400" alt="Kitty" />
+  More text down here.
 {{< /card >}}
 {{< cardpane >}}{{< card header="Header 2" title="A title 2" subtitle="A subtitle 2" footer="A footer 2" >}}
   ![porridge](second-image.jpg) <br>
@@ -75,5 +77,5 @@ int main(void)
   This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
 {{< figure src="https://placekitten.com/200/200" title="Kitty" alt="Lil kitty" caption="A cute kitten" width="200" height="200" >}}
-{{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="min-height: 15vh; border: none;" sandbox=false name="cloudcannon" id="cloudcannon" >}}
+{{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="min-height: 80vh; border: none;" sandbox=false name="cloudcannon" id="cloudcannon" >}}
 {{< readfile file="parameter-reference.md" code=false lang="md" >}}
