@@ -313,16 +313,23 @@ _snippets:
           optional: true
           remove_empty: true
           type: string
+        - source_key: lang
+          editor_key: lang
+          optional: true
+          remove_empty: true
+          type: string
         - source_key: disabled
           editor_key: disabled
           optional: true
           remove_empty: true
           type: boolean
     preview:
-      text: Tab
-      subtext:
+      text: 
         - key: header
-        - No text defined
+        - No header defined
+      subtext:
+        - key: inner_text
+        - No content defined
       icon: tab
     picker_preview:
       text: Tab
@@ -342,23 +349,19 @@ _snippets:
       shortcode_name: tabpane
       content_key: tab
       named_args:
-        - source_key: header
-          editor_key: header
+        - source_key: text
+          editor_key: text
           optional: true
           remove_empty: true
-          type: string
-        - source_key: lang
-          editor_key: lang
+          type: boolean
+        - source_key: right
+          editor_key: right
           optional: true
           remove_empty: true
-          type: string
+          type: boolean
     preview:
-      text: 
-        - key: header
-        - 'Tab pane'
-      subtext:
-        - key: lang
-        - No lang defined
+      text: Tab Pane
+      subtext: Wraps a group of tabs
       icon: dashboard
       gallery:
         image: /preview-images/tabpane.png
