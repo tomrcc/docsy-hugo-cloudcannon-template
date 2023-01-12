@@ -36,10 +36,10 @@ You can use the card snippet to insert a single card, or use card pane as a wrap
 
 ### Tabs
 
-Similar to cards above, you can use tabs inside a tabpane to display tabbed information.
+Similar to cards above, you can use tabs inside a tabpane to display tabbed information. Unlike cards, tabs can only be used inside the tabpane wrapper.
 
 {{< tabpane text=false right=true langEqualsHeader=true persistLang=false header="Tab Pane" lang="Hello World" >}}{{< tab header="English" disabled=false >}}Hello World\!{{< /tab >}}
-{{< tab header="German" disabled=false >}}Hallo Welt\!{{< /tab >}}
+{{< tab header="German" lang="m" disabled=false >}}Hallo Welt\!{{< /tab >}}
 {{< tab header="Swahili" disabled=false >}}Vipi Dunia\!{{< /tab >}}
 {{< tab header="Javascript" lang="js" disabled=false >}}const highlight = "Hope this works"
 
