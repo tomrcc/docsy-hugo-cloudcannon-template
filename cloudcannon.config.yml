@@ -296,8 +296,7 @@ _snippets:
         - No lang defined
       icon: dashboard
       gallery:
-        image: 
-          - key: lang
+        image:
           - /preview-images/tabpane.png
         text: A set of tabs
     picker_preview:
