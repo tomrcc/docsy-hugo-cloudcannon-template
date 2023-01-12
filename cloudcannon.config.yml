@@ -350,7 +350,7 @@ _snippets:
         image: /preview-images/tabpane.png
         text: A set of tabs
     picker_preview:
-      text: 'Tab pane'
+      text: Tab Pane
       subtext: A set of tabs
       icon: dashboard
       gallery: 
@@ -408,12 +408,12 @@ _snippets:
           remove_empty: true
           type: string 
     preview:
-      text: 'iframe'
+      text: iframe
       subtext:
         - Embed a webpage on your site
       icon: dashboard
     picker_preview:
-      text: 'iframe'
+      text: iframe
       subtext: Embed a site on your page
       icon: dashboard
       gallery: 
