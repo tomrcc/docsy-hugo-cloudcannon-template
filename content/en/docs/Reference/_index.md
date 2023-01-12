@@ -5,8 +5,8 @@ weight: 9
 description: |
   Low level reference docs for your project.
 resources:
-  - src: '**.{png,jpg}'
-    title: 'Image #:counter'
+  - src: 'featured-sunset-get.png'
+    title: 'Image #1'
     params:
       byline: 'Photo: Riona MacNamara / CC-BY-CA'
 ---
