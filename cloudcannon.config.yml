@@ -86,6 +86,16 @@ _snippets:
         - key: inner_text
         - No text defined
       icon: warning
+      gallery:
+        image: /preview-images/tabpane.png
+        text: A set of tabs
+    picker_preview:
+      text: 'Alert'
+      subtext: An alert
+      icon: dashboard
+      gallery: 
+        image: /preview-images/tabpane.png
+        text: A set of tabs
     _inputs:
       color:
         type: select
