@@ -6,8 +6,12 @@ layout: list
 
 Snippets, also known in Hugo as shortcodes are small reusable pieces of code that you can include in your markdown files.<br><br>Here are some of the ones you can use in Docsy:
 
+### &nbsp;
+
 ### Page Info
 {{% pageinfo color="primary" %}}Use this snippet when you want to provide information about a page.{{% /pageinfo %}}
+
+### &nbsp;
 
 ### Image Processing
 
@@ -15,9 +19,13 @@ Used to process images in the same page bundle.
 
 **TODO:** Need to decide how the image input is going to work, since this snippet only works with images in the local page bundle, not images in the static folder.
 
+### &nbsp;
+
 ### Alert
 
 {{< alert color="danger" title="Warning!" >}}Use these when you want to alert your users to something important!{{< /alert >}}
+
+### &nbsp;
 
 ### Cards
 
@@ -27,7 +35,9 @@ You can use the card snippet to insert a single card.
 
 console.log(highlighting) // "Highlights code based on the language specified"{{< /card-code >}}
 
-Or&nbsp; you can use card pane as a wrapper for multiple cards anywhere in your markdown.
+&nbsp;
+
+Or you can use card pane as a wrapper for multiple cards anywhere in your markdown.
 
 {{< cardpane >}}{{< card header="Card" title="Card" subtitle="Used to display some grouped information to the user" footer="End " >}}1. Insert the card pane snippet into your markdown using the snippet selector in the markdown toolbar.
 2. Edit the card pane.
@@ -39,6 +49,8 @@ Or&nbsp; you can use card pane as a wrapper for multiple cards anywhere in your 
 &nbsp;{{< /card >}}
 
 &nbsp;{{< /cardpane >}}
+
+### &nbsp;
 
 ### Tabs
 
