@@ -87,8 +87,8 @@ _snippets:
         - No text defined
       icon: warning
       gallery:
-        image: /preview-images/tabpane.png
-        text: A set of tabs
+        image: /preview-images/alert.png
+        text: An alert
     picker_preview:
       text: 'Alert'
       subtext: An alert with color options
@@ -125,6 +125,13 @@ _snippets:
         - key: inner_text
         - No text defined
       icon: image
+    picker_preview:
+      text: 'imgproc'
+      subtext: Image processing
+      icon: image
+      gallery: 
+        image: /preview-images/imgproc.png
+        text: Finds an image in the current page bundle and scales it given a set of parameters
     _inputs:
       src:
         type: image
@@ -175,6 +182,13 @@ _snippets:
         - key: inner_text
         - No text defined
       icon: info
+    picker_preview:
+      text: 'pageinfo'
+      subtext: A banner to display page info
+      icon: info
+      gallery: 
+        image: /preview-images/pageinfo.png
+        text: A banner to display page info
     _inputs:
       color:
         type: select
@@ -214,6 +228,13 @@ _snippets:
         - key: title
         - No text defined
       icon: tab
+    picker_preview:
+      text: 'card'
+      subtext: A basic card
+      icon: tab
+      gallery: 
+        image: /preview-images/card.png
+        text: A basic card
 
   cardpane:
     template: hugo_paired_shortcode_named_args
@@ -226,6 +247,13 @@ _snippets:
       subtext:
         - A wrapper used to display multiple cards
       icon: dashboard
+    picker_preview:
+      text: 'cardpane'
+      subtext: A wrapper for cards to be displayed next to each other
+      icon: dashboard
+      gallery: 
+        image: /preview-images/cardpane.png
+        text: A wrapper for cards to be displayed next to each other
     _inputs:
       card:
         type: markdown
@@ -255,6 +283,14 @@ _snippets:
       subtext:
         - A card used for displaying code
       icon: tab
+    picker_preview:
+      text: 'card-code'
+      subtext: A card used to display code
+      icon: tab
+      gallery: 
+        image: /preview-images/card-code.png
+        text: A card used to display code
+    
 
   tab:
     template: hugo_paired_shortcode_named_args
@@ -279,6 +315,13 @@ _snippets:
         - key: header
         - No text defined
       icon: tab
+    picker_preview:
+      text: 'tab'
+      subtext: A tab to be used inside a tabpane wrapper
+      icon: tab
+      gallery: 
+        image: /preview-images/tabpane.png
+        text: A tab to be used inside a tabpane wrapper
 
   tabpane:
     template: hugo_paired_shortcode_named_args
@@ -310,7 +353,7 @@ _snippets:
         text: A set of tabs
     picker_preview:
       text: 'Tab pane'
-      subtext: No lang defined
+      subtext: A set of tabs
       icon: dashboard
       gallery: 
         image: /preview-images/tabpane.png
@@ -371,6 +414,14 @@ _snippets:
       subtext:
         - Embed a webpage on your site
       icon: dashboard
+    picker_preview:
+      text: 'iframe'
+      subtext: Embed a site on your page
+      icon: dashboard
+      gallery: 
+        image: /preview-images/iframe.png
+        text: Embed a site on your page
+    
 
   readfile:
     template: hugo_shortcode_named_args
@@ -396,6 +447,13 @@ _snippets:
       subtext:
         - Display another file's contents
       icon: search
+    picker_preview:
+      text: 'Tab pane'
+      subtext: Import the contents of an external file into a document
+      icon: dashboard
+      gallery: 
+        image: /preview-images/readfile.png
+        text: Import the contents of an external file into a document
 
   swaggerui:
     template: hugo_shortcode_named_args
@@ -412,6 +470,14 @@ _snippets:
       subtext:
         - Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
       icon: description
+    picker_preview:
+      text: 'SwaggerUI'
+      subtext: Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
+      icon: description
+      gallery: 
+        image: /preview-images/swaggerui.png
+        text: Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
+    
 
   redoc:
     template: hugo_shortcode_positional_args
@@ -426,6 +492,15 @@ _snippets:
       subtext:
         - Placed inside any page, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
       icon: description
+    picker_preview:
+      text: 'redoc'
+      subtext: Placed inside any page, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
+      icon: description
+      gallery: 
+        image: /preview-images/readfile.png
+        text: Placed inside any page, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
+
+    
 
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
