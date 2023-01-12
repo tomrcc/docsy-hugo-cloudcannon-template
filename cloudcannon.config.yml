@@ -81,7 +81,7 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: 'Alert'
+      text: Alert
       subtext:
         - key: inner_text
         - No text defined
@@ -90,12 +90,12 @@ _snippets:
         image: /preview-images/alert.png
         text: An alert
     picker_preview:
-      text: 'Alert'
+      text: Alert
       subtext: An alert with color options
       icon: warning
       gallery: 
         image: /preview-images/alert.png
-        text: An alert
+        text: An alert with color options
     _inputs:
       color:
         type: select
@@ -120,14 +120,14 @@ _snippets:
         - editor_key: dimensions
           type: string
     preview:
-      text: 'imgproc'
+      text: Image Processing
       subtext:
         - key: inner_text
         - No text defined
       icon: image
     picker_preview:
-      text: 'imgproc'
-      subtext: Image processing
+      text: Image Processing
+      subtext: Finds an image in the current page bundle and scales it given a set of parameters
       icon: image
       gallery: 
         image: /preview-images/imgproc.png
@@ -177,13 +177,13 @@ _snippets:
             - gray-900
             - black
     preview:
-      text: 'Page info'
+      text: Page Info
       subtext:
         - key: inner_text
         - No text defined
       icon: info
     picker_preview:
-      text: 'pageinfo'
+      text: Page Info
       subtext: A banner to display page info
       icon: info
       gallery: 
@@ -223,13 +223,13 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: 'Card'
+      text: Card
       subtext:
         - key: title
         - No text defined
       icon: tab
     picker_preview:
-      text: 'card'
+      text: Card
       subtext: A basic card
       icon: tab
       gallery: 
@@ -243,12 +243,12 @@ _snippets:
       shortcode_name: cardpane
       content_key: card
     preview:
-      text: 'cardpane'
+      text: Card Pane
       subtext:
         - A wrapper used to display multiple cards
       icon: dashboard
     picker_preview:
-      text: 'cardpane'
+      text: Card Pane
       subtext: A wrapper for cards to be displayed next to each other
       icon: dashboard
       gallery: 
@@ -259,7 +259,6 @@ _snippets:
         type: markdown
         options:
           snippet: true
- 
 
   card-code:
     template: hugo_paired_shortcode_named_args
@@ -279,19 +278,18 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: 'card-code'
+      text: Card Code
       subtext:
         - A card used for displaying code
       icon: tab
     picker_preview:
-      text: 'card-code'
+      text: Card Code
       subtext: A card used to display code
       icon: tab
       gallery: 
         image: /preview-images/card-code.png
         text: A card used to display code
     
-
   tab:
     template: hugo_paired_shortcode_named_args
     inline: false
@@ -310,13 +308,13 @@ _snippets:
           remove_empty: true
           type: boolean
     preview:
-      text: 'tab'
+      text: Tab
       subtext:
         - key: header
         - No text defined
       icon: tab
     picker_preview:
-      text: 'tab'
+      text: Tab
       subtext: A tab to be used inside a tabpane wrapper
       icon: tab
       gallery: 
@@ -443,12 +441,12 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: 'readfile'
+      text: Read File
       subtext:
         - Display another file's contents
       icon: search
     picker_preview:
-      text: 'Tab pane'
+      text: Read File
       subtext: Import the contents of an external file into a document
       icon: dashboard
       gallery: 
@@ -466,12 +464,12 @@ _snippets:
           optional: false
           type: string
     preview:
-      text: 'swaggerui'
+      text: Swagger UI
       subtext:
         - Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
       icon: description
     picker_preview:
-      text: 'SwaggerUI'
+      text: Swagger UI
       subtext: Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
       icon: description
       gallery: 
@@ -488,12 +486,12 @@ _snippets:
         - editor_key: src
           type: string
     preview:
-      text: 'redoc'
+      text: Redoc
       subtext:
         - Placed inside any page, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
       icon: description
     picker_preview:
-      text: 'redoc'
+      text: Redoc
       subtext: Placed inside any page, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
       icon: description
       gallery: 
