@@ -13,7 +13,3 @@ Snippets, also known in Hugo as shortcodes are small reusable pieces of code tha
 ### Image Processing
 
 Used to process images in the same page bundle.
-
-{{< imgproc "/preview-images/imgproc.png" "Resize" "500x500" >}}{{< /imgproc >}}
-
-&nbsp;

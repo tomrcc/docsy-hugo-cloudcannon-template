@@ -67,12 +67,6 @@ int main(void)
     <img src="https://placekitten.com/500/400" alt="Kitty" />
     Welcome Kitty 3!
   {{< /tab >}}{{< /tabpane >}}
-{{< imgproc "sunset" "Fit" "400x400" >}}
-  A sunset to test using the imgproc shortcode
-{{< /imgproc >}}
-{{< imgproc "second" "Fit" "350x700" >}}
-  Another image
-{{< /imgproc >}}
 {{% pageinfo color="primary" %}}
   This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
