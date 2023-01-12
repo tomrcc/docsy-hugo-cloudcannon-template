@@ -16,7 +16,7 @@ Find out more in [Adding static content](https://docsy.dev/docs/adding-content/c
 
 These are the shortcodes configured in cloudcannon.config
 
-[Swagger Example](swagger-example.md) using swaggerui snippet
+[Swagger Example](/docs/reference/swagger-example/) using swaggerui snippet
 
 {{< redoc "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v2.0/yaml/petstore.yaml" >}}
 {{< card header="Header" title="A title" subtitle="A subtitle" footer="A footer" >}}
@@ -36,7 +36,6 @@ These are the shortcodes configured in cloudcannon.config
   This is an example alert
 {{< /alert >}}
 
-
 {{< card-code header="**C**" lang="C" highlight="" >}}
 #include <stdio.h>
 #include <stdlib.h>
@@ -47,15 +46,12 @@ int main(void)
   return EXIT_SUCCESS;
 }
 {{< /card-code >}}
-
-
 {{< card-code header="**JS**" lang="javascript" highlight="" >}}
   const greeting = "Ello World!"
   const name = "Docsy"
 
   console.log(`${greeting} It's ${name}.`) // "Ello World! It's Docsy."
 {{< /card-code >}}
-
 {{< tabpane text=true right=true >}}{{< tab header="**Kittens**:" disabled=true >}}{{< /tab >}}
 {{< tab header="Kitten 1" disabled=false >}}
     <img src="https://placekitten.com/500/500" alt="Kitty" />
