@@ -91,11 +91,11 @@ _snippets:
         text: A set of tabs
     picker_preview:
       text: 'Alert'
-      subtext: An alert
-      icon: dashboard
+      subtext: An alert with color options
+      icon: warning
       gallery: 
-        image: /preview-images/tabpane.png
-        text: A set of tabs
+        image: /preview-images/alert.png
+        text: An alert
     _inputs:
       color:
         type: select
