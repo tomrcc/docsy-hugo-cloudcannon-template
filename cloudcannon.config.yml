@@ -91,6 +91,7 @@ _snippets:
       gallery:
         image: /preview-images/alert.png
         text: An alert
+      view: gallery
     picker_preview:
       text: Alert
       subtext: An alert with color options
@@ -127,6 +128,10 @@ _snippets:
         - key: src
         - Process an image in the current page bundle
       icon: image
+      gallery: 
+        image: /preview-images/imgproc.png
+        text: Finds an image in the current page bundle and scales it given a set of parameters
+      view: gallery
     picker_preview:
       text: Image Processing
       subtext: Finds an image in the current page bundle and scales it given a set of parameters
@@ -184,6 +189,10 @@ _snippets:
         - key: inner_text
         - No text defined
       icon: info
+      gallery: 
+        image: /preview-images/pageinfo.png
+        text: A banner to display page info
+      view: gallery
     picker_preview:
       text: Page Info
       subtext: A banner to display page info
@@ -233,6 +242,10 @@ _snippets:
         - key: inner_text
         - No text defined
       icon: tab
+      gallery: 
+        image: /preview-images/card.png
+        text: A basic card
+      view: gallery
     picker_preview:
       text: Card
       subtext: A basic card
@@ -255,6 +268,10 @@ _snippets:
       subtext:
         - A wrapper used to display multiple cards
       icon: dashboard
+      gallery: 
+        image: /preview-images/cardpane.png
+        text: A wrapper for cards to be displayed next to each other
+      view: gallery
     picker_preview:
       text: Card Pane
       subtext: A wrapper for cards to be displayed next to each other
@@ -290,6 +307,10 @@ _snippets:
       subtext:
         - A card used for displaying code
       icon: tab
+      gallery: 
+        image: /preview-images/card-code.png
+        text: A card used to display code
+      view: gallery
     picker_preview:
       text: Card Code
       subtext: A card used to display code
@@ -331,6 +352,10 @@ _snippets:
         - key: inner_text
         - No content defined
       icon: tab
+      gallery: 
+        image: /preview-images/tabpane.png
+        text: A tab to be used inside a tabpane wrapper
+      view: gallery
     picker_preview:
       text: Tab
       subtext: A tab to be used inside a tabpane wrapper
@@ -440,6 +465,10 @@ _snippets:
       subtext:
         - Embed a webpage on your site
       icon: dashboard
+      gallery: 
+        image: /preview-images/iframe.png
+        text: Embed a site on your page
+      view: gallery
     picker_preview:
       text: iframe
       subtext: Embed a site on your page
@@ -473,6 +502,10 @@ _snippets:
       subtext:
         - Display another file's contents
       icon: search
+      gallery: 
+        image: /preview-images/readfile.png
+        text: Import the contents of an external file into a document
+      view: gallery
     picker_preview:
       text: Read File
       subtext: Import the contents of an external file into a document
@@ -496,6 +529,10 @@ _snippets:
       subtext:
         - Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
       icon: description
+      gallery: 
+        image: /preview-images/swaggerui.png
+        text: Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
+      view: gallery
     picker_preview:
       text: Swagger UI
       subtext: Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
