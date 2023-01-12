@@ -81,7 +81,7 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: Alert
+      text: title
       subtext:
         - key: inner_text
         - No text defined
@@ -120,7 +120,7 @@ _snippets:
         - editor_key: dimensions
           type: string
     preview:
-      text: Image Processing
+      text: src
       subtext:
         - key: inner_text
         - No text defined
@@ -223,7 +223,7 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: Card
+      text: header
       subtext:
         - key: title
         - No text defined
@@ -278,7 +278,7 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: Card Code
+      text: lang
       subtext:
         - A card used for displaying code
       icon: tab
