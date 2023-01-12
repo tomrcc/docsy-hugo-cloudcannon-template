@@ -23,43 +23,40 @@ These are the shortcodes configured in cloudcannon.config
   <img src="https://placekitten.com/350/400" alt="Kitty" />
   This is a cat card
 {{< /card >}}
-{{< cardpane >}}
-{{< card header="Header 2" title="A title 2" subtitle="A subtitle 2" footer="A footer 2" >}}
+{{< cardpane >}}{{< card header="Header 2" title="A title 2" subtitle="A subtitle 2" footer="A footer 2" >}}
   ![porridge](second-image.jpg) <br>
   This is a porridge card
 {{< /card >}}
 {{< card header="Header 3" title="A title 3" subtitle="A subtitle 3" footer="A footer 3" >}}
   <img src="https://placekitten.com/450/400" alt="Kitty" />
   This is another cat card
-{{< /card >}}
-{{< /cardpane >}}
+{{< /card >}}{{< /cardpane >}}
 
 {{< alert color="danger" title="An alert" >}}
   This is an example alert
 {{< /alert >}}
 
-{{< card-code header="**JS**" lang="javascript" >}}
+&nbsp;
+
+{{< card-code header="**JS**" lang="javascript" highlight="true" >}}
   const greeting = "Ello World!"
   const name = "Docsy"
 
   console.log(`${greeting} It's ${name}.`) // "Ello World! It's Docsy."
 {{< /card-code >}}
-
-{{< tabpane text=true right=true >}}
-  {{< tab header="**Kittens**:" disabled=true >}}{{< /tab >}}
-  {{< tab header="Kitten 1" disabled=false >}}
+{{< tabpane text=true right=true >}}{{< tab header="**Kittens**:" disabled=true >}}{{< /tab >}}
+{{< tab header="Kitten 1" disabled=false >}}
     <img src="https://placekitten.com/500/500" alt="Kitty" />
     Welcome Kitty 1!
   {{< /tab >}}
-  {{< tab header="Kitten 2" disabled=false >}}
+{{< tab header="Kitten 2" disabled=false >}}
     <img src="https://placekitten.com/500/450" alt="Kitty" />
     Welcome Kitty 2!
   {{< /tab >}}
-  {{< tab header="Kitten 3" disabled=false >}}
+{{< tab header="Kitten 3" disabled=false >}}
     <img src="https://placekitten.com/500/400" alt="Kitty" />
     Welcome Kitty 3!
-  {{< /tab >}}
-{{< /tabpane >}}
+  {{< /tab >}}{{< /tabpane >}}
 {{< imgproc "sunset" "Fit" "400x400" >}}
   A sunset to test using the imgproc shortcode
 {{< /imgproc >}}
