@@ -36,7 +36,18 @@ These are the shortcodes configured in cloudcannon.config
   This is an example alert
 {{< /alert >}}
 
-&nbsp;
+
+{{< card-code header="**C**" lang="C" highlight="" >}}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+  puts("Hello World!");
+  return EXIT_SUCCESS;
+}
+{{< /card-code >}}
+
 
 {{< card-code header="**JS**" lang="javascript" highlight="" >}}
   const greeting = "Ello World!"
