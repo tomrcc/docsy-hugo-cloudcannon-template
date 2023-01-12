@@ -38,9 +38,12 @@ You can use the card snippet to insert a single card, or use card pane as a wrap
 
 Similar to cards above, you can use tabs inside a tabpane to display tabbed information.
 
-{{< tabpane header="Tab Pane" lang="Hello World" >}}{{< tab header="English" disabled=false >}}Hello World\!{{< /tab >}}
+{{< tabpane text=false right=true langEqualsHeader=true persistLang=false header="Tab Pane" lang="Hello World" >}}{{< tab header="English" disabled=false >}}Hello World\!{{< /tab >}}
 {{< tab header="German" disabled=false >}}Hallo Welt\!{{< /tab >}}
 {{< tab header="Swahili" disabled=false >}}Vipi Dunia\!{{< /tab >}}
+{{< tab header="Javascript" lang="js" disabled=false >}}const highlight = "Hope this works"
+
+console.log(highlight) // "Hope this works"{{< /tab >}}
 
 &nbsp;{{< /tabpane >}}
 
