@@ -81,7 +81,9 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: title
+      text: 
+        - key: title
+        - An alert
       subtext:
         - key: inner_text
         - No text defined
@@ -120,10 +122,10 @@ _snippets:
         - editor_key: dimensions
           type: string
     preview:
-      text: src
+      text: Image Processing 
       subtext:
-        - key: inner_text
-        - No text defined
+        - key: src
+        - Process an image in the current page bundle
       icon: image
     picker_preview:
       text: Image Processing
@@ -223,9 +225,12 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: header
-      subtext:
+      text:
         - key: title
+        - Card
+      subtext:
+        - key: subtitle
+        - key: inner_text
         - No text defined
       icon: tab
     picker_preview:
@@ -278,7 +283,7 @@ _snippets:
           remove_empty: true
           type: string
     preview:
-      text: lang
+      text: Code Card
       subtext:
         - A card used for displaying code
       icon: tab
