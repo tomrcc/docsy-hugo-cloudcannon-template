@@ -293,7 +293,7 @@ _snippets:
         - A pane used for displaying tabs
       icon: dashboard
       image: /tabpane.png
-      gallery: image
+      gallery: icon
     _inputs:
       tab:
         type: markdown
