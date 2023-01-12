@@ -41,9 +41,9 @@ Similar to cards above, you can use tabs inside a tabpane to display tabbed info
 {{< tabpane text=false right=true langEqualsHeader=false persistLang=false header="Tab Pane" >}}{{< tab header="English" disabled=false >}}Hello World!{{< /tab >}}
 {{< tab header="German" lang="markdown" disabled=false >}}Hallo Welt!{{< /tab >}}
 {{< tab header="Swahili" disabled=false >}}Vipi Dunia!{{< /tab >}}
-{{< tab header="Javascript" lang="js" disabled=false >}}const highlight = "Hope this works"
+{{< tab header="Javascript" lang="js" disabled=false >}}const highlight = "Setting the language as a programming language provides syntax highlighting"
 
-console.log(highlight) // "Hope this works"{{< /tab >}}
+console.log(highlight) // "Setting the language as a programming language provides syntax highlighting"{{< /tab >}}
 
 &nbsp;{{< /tabpane >}}
 
