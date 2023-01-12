@@ -359,6 +359,16 @@ _snippets:
           optional: true
           remove_empty: true
           type: boolean
+        - source_key: langEqualsHeader
+          editor_key: langEqualsHeader
+          optional: true
+          remove_empty: true
+          type: boolean
+        - source_key: persistLang
+          editor_key: persistLang
+          optional: true
+          remove_empty: true
+          type: boolean
     preview:
       text: Tab Pane
       subtext: Wraps a group of tabs
