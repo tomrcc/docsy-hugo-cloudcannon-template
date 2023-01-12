@@ -376,6 +376,7 @@ _snippets:
       gallery:
         image: /preview-images/tabpane.png
         text: A set of tabs
+      view: gallery
     picker_preview:
       text: Tab Pane
       subtext: A set of tabs
