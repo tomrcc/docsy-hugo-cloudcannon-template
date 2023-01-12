@@ -21,7 +21,13 @@ Used to process images in the same page bundle.
 
 ### Cards
 
-You can use the card snippet to insert a single card, or use card pane as a wrapper for multiple cards anywhere in your markdown.
+You can use the card snippet to insert a single card.
+
+{{< card-code header="Code Card" lang="js" >}}const highlighting = "Highlights code based on the language specified"
+
+console.log(highlighting) // "Highlights code based on the language specified"{{< /card-code >}}
+
+Or&nbsp; you can use card pane as a wrapper for multiple cards anywhere in your markdown.
 
 {{< cardpane >}}{{< card header="Card" title="Card" subtitle="Used to display some grouped information to the user" footer="End " >}}1. Insert the card pane snippet into your markdown using the snippet selector in the markdown toolbar.
 2. Edit the card pane.
@@ -33,11 +39,6 @@ You can use the card snippet to insert a single card, or use card pane as a wrap
 &nbsp;{{< /card >}}
 
 &nbsp;{{< /cardpane >}}
-{{< card-code header="Code Card" lang="js" >}}const highlighting = "Highlights code based on the language specified"
-
-console.log(highlighting) // "Highlights code based on the language specified"{{< /card-code >}}
-
-### &nbsp;
 
 ### Tabs
 
