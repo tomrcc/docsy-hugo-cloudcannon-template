@@ -497,7 +497,7 @@ _snippets:
       subtext: Placed inside any page, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
       icon: description
       gallery: 
-        image: /preview-images/readfile.png
+        image: /preview-images/swaggerui.png
         text: Placed inside any page, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
 
     
