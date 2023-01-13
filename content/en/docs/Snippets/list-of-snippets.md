@@ -29,7 +29,7 @@ Used to process images in the same page bundle.
 
 ### Cards
 
-You can use the card snippet to insert a single card.
+You can use the card snippet to insert a single card. This could be a plain card, or a code card like below, which supports syntax highlighting when a programming language is specified.
 
 {{< card-code header="Code Card" lang="js" >}}const highlighting = "Highlights code based on the language specified"
 
@@ -54,7 +54,7 @@ Or you can use card pane as a wrapper for multiple cards anywhere in your markdo
 
 ### Tabs
 
-Similar to cards above, you can use tabs inside a tabpane to display tabbed information. Unlike cards, tabs can only be used inside the tabpane wrapper.
+Similar to cards above, you can use tabs inside a tab pane to display tabbed information. Unlike cards, tabs can only be used inside the tab pane wrapper.
 
 {{< tabpane text=false right=true langEqualsHeader=false persistLang=false header="Tab Pane" >}}{{< tab header="English" disabled=false >}}Hello World!{{< /tab >}}
 {{< tab header="German" lang="markdown" disabled=false >}}Hallo Welt!{{< /tab >}}
