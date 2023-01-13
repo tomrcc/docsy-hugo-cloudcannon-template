@@ -1,3 +1,4 @@
+```yml
 readfile:
     template: hugo_shortcode_named_args
     inline: false
@@ -36,3 +37,4 @@ readfile:
     _inputs:
       file:
         type: url
+```
