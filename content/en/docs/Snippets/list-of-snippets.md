@@ -25,6 +25,12 @@ Used to process images in the same page bundle.
 
 {{< alert color="danger" title="Warning!" >}}Use these when you want to alert your users to something important!{{< /alert >}}
 
+<div class="c-card c-card--clickable c-card--preview-top"><div class="c-card__preview loaded--complete loaded"><p class="u-hide-when-loaded">An alert</p><img src="https://app.cloudcannon.com/api/v0/sites/37cc6a50-e78a-40a4-ab6b-bafd1d99e9b1/files/static%2Fpreview-images%2Falert.png/resized?width=592&amp;height=320&amp;cc-interface=DEVELOPER" loading="lazy" alt="Preview image for Warning!" /></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:warning" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text ">Warning!</p><p class="c-card__subtext">Use these when you want to alert your users to something important!</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" title="Click and drag to move" role="presentation" draggable="true" width="15" height="15" />
+
+&nbsp;
+
 ### &nbsp;
 
 ### Cards
@@ -82,3 +88,15 @@ Embed external content into a Docsy page as an inline frame.
 {{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="border: none;" sandbox=false name="CloudCannon" id="CloudCannon" >}}
 
 &nbsp;
+
+### Redoc
+
+Renders API documentation from an OpenAPI YAML or JSON file.
+
+{{< redoc "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v2.0/yaml/petstore.yaml" >}}
+
+&nbsp;
+
+### Swagger UI
+
+Can be placed anywhere inside a page with the swagger layout. It renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source.
