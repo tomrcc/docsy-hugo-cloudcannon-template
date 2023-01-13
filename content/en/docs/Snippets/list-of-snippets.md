@@ -77,7 +77,7 @@ console.log(highlight) // "Setting the language as a programming language provid
 
 Readfile allows you to import the contents of an external file into a document.
 
-**TODO:** Figure out a way to change file input to access files in root rather than just in static
+**TODO:** Figure out a way to change file input to access files in root rather than just in static. Could get it to work with a text input.
 
 ### Iframe
 
@@ -97,4 +97,4 @@ Renders API documentation from an OpenAPI YAML or JSON file.
 
 ### Swagger UI
 
-Can be placed anywhere inside a page with the swagger layout. It renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source.
+Can be placed anywhere inside a [page](/docs/snippets/swaggerui-example/) with the swagger layout. It renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source.
