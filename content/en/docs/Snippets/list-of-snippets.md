@@ -68,4 +68,17 @@ console.log(highlight) // "Setting the language as a programming language provid
 ### &nbsp;
 
 ### Readfile
-{{< readfile file="/../cloudcannon.config.yml" code=true lang="yml" >}}
+
+Readfile allows you to import the contents of an external file into a document.
+
+**TODO:** Figure out a way to change file input to access files in root rather than just in static
+
+&nbsp;
+
+### Iframe
+
+Embed external content into a Docsy page as an inline frame.
+
+{{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="border: none;" sandbox=false name="CloudCannon" id="CloudCannon" >}}
+
+&nbsp;
