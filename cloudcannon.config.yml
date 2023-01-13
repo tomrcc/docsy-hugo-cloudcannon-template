@@ -486,7 +486,7 @@ _snippets:
       named_args:
         - source_key: file
           editor_key: file
-          type: string
+          type: file
         - source_key: code
           editor_key: code
           optional: true
