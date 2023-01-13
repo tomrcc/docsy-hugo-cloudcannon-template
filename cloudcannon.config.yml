@@ -518,7 +518,7 @@ _snippets:
         type: file
         options:
           paths:
-            uploads: /
+            uploads: ../
 
   swaggerui:
     template: hugo_shortcode_named_args
