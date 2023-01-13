@@ -6,12 +6,8 @@ layout: list
 
 Snippets, also known in Hugo as shortcodes are small reusable pieces of code that you can include in your markdown files.<br><br>Here are some of the ones you can use in Docsy:
 
-### &nbsp;
-
 ### Page Info
 {{% pageinfo color="primary" %}}Use this snippet when you want to provide information about a page.{{% /pageinfo %}}
-
-### &nbsp;
 
 ### Image Processing
 
@@ -19,15 +15,9 @@ Used to process images in the same page bundle.
 
 **TODO:** Need to decide how the image input is going to work, since this snippet only works with images in the local page bundle, not images in the static folder.
 
-### &nbsp;
-
 ### Alert
 
 {{< alert color="danger" title="Warning!" >}}Use these when you want to alert your users to something important!{{< /alert >}}
-
-&nbsp;
-
-### &nbsp;
 
 ### Cards
 
@@ -36,8 +26,6 @@ You can use the card snippet to insert a single card. This could be a plain card
 {{< card-code header="Code Card" lang="js" >}}const highlighting = "Highlights code based on the language specified"
 
 console.log(highlighting) // "Highlights code based on the language specified"{{< /card-code >}}
-
-&nbsp;
 
 Or you can use card pane as a wrapper for multiple cards anywhere in your markdown.
 
@@ -52,8 +40,6 @@ Or you can use card pane as a wrapper for multiple cards anywhere in your markdo
 
 &nbsp;{{< /cardpane >}}
 
-### &nbsp;
-
 ### Tabs
 
 Similar to cards above, you can use tabs inside a tab pane to display tabbed information. Unlike cards, tabs can only be used inside the tab pane wrapper.
@@ -67,8 +53,6 @@ console.log(highlight) // "Setting the language as a programming language provid
 
 &nbsp;{{< /tabpane >}}
 
-### &nbsp;
-
 ### Readfile
 
 Readfile allows you to import the contents of an external file into a document.
@@ -81,15 +65,11 @@ Embed external content into a Docsy page as an inline frame.
 
 {{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="border: none;" sandbox=false name="CloudCannon" id="CloudCannon" >}}
 
-&nbsp;
-
 ### Redoc
 
 Renders API documentation from an OpenAPI YAML or JSON file.
 
 {{< redoc "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v2.0/yaml/petstore.yaml" >}}
-
-&nbsp;
 
 ### Swagger UI
 
