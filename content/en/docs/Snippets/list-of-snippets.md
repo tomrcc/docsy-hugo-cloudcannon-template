@@ -66,3 +66,6 @@ console.log(highlight) // "Setting the language as a programming language provid
 &nbsp;{{< /tabpane >}}
 
 ### &nbsp;
+
+### Readfile
+{{< readfile file="/../cloudcannon.config.yml" code=true lang="yml" >}}
