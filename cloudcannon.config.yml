@@ -513,6 +513,9 @@ _snippets:
       gallery: 
         image: /preview-images/readfile.png
         text: Import the contents of an external file into a document
+    _inputs:
+      file:
+        type: file
 
   swaggerui:
     template: hugo_shortcode_named_args
