@@ -1,0 +1,7 @@
+{{ define "main" }} 
+  <div class="bookshop-container container-md justify-items-center" style="min-height: 100vh;">
+    {{ partial "bookshop_bindings" `.Params.content_blocks` }}
+    {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+  </div>
+{{.Content }} 
+{{ end }}
