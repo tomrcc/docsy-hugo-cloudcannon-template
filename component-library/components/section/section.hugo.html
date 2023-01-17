@@ -12,5 +12,8 @@
 				{{ .Inner | htmlUnescape | safeHTML }}
 			{{ end }}
 		</div>
+		{{ with .link_down }}
+    	{{ partial "bookshop" "link_down" }}
+ 		{{ end }}
 	</div>
 </section>

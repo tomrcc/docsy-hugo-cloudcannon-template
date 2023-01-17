@@ -9,12 +9,13 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-    text: Inner text
-    col_id: light
-    # Height can be one of: auto, min, med, max, full.
-    height:
-    type: section
-    Inner: This is the section shortcode block
+  text: Inner text
+  col_id: light
+  # Height can be one of: auto, min, med, max, full.
+  height:
+  type: section
+  Inner: This is the section shortcode block
+  link_down: bookshop:link_down!
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
