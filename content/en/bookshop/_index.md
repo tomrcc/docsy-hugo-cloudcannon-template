@@ -21,7 +21,7 @@ content_blocks:
     text: Inner text
     col_id: light
     # Height can be one of: auto, min, med, max, full.
-    height:
-    type:
+    height: auto
+    type: section
     Inner: This is the section shortcode block
 ---
