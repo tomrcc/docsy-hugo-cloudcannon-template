@@ -4,9 +4,23 @@ menu:
   main:
     weight: 40
 content_blocks:
+  - _bookshop_name: cover
+    title: A title
+    subtitle: A subtitle
+    text: Inner text
+    col_id: warning
+    background_image: /featured-background.jpg
+    # anchors are for .Fit hugo image method which currently don't work
+    image_anchor: 
+    logo_image: http://placekitten.com/70/70
+    logo_anchor:
+    # Height can be one of: auto, min, med, max, full.
+    height: med
+    byline: A byline
   - _bookshop_name: section
     text: Inner text
     col_id: light
+    # Height can be one of: auto, min, med, max, full.
     height:
     type:
     Inner: This is the section shortcode block
