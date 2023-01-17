@@ -24,6 +24,10 @@ content_blocks:
     height: auto
     type: section
     Inner: This is the section shortcode block
+  - _bookshop_name: lead
+    color: primary
+    height: auto
+    Inner: This is a block with centered text and an arrow pointing to next section
   - _bookshop_name: feature
     icon: fa-cubes
     title: Feature
