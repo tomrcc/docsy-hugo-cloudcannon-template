@@ -24,4 +24,10 @@ content_blocks:
     height: auto
     type: section
     Inner: This is the section shortcode block
+  - _bookshop_name: feature
+    icon: fa-cubes
+    title: Feature
+    Inner: This is the feature block, meant to be nested inside of a layout block
+    url: https://github.com/gohugoio/hugo
+    url_text: Go to hugo
 ---

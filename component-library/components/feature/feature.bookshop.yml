@@ -1,0 +1,27 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Feature"
+  description:
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  icon: fa-cubes
+  title: A title
+  Inner: Some inner
+  url: https://github.com/gohugoio/hugo
+  url_text: Link text
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  icon: fa-cubes
+  title: A title
+  Inner: Some inner
+  url: https://github.com/gohugoio/hugo
+  url_text: Link text
+  
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
