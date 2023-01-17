@@ -9,12 +9,18 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  background_image:
-  logo_image:
-  image_anchor:
+  title: A title
+  subtitle: A subtitle
+  text: Inner text
+  col_id: warning
+  background_image: /featured-background.jpg
+  # anchors are for .Fit hugo image method which currently don't work
+  image_anchor: 
+  logo_image: http://placekitten.com/70/70
   logo_anchor:
-  height:
-  byline:
+  # Height can be one of: auto, min, med, max, full.
+  height: med
+  byline: A byline
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
