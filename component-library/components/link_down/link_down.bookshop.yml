@@ -13,8 +13,8 @@ blueprint:
   
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  id:
-  color:
+  id: ""
+  color: ""
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
