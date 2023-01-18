@@ -11,8 +11,8 @@ content_blocks:
       Refer to this list of bookshop components to see what you can use to build
       your pages in CloudCannon
     col_id: success
-    background_image:
+    background_image: /images/featured-background.jpg
     logo_image: http://placekitten.com/70/70
-    height: med
-    byline: A byline
+    height: max
+    byline: A Byline
 ---
