@@ -15,7 +15,7 @@ blueprint:
   height:
   type: section
   Inner: This is the section shortcode block
-  link_down: bookshop:link_down!
+  link_down: bookshop:link_down
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
