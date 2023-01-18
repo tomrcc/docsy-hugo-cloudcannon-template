@@ -5,11 +5,13 @@ menu:
     weight: 40
 content_blocks:
   - _bookshop_name: cover
-    title: A title
-    subtitle: A subtitle
-    text: Inner text
+    title: Bookshop List
+    subtitle: A list of available bookshop components
+    text: >-
+      Refer to this list of bookshop components to see what you can use to build
+      your pages in CloudCannon
     col_id: warning
-    background_image: /preview-images/card-code.png
+    background_image: /images/featured-background.jpg
     logo_image: http://placekitten.com/70/70
     height: med
     byline: A byline
