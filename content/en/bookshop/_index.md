@@ -23,10 +23,10 @@ content_blocks:
     Inner: This is the section shortcode block
     link_down:
       _bookshop_name: link_down
-      color: warning
+      color: primary
       id: test
   - _bookshop_name: lead
-    color: '#e74141'
+    color: primary
     height: auto
     Inner: This is a block with centered text and an arrow pointing to next section
   - _bookshop_name: feature

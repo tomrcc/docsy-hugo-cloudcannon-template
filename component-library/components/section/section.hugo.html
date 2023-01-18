@@ -11,9 +11,9 @@
 			{{ else }}
 				{{ .Inner | htmlUnescape | safeHTML }}
 			{{ end }}
+			{{ with .link_down }}
+				{{ partial "bookshop" (slice "link_down" . ) }}
+			 {{ end }}
 		</div>
-		{{ with .link_down }}
-			{{ partial "bookshop" (slice "link_down" (dict "color" "warning" "id" "feature")) }}
- 		{{ end }}
 	</div>
 </section>
