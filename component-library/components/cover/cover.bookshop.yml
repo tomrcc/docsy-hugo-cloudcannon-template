@@ -10,12 +10,11 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   title: A title
+  logo_image: http://placekitten.com/70/70
   subtitle: A subtitle
-  text: Inner text
+  text: Content
   col_id: warning
   background_image: /featured-background.jpg
-  # anchors are for .Fit hugo image method which currently don't work
-  logo_image: http://placekitten.com/70/70
   # Height can be one of: auto, min, med, max, full.
   height: med
   byline: A byline
@@ -25,3 +24,19 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  title:
+    type: text
+    label: Heading
+    comment: The title for your cover block
+  logo_image:
+    type: image
+    label: Background Image
+    comment: Select a background image
+  subtitle:
+    type: text
+    label: Subtitle
+    comment: The subtitle for your cover block
+  text:
+    type: markdown
+    label: Text Content
+    comment: The main text content for your cover block
