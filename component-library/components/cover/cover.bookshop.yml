@@ -15,9 +15,7 @@ blueprint:
   col_id: warning
   background_image: /featured-background.jpg
   # anchors are for .Fit hugo image method which currently don't work
-  image_anchor: 
   logo_image: http://placekitten.com/70/70
-  logo_anchor:
   # Height can be one of: auto, min, med, max, full.
   height: med
   byline: A byline

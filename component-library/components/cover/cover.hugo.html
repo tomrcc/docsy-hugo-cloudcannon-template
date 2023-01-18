@@ -2,8 +2,6 @@
 {{ $promo_image := .background_image }}
 {{ $logo_image := .logo_image }}
 {{ $col_id := .col_id | default "dark" }}
-{{ $image_anchor := .image_anchor | default "smart" }}
-{{ $logo_anchor := .logo_anchor | default "smart" }}
 {{/* Height can be one of: auto, min, med, max, full. */}}
 {{ $height := .height| default "max" }}
 {{ $byline := .byline| default "" }}
