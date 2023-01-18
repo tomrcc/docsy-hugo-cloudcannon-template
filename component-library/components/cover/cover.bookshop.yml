@@ -27,22 +27,22 @@ _inputs:
   title:
     type: text
     label: Heading
-    comment: Enter the main title
+    comment: Enter the main title.
   logo_image:
     type: image
     label: Logo Image
-    comment: Select a Logo image
+    comment: Select a Logo image.
   subtitle:
     type: text
     label: Subtitle
-    comment: Enter a capitalized subtitle 
+    comment: Enter a capitalized subtitle.
   text:
     type: markdown
     label: Text Content
-    comment: Enter the main text content for your cover block
+    comment: Enter the main text content for your cover block.
   col_id:
     label: Background Color
-    comment: Select a background color to be displayed if no background image is selected
+    comment: Select a background color to be displayed if no background image is selected. The darkness of the background color controls the font color.
     type: select
     options:
       values:
@@ -68,3 +68,24 @@ _inputs:
         - gray-800
         - gray-900
         - black
+  background_image:
+    label: Background Image
+    comment: Select an image as the background. Otherwise background color will be the displayed.
+    type: image
+  height:
+    label: Cover Height
+    comment: Select a height for the cover section
+    type: select
+    options:
+      values:
+        - auto
+        - min
+        - med
+        - full
+        - max
+  byline:
+    label: Byline
+    comment: A byline to be displayed in the bottom right corner
+    type: text
+
+
