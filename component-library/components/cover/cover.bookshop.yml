@@ -27,16 +27,44 @@ _inputs:
   title:
     type: text
     label: Heading
-    comment: The title for your cover block
+    comment: Enter the main title
   logo_image:
     type: image
-    label: Background Image
-    comment: Select a background image
+    label: Logo Image
+    comment: Select a Logo image
   subtitle:
     type: text
     label: Subtitle
-    comment: The subtitle for your cover block
+    comment: Enter a capitalized subtitle 
   text:
     type: markdown
     label: Text Content
-    comment: The main text content for your cover block
+    comment: Enter the main text content for your cover block
+  col_id:
+    label: Background Color
+    comment: Select a background color to be displayed if no background image is selected
+    type: select
+    options:
+      values:
+        - primary
+        - primary-light
+        - secondary
+        - success
+        - info
+        - warning
+        - danger
+        - white
+        - light
+        - dark
+        - blue
+        - orange
+        - gray-100
+        - gray-200
+        - gray-300
+        - gray-400
+        - gray-500
+        - gray-600
+        - gray-700
+        - gray-800
+        - gray-900
+        - black
