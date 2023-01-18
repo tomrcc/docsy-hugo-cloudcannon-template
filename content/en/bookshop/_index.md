@@ -10,8 +10,8 @@ content_blocks:
     text: >-
       Refer to this list of bookshop components to see what you can use to build
       your pages in CloudCannon
-    col_id: secondary
-    background_image: /images/featured-background.jpg
+    col_id: success
+    background_image:
     logo_image: http://placekitten.com/70/70
     height: med
     byline: A byline
