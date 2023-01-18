@@ -21,10 +21,7 @@ content_blocks:
     height: auto
     type: section
     Inner: This is the section shortcode block
-    link_down:
-      _bookshop_name: link_down
-      color: primary
-      id: test
+    link_down: 
   - _bookshop_name: lead
     color: primary
     height: auto
