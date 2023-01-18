@@ -70,11 +70,11 @@ _inputs:
         - black
   background_image:
     label: Background Image
-    comment: Select an image as the background. Otherwise background color will be the displayed.
+    comment: Select an image as the background. Otherwise background color will be displayed.
     type: image
   height:
     label: Cover Height
-    comment: Select a height for the cover section
+    comment: Select a height for the cover section.
     type: select
     options:
       values:
@@ -85,7 +85,7 @@ _inputs:
         - max
   byline:
     label: Byline
-    comment: A byline to be displayed in the bottom right corner
+    comment: A byline to be displayed in the bottom right corner.
     type: text
 
 
