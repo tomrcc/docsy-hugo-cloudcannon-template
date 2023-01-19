@@ -344,7 +344,7 @@ _snippets:
         text: A card used to display code
       view: gallery
     picker_preview:
-      text: Card Code
+      text: Code Card
       subtext: A card used to display code
       icon: tab
       gallery: 
@@ -354,7 +354,7 @@ _snippets:
       content:
         label: Card Content
         comment: The code to be displayed.
-        type: code
+        type: markdown
       header:
         label: Header
         comment: Set a card header.
