@@ -3,16 +3,15 @@ spec:
   structures:
     - content_blocks
   label: "Section"
-  description:
+  description: Meant as a general-purpose content container. It comes in two “flavors”, one for general content and one with styling more suitable for wrapping a horizontal row of feature sections.
   icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
   text: Inner text
-  col_id: light
-  # Height can be one of: auto, min, med, max, full.
-  height:
+  color: light
+  height: auto
   type: section
   Inner: This is the section shortcode block
   link_down: bookshop:link_down
@@ -22,3 +21,58 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  color:
+    label: Color
+    comment: Select a color.
+    type: select
+    options:
+      values:
+        - primary
+        - primary-light
+        - secondary
+        - success
+        - info
+        - warning
+        - danger
+        - white
+        - light
+        - dark
+        - blue
+        - orange
+        - gray-100
+        - gray-200
+        - gray-300
+        - gray-400
+        - gray-500
+        - gray-600
+        - gray-700
+        - gray-800
+        - gray-900
+        - black
+  height:
+    label: Height
+    comment: Select a height.
+    type: select
+    options:
+      values:
+        - auto
+        - min
+        - med
+        - full
+        - max
+  text:
+    label: Text
+    comment: The text content for the section. 
+    type: markdown
+  type:
+    label:
+    comment:
+    type: section
+    options:
+      values:
+        -
+        - section
+
+  
+
+
