@@ -23,15 +23,11 @@ Used to process images in the same page bundle.
 
 You can use the card snippet to insert a single card. This could be a plain card, or a code card like below, which supports syntax highlighting when a programming language is specified.
 
-{{< card-code header="javascript" lang="javascript" >}}\`\`\`javascript
+{{< card-code header="javascript" lang="javascript" >}}```javascript
+const variable = "wow this might work";
 
-const variable = "Unfortunately this doesn't work";
-
-console.log(variable);
-
-// Unfortunately this doesn't work
-
-\`\`\`{{< /card-code >}}
+console.log(variable); // wow this might work
+```{{< /card-code >}}
 
 Or you can use card pane as a wrapper for multiple cards anywhere in your markdown.
 
