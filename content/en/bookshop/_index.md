@@ -25,4 +25,5 @@ content_blocks:
     link_down:
       - _bookshop_name: link_down
         color: warning
+        id: nothing
 ---
