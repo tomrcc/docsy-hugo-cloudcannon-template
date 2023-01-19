@@ -658,7 +658,7 @@ _snippets:
       tryautoheight:
         label: Auto Height
         comment: If true the shortcode tries to calculate the needed height for the embedded content using JavaScript. Only possible if the embedded content is on the same domain.
-        type: checkbox
+        type: switch
       style:
         label: Style
         comment: CSS styles for the iframe. min-height:98vh; is a backup if Auto Height doesn’t work. border:none; removes the border from the iframe.
