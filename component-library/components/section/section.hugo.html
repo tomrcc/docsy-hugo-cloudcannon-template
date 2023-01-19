@@ -17,7 +17,7 @@
 				{{ .text | htmlUnescape | safeHTML }}
 			{{ end }}
 			{{ with .link_down }}
-				{{ partial "bookshop" (slice "link_down" . ) }}
+				{{ partial "bookshop" (slice "link_down" . )}}
 			{{ end }}
 		</div>
 	</div>

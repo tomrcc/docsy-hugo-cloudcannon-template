@@ -17,12 +17,4 @@ content_blocks:
     color: primary
     height: auto
     text: This is a lead section. Scroll down?
-  - _bookshop_name: section
-    text: Inner text
-    color: light
-    height: auto
-    type:
-    link_down:
-      - _bookshop_name: link_down
-        color: warning
 ---
