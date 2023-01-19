@@ -67,10 +67,10 @@ _inputs:
   type:
     label:
     comment:
-    type: section
+    type: select
     options:
       values:
-        -
+        - ""
         - section
 
   
