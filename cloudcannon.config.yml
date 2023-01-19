@@ -371,7 +371,7 @@ _snippets:
       highlight:
         label: Highlight
         comment: Set syntax highlighting to true or false.
-        type: boolean
+        type: checkbox
     
   tab:
     template: hugo_paired_shortcode_named_args
