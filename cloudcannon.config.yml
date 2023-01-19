@@ -44,7 +44,7 @@ _snippets:
     inline: true
     definitions:
       shortcode_name: alert
-      content_key: inner_text
+      content_key: message
       named_args:
         - source_key: color
           editor_key: color
@@ -85,7 +85,7 @@ _snippets:
         - key: title
         - An alert
       subtext:
-        - key: inner_text
+        - key: message
         - No text defined
       icon: warning
       gallery:
@@ -104,6 +104,14 @@ _snippets:
         type: select
         options:
           values: *css_colors
+      message:
+        label: Alert Message
+        comment: The content of your alert message.
+        type: text
+      title:
+        label: Alert Title
+        comment: The title of your alert message.
+        type: text
 
   imgproc:
     template: hugo_paired_shortcode_positional_args
