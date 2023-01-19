@@ -342,8 +342,8 @@ _snippets:
         text: A wrapper for cards to be displayed next to each other
     _inputs:
       card:
-        label: Card
-        comment: An individual card to occupy this card pane
+        label: Cards
+        comment: Add individual cards to occupy this card pane
         type: markdown
         options:
           snippet: true
@@ -628,23 +628,23 @@ _snippets:
           optional: true
           remove_empty: true
           type: string
-          default: Your browser cannot display embedded frames. You can access the embedded page via the following link
+          default: "Your browser cannot display embedded frames. You can access the embedded page via the following link:"
     preview:
       text: iframe
       subtext:
-        - Embed a webpage on your site
+        - Embed a webpage on the page
       icon: dashboard
       gallery: 
         image: /preview-images/iframe.png
-        text: Embed a site on your page
+        text: Embed a site on the page
       view: gallery
     picker_preview:
       text: iframe
-      subtext: Embed a site on your page
+      subtext: Embed a site on the page
       icon: dashboard
       gallery: 
         image: /preview-images/iframe.png
-        text: Embed a site on your page
+        text: Embed a site on the page
     _inputs:
       src:
         label: Source
@@ -717,7 +717,17 @@ _snippets:
         text: Import the contents of an external file into a document
     _inputs:
       file:
-        type: url
+        label: File
+        comment: Import the contents of this file into the document
+        type: file
+      code:
+        label: Code
+        comment: Specify true if the content of the imported file is code.
+        type: checkbox
+      lang:
+        label: Language
+        comment: Select a programming language to be used if the imported file requires syntax highlighting.
+        type: text
 
   swaggerui:
     template: hugo_shortcode_named_args
