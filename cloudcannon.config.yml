@@ -194,7 +194,7 @@ _snippets:
     preview:
       text:
         - key: message
-        - No message defined
+        - Page Info
       subtext:
         - key: color
         - No color defined
