@@ -24,17 +24,17 @@ preview:
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   title:
-    type: text
     label: Heading
     comment: Enter the main title.
+    type: text
   logo_image:
-    type: image
     label: Logo Image
     comment: Select a Logo image.
+    type: image
   subtitle:
-    type: text
     label: Subtitle
     comment: Enter a capitalized subtitle.
+    type: text
   text:
     label: Text Content
     comment: Enter the main text content for your cover block.
