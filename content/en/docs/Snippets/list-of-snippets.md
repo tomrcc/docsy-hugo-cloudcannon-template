@@ -33,7 +33,7 @@ console.log(variable)
 
 \`\`\`
 
-```
+```javascript
 const variable = "highlight?"
 
 console.log(variable)
