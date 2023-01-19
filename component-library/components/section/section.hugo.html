@@ -2,7 +2,7 @@
 {{ $col_id := .color | default "primary" }}
 {{ $height := .height | default "auto"  }}
 {{ if eq true .type }}
-	{{ $type := "" }} 
+	{{ $type := "section" }} 
 {{ end }}
 {{ if eq false .type }}
 	{{ $type := "section" }} 
