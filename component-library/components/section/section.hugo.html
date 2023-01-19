@@ -20,7 +20,7 @@
 				{{ partial "bookshop" (slice "link_down" . )}}
 			{{ end }}
 			{{ with .feature }}
-				{{ partial "bookshop" (slice "feature" . )}}
+				{{ partial "bookshop" (slice "feature" (dict . ) )}}
 			{{ end }}
 		</div>
 	</div>
