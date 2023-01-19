@@ -62,7 +62,7 @@ _inputs:
         - max
   text:
     label: Text
-    type: text
     comment: The text content for the lead section. 
+    type: markdown
   
 
