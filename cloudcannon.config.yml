@@ -201,15 +201,15 @@ _snippets:
       icon: info
       gallery: 
         image: /preview-images/pageinfo.png
-        text: A banner to display page info
+        text: A banner to display page info.
       view: gallery
     picker_preview:
       text: Page Info
-      subtext: A banner to display page info
+      subtext: A banner to display page info.
       icon: info
       gallery: 
         image: /preview-images/pageinfo.png
-        text: A banner to display page info
+        text: A banner to display page info.
     _inputs:
       color:
         type: select
@@ -269,7 +269,7 @@ _snippets:
         text: A basic card
     _inputs:
       message:
-        label: Card
+        label: Card Content
         comment: The content of the card.
         type: markdown
       header:
@@ -286,7 +286,7 @@ _snippets:
         type: text
       footer:
         label: Footer
-        comment: The card footer
+        comment: The card footer.
         type: text
 
   cardpane:
@@ -322,7 +322,7 @@ _snippets:
     inline: false
     definitions:
       shortcode_name: card-code
-      content_key: inner_text
+      content_key: content
       named_args:
         - source_key: header
           editor_key: header
@@ -351,15 +351,15 @@ _snippets:
         image: /preview-images/card-code.png
         text: A card used to display code
     _inputs:
-      inner_text:
-        type: markdown
+      content:
+        type: textarea
     
   tab:
     template: hugo_paired_shortcode_named_args
     inline: false
     definitions:
       shortcode_name: tab
-      content_key: inner_text
+      content_key: content
       named_args:
         - source_key: header
           editor_key: header
@@ -381,7 +381,7 @@ _snippets:
         - key: header
         - No header defined
       subtext:
-        - key: inner_text
+        - key: content
         - No content defined
       icon: tab
       gallery: 
@@ -411,16 +411,19 @@ _snippets:
           optional: true
           remove_empty: true
           type: boolean
+          default: false
         - source_key: right
           editor_key: right
           optional: true
           remove_empty: true
           type: boolean
+          default: true
         - source_key: langEqualsHeader
           editor_key: langEqualsHeader
           optional: true
           remove_empty: true
           type: boolean
+          default: true
         - source_key: persistLang
           editor_key: persistLang
           optional: true
@@ -446,6 +449,22 @@ _snippets:
         type: markdown
         options:
           snippet: true
+      text:
+        label: Text
+        comment: If the contents of your tabs should be rendered as text rather than code.
+        type: checkbox
+      right:
+        label: Right Align
+        comment: Align the tabs to the right of the tabpane
+        type: checkbox
+      langEqualsHeader:
+        label: Header Specifies Language
+        comment: If the header of each tab is the programming language to be used for syntax highlighting in the tab contents.
+        type: checkbox
+      persistLang:
+        label: Persist Language
+        comment: By default, the language of the selected tab is stored and preserved between different browser sessions. If the content length within your tabs differs greatly, this may lead to unwanted scrolling when switching between tabs. To disable this unwanted behaviour, check False.
+        type: checkbox
 
   iframe:
     template: hugo_shortcode_named_args
