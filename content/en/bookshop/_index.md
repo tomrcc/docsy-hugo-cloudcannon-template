@@ -7,12 +7,7 @@ content_blocks:
   - _bookshop_name: cover
     title: Bookshop List
     subtitle:
-    text: >-
-      {{< figure src="/images/featured-sunset-get.png" title="Image" >}}
-
-
-      Refer to this list of bookshop components to see what you can use to build
-      your pages in CloudCannon
+    text: A list of Bookshop components to refer to
     col_id: success
     background_image: /images/featured-background.jpg
     logo_image: http://placekitten.com/70/70
