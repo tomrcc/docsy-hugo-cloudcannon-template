@@ -30,11 +30,44 @@ console.log(variable)
 
 // highlight
 ```
+
+```go
+func main() {
+  input := `var foo = "bar";`
+
+  lexer := lexers.Get("javascript")
+  iterator, _ := lexer.Tokenise(nil, input)
+  style := styles.Get("github")
+  formatter := html.New(html.WithLineNumbers())
+
+  var buff bytes.Buffer
+  formatter.Format(&buff, style, iterator)
+
+  fmt.Println(buff.String())
+}
+```
 {{< card header="Header" title="Title" subtitle="Sub" footer="Foot" >}}
 
 ```javascript
 const variable = "markdown";
 ```
+
+```go
+func main() {
+  input := `var foo = "bar";`
+
+  lexer := lexers.Get("javascript")
+  iterator, _ := lexer.Tokenise(nil, input)
+  style := styles.Get("github")
+  formatter := html.New(html.WithLineNumbers())
+
+  var buff bytes.Buffer
+  formatter.Format(&buff, style, iterator)
+
+  fmt.Println(buff.String())
+}
+```
+
 {{< /card >}}
 
 Or you can use card pane as a wrapper for multiple cards anywhere in your markdown.
