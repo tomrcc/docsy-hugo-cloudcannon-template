@@ -33,6 +33,23 @@ console.log(variable)
 
 \`\`\`
 
+```
+const variable = "highlight?"
+
+console.log(variable)
+
+// highlight
+```
+{{< card header="Header" title="Title" subtitle="Sub" footer="Foot" >}}\`\`\`javascript
+
+const variable = "some string"
+
+\`\`\`
+
+```javascript
+const variable = "markdown";
+```{{< /card >}}
+
 Or you can use card pane as a wrapper for multiple cards anywhere in your markdown.
 
 {{< cardpane >}}{{< card header="Card" title="Card" subtitle="Used to display some grouped information to the user" footer="End " >}}1. Insert the card pane snippet into your markdown using the snippet selector in the markdown toolbar.
