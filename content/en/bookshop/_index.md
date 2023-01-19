@@ -8,6 +8,9 @@ content_blocks:
     title: Bookshop List
     subtitle:
     text: >-
+      {{< figure src="/images/featured-sunset-get.png" title="Image" >}}
+
+
       Refer to this list of bookshop components to see what you can use to build
       your pages in CloudCannon
     col_id: success
