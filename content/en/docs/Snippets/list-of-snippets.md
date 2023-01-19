@@ -34,24 +34,19 @@ Or you can use card pane as a wrapper for multiple cards anywhere in your markdo
 3. Use the top toolbar to insert cards into the card pane{{< /card >}}
 {{< card header="Card" title="Card" subtitle="Used to display some grouped information to the user" footer="End" >}}1. Insert the card pane snippet into your markdown using the snippet selector in the markdown toolbar.
 2. Edit the card pane.
-3. Use the top toolbar to insert cards into the card pane
-
-&nbsp;{{< /card >}}
-
-&nbsp;{{< /cardpane >}}
+3. Use the top toolbar to insert cards into the card pane{{< /card >}}{{< /cardpane >}}
 
 ### Tabs
 
 Similar to cards above, you can use tabs inside a tab pane to display tabbed information. Unlike cards, tabs can only be used inside the tab pane wrapper.
 
-{{< tabpane text=false right=true langEqualsHeader=false persistLang=false header="Tab Pane" >}}{{< tab header="English" disabled=false >}}Hello World!{{< /tab >}}
+{{< tabpane text=false right=true langEqualsHeader=true persistLang=false header="Tab Pane" >}}{{< tab header="English" disabled=false >}}Hello World!{{< /tab >}}
 {{< tab header="German" lang="markdown" disabled=false >}}Hallo Welt!{{< /tab >}}
 {{< tab header="Swahili" disabled=false >}}Vipi Dunia!{{< /tab >}}
 {{< tab header="Javascript" lang="js" disabled=false >}}const highlight = "Setting the language as a programming language provides syntax highlighting"
 
 console.log(highlight) // "Setting the language as a programming language provides syntax highlighting"{{< /tab >}}
-
-&nbsp;{{< /tabpane >}}
+{{< tab header="Languages:" disabled=true >}}{{< /tab >}}{{< /tabpane >}}
 
 ### Readfile
 
