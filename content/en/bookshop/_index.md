@@ -17,4 +17,15 @@ content_blocks:
     color: primary
     height: auto
     text: This is a lead section. Scroll down?
+  - _bookshop_name: section
+    text: |-
+      This is a section.
+
+      Remember to try add snippet functionality to this field.
+
+      Also test with features inside so can test whether Section Type works.
+    color: dark
+    height: auto
+    type: true
+    link_down:
 ---
