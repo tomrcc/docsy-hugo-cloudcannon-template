@@ -17,4 +17,10 @@ content_blocks:
     color: primary
     height: auto
     text: This is a lead section. Scroll down?
+  - _bookshop_name: section
+    text: This is a general section. Need to get link down nested component working.
+    color: light
+    height: auto
+    type: false
+    link_down:
 ---
