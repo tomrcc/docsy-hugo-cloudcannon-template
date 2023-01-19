@@ -40,13 +40,11 @@ Or you can use card pane as a wrapper for multiple cards anywhere in your markdo
 
 Similar to cards above, you can use tabs inside a tab pane to display tabbed information. Unlike cards, tabs can only be used inside the tab pane wrapper.
 
-{{< tabpane text=false right=true langEqualsHeader=true persistLang=false header="Tab Pane" >}}{{< tab header="English" disabled=false >}}Hello World!{{< /tab >}}
-{{< tab header="German" lang="markdown" disabled=false >}}Hallo Welt!{{< /tab >}}
+{{< tabpane text=false right=true langEqualsHeader=true persistLang=false header="Tab Pane" >}}{{< tab header="German" lang="markdown" disabled=false >}}Hallo Welt!{{< /tab >}}
 {{< tab header="Swahili" disabled=false >}}Vipi Dunia!{{< /tab >}}
 {{< tab header="Javascript" lang="js" disabled=false >}}const highlight = "Setting the language as a programming language provides syntax highlighting"
 
-console.log(highlight) // "Setting the language as a programming language provides syntax highlighting"{{< /tab >}}
-{{< tab header="Languages:" disabled=true >}}{{< /tab >}}{{< /tabpane >}}
+console.log(highlight) // "Setting the language as a programming language provides syntax highlighting"{{< /tab >}}{{< /tabpane >}}
 
 ### Readfile
 
