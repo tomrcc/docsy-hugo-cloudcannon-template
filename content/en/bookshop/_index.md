@@ -26,6 +26,9 @@ content_blocks:
       Also test with features inside so can test whether Section Type works.
     color: dark
     height: auto
-    type: true
+    type: false
     link_down:
+      _bookshop_name: link_down
+      id: Placeholder
+      color: warning
 ---
