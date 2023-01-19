@@ -354,7 +354,7 @@ _snippets:
       content:
         label: Card Content
         comment: The code to be displayed.
-          card:
+      card:
         type: markdown
         options:
           blockquote: true
