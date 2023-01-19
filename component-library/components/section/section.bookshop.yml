@@ -13,8 +13,7 @@ blueprint:
   color: light
   height: auto
   type: false
-  link_down:
-    - bookshop:structures:link_down
+  link_down: bookshop:link_down
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

@@ -1,7 +1,6 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-    - link_down
   label: "link_down"
   description: An arrow linking to an id
   icon: 
@@ -9,42 +8,14 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  color: dark
-  id: placeholder
+  color: 
+  id: 
   
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  color:
-    label: Color
-    comment: Select a color.
-    type: select
-    options:
-      values:
-        - primary
-        - primary-light
-        - secondary
-        - success
-        - info
-        - warning
-        - danger
-        - white
-        - light
-        - dark
-        - blue
-        - orange
-        - gray-100
-        - gray-200
-        - gray-300
-        - gray-400
-        - gray-500
-        - gray-600
-        - gray-700
-        - gray-800
-        - gray-900
-        - black
   
 
 
