@@ -8,7 +8,6 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  id: PlaceholderID
   color: warning
   
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -44,10 +43,6 @@ _inputs:
         - gray-800
         - gray-900
         - black
-  id:
-    label: ID
-    comment: The ID of the component to jump to
-    type: text
   
 
 
