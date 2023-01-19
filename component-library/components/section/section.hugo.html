@@ -19,6 +19,9 @@
 			{{ with .link_down }}
 				{{ partial "bookshop" (slice "link_down" . )}}
 			{{ end }}
+			{{ with .feature }}
+				{{ partial "bookshop" (slice "feature" . )}}
+			{{ end }}
 		</div>
 	</div>
 </section>

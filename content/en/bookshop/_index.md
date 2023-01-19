@@ -23,4 +23,5 @@ content_blocks:
     height: auto
     type: false
     link_down:
+    feature:
 ---
