@@ -559,6 +559,8 @@ _snippets:
         text: A set of tabs
     _inputs:
       tab:
+        label: Tabs
+        comment: Add tabs to the tabpane.
         type: markdown
         options:
           snippet: true
@@ -598,7 +600,6 @@ _snippets:
         - source_key: tryautoheight
           editor_key: tryautoheight
           optional: true
-          remove_empty: true
           type: boolean
           default: false
         - source_key: style
@@ -755,7 +756,12 @@ _snippets:
       gallery: 
         image: /preview-images/swaggerui.png
         text: Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
-    
+    _inputs:
+      src:
+        label: Source
+        comment: The OpenAPI YAML or JSON file used as the source file.
+        type: file
+
 
   redoc:
     template: hugo_shortcode_positional_args
@@ -777,7 +783,11 @@ _snippets:
       gallery: 
         image: /preview-images/swaggerui.png
         text: Placed inside any page, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
-
+    _inputs:
+      src:
+        label: Source
+        comment: The reference OpenAPI YAML or JSON file. This can be hosted anywhere you like, for example in your site’s root /static folder, but you can use a URL as well.
+        type: url
     
 
 # Collections are related sets of content files, typically grouped by folder.
