@@ -334,11 +334,6 @@ _snippets:
           optional: true
           remove_empty: true
           type: string
-        - source_key: highlight
-          editor_key: highlight
-          optional: true
-          remove_empty: true
-          type: boolean
     preview:
       text: Code Card
       subtext:
@@ -359,7 +354,7 @@ _snippets:
       content:
         label: Card Content
         comment: The code to be displayed.
-        type: textarea
+        type: code
       header:
         label: Header
         comment: Set a card header.
@@ -368,10 +363,6 @@ _snippets:
         label: Language
         comment: Set a programming language to be used for syntax highlighting.
         type: text
-      highlight:
-        label: Highlight
-        comment: Set syntax highlighting to true or false.
-        type: checkbox
     
   tab:
     template: hugo_paired_shortcode_named_args
