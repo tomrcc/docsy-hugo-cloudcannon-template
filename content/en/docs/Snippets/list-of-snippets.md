@@ -38,9 +38,8 @@ func main() {
   fmt.Println(buff.String())
 }
 ```
-{{< card header="Header" title="Title" subtitle="Sub" footer="Foot" >}}```javascript
-const variable = "markdown";
-```
+
+{{< card header="Header" title="Title" subtitle="Sub" footer="Foot" >}}
 
 ```go
 func main() {
@@ -56,7 +55,9 @@ func main() {
 
   fmt.Println(buff.String())
 }
-```{{< /card >}}
+```
+
+{{< /card >}}
 
 Or you can use card pane as a wrapper for multiple cards anywhere in your markdown.
 
