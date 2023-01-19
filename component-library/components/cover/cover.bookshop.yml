@@ -3,7 +3,7 @@ spec:
   structures:
     - content_blocks
   label: "Cover"
-  description:
+  description: A landing page type of block that fills the top of the page.
   icon:
   tags: []
 
