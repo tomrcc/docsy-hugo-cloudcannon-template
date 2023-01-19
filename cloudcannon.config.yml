@@ -290,7 +290,7 @@ _snippets:
         type: text
 
   cardpane:
-    template: hugo_paired_markdown_shortcode_named_args
+    template: hugo_paired_shortcode_named_args
     inline: false
     definitions:
       shortcode_name: cardpane
@@ -318,7 +318,7 @@ _snippets:
           snippet: true
 
   card-code:
-    template: hugo_paired_shortcode_named_args
+    template: hugo_paired_markdown_shortcode_named_args
     inline: false
     definitions:
       shortcode_name: card-code
