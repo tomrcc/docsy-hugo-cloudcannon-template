@@ -6,13 +6,17 @@ menu:
 content_blocks:
   - _bookshop_name: cover
     title: Bookshop List
-    subtitle: A list of available bookshop components
+    subtitle:
     text: >-
       Refer to this list of bookshop components to see what you can use to build
       your pages in CloudCannon
     col_id: success
     background_image: /images/featured-background.jpg
     logo_image: http://placekitten.com/70/70
-    height: max
+    height: auto
     byline: A Byline
+  - _bookshop_name: lead
+    color: primary
+    height: auto
+    text: This is a lead section. Scroll down?
 ---
