@@ -40,7 +40,7 @@ _inputs:
     comment: Enter the main text content for your cover block.
     type: markdown
     options:
-      snippets: true
+      snippet: true
   col_id:
     label: Background Color
     comment: Select a background color to be displayed if no background image is selected. The darkness of the background color controls the font color.
