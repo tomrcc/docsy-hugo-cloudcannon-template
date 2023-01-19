@@ -65,8 +65,8 @@ _inputs:
     type: markdown
   type:
     label: Section Type
-    comment: Horizontal
-    type: boolean
+    comment: Horizontal?
+    type: checkbox
 
   
 
