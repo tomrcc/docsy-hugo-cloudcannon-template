@@ -7,9 +7,9 @@
 	<div class="container text-center td-arrow-down">
 		<div class="h4 mb-0">
 			{{ if eq .Page.File.Ext "md" }}
-				{{ .Inner | markdownify }}
+				{{ .text | markdownify }}
 			{{ else }}
-				{{ .Inner | htmlUnescape | safeHTML }}
+				{{ .text | htmlUnescape | safeHTML }}
 			{{ end }}
 		</div>
 	</div>

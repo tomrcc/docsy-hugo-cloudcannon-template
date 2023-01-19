@@ -3,21 +3,66 @@ spec:
   structures:
     - content_blocks
   label: "Lead"
-  description:
+  description: A simple lead/title block with centred text and an arrow pointing to the next section.
   icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  color:
-  height:
-  Inner:
+  color: primary
+  height: auto
+  text: This is a lead section.
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  color: ""
-  height: ""
-  Inner: ""
+  color: primary
+  height: auto
+  text: This is a lead section.
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  color:
+    label: Color
+    comment: Select a color.
+    type: select
+    options:
+      values:
+        - primary
+        - primary-light
+        - secondary
+        - success
+        - info
+        - warning
+        - danger
+        - white
+        - light
+        - dark
+        - blue
+        - orange
+        - gray-100
+        - gray-200
+        - gray-300
+        - gray-400
+        - gray-500
+        - gray-600
+        - gray-700
+        - gray-800
+        - gray-900
+        - black
+  height:
+    label: Height
+    comment: Select a height.
+    type: select
+    options:
+      values:
+        - auto
+        - min
+        - med
+        - full
+        - max
+  text:
+    label: Text
+    type: text
+    comment: The text content for the lead section. 
+  
+
