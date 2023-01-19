@@ -594,21 +594,25 @@ _snippets:
           optional: true
           remove_empty: true
           type: string
+          default: 80%
         - source_key: tryautoheight
           editor_key: tryautoheight
           optional: true
           remove_empty: true
           type: boolean
+          default: false
         - source_key: style
           editor_key: style
           optional: true
           remove_empty: true
           type: string
+          default: min-height:98vh; border:none;
         - source_key: sandbox
           editor_key: sandbox
           optional: true
           remove_empty: true
           type: boolean 
+          default: false
         - source_key: name
           editor_key: name
           optional: true
@@ -623,7 +627,8 @@ _snippets:
           editor_key: sub
           optional: true
           remove_empty: true
-          type: string 
+          type: string
+          default: Your browser cannot display embedded frames. You can access the embedded page via the following link
     preview:
       text: iframe
       subtext:
@@ -640,6 +645,39 @@ _snippets:
       gallery: 
         image: /preview-images/iframe.png
         text: Embed a site on your page
+    _inputs:
+      src:
+        label: Source
+        comment: The URL of the site to be used in the iframe.
+        type: url
+      width:
+        label: Width
+        comment: The width of the iframe on the page. Accepts any CSS value.
+        type: text
+      tryautoheight:
+        label: Auto Height
+        comment: If true the shortcode tries to calculate the needed height for the embedded content using JavaScript. Only possible if the embedded content is on the same domain.
+        type: checkbox
+      style:
+        label: Style
+        comment: CSS styles for the iframe. min-height:98vh; is a backup if Auto Height doesn’t work. border:none; removes the border from the iframe.
+        type: textarea
+      sandbox:
+        label: Sandbox
+        comment: Switch the sandbox completely on
+        type: checkbox
+      name:
+        label: Name
+        comment: Specify the name of the iframe.
+        type: text
+      id:
+        label: ID
+        comment: Set the ID of the iframe.
+        type: text
+      sub:
+        label: Sub
+        comment: The text displayed (in addition to the embedded URL) if the user’s browser can’t display embedded frames.
+        type: textarea
     
 
   readfile:
