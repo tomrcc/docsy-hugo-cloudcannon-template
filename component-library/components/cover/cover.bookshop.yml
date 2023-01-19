@@ -15,7 +15,6 @@ blueprint:
   text: Content
   col_id: warning
   background_image: /featured-background.jpg
-  # Height can be one of: auto, min, med, max, full.
   height: med
   byline: A byline
 
@@ -37,9 +36,11 @@ _inputs:
     label: Subtitle
     comment: Enter a capitalized subtitle.
   text:
-    type: markdown
     label: Text Content
     comment: Enter the main text content for your cover block.
+    type: markdown
+    options:
+      snippets: true
   col_id:
     label: Background Color
     comment: Select a background color to be displayed if no background image is selected. The darkness of the background color controls the font color.
