@@ -67,12 +67,6 @@ Or you can use card pane as a wrapper for multiple cards anywhere in your markdo
 
 Similar to cards above, you can use tabs inside a tab pane to display tabbed information. Unlike cards, tabs can only be used inside the tab pane wrapper.
 
-{{< tabpane text=false right=true langEqualsHeader=true persistLang=true header="Tab Pane" >}}{{< tab header="Languages:" lang="Languages" disabled=true >}}Languages{{< /tab >}}
-{{< tab header="Go" lang="go" disabled=false >}}```go func main() {   input := `var foo = "bar";`    lexer := lexers.Get("javascript")   iterator, _ := lexer.Tokenise(nil, input)   style := styles.Get("github")   formatter := html.New(html.WithLineNumbers())    var buff bytes.Buffer   formatter.Format(&buff, style, iterator)    fmt.Println(buff.String()) } ```{{< /tab >}}
-{{< tab header="Javascript" lang="js" disabled=false >}}const highlight = "Setting the language as a programming language provides syntax highlighting"
-
-console.log(highlight) // "Setting the language as a programming language provides syntax highlighting"{{< /tab >}}{{< /tabpane >}}
-
 ### Readfile
 
 Readfile allows you to import the contents of an external file into a document.
