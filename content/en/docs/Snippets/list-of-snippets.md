@@ -23,14 +23,6 @@ Used to process images in the same page bundle.
 
 You can use the card snippet to insert a single card. This could be a plain card, or a code card like below, which supports syntax highlighting when a programming language is specified.
 
-```javascript
-const variable = "highlight?"
-
-console.log(variable)
-
-// highlight
-```
-
 ```go
 func main() {
   input := `var foo = "bar";`
@@ -46,9 +38,7 @@ func main() {
   fmt.Println(buff.String())
 }
 ```
-{{< card header="Header" title="Title" subtitle="Sub" footer="Foot" >}}
-
-```javascript
+{{< card header="Header" title="Title" subtitle="Sub" footer="Foot" >}}```javascript
 const variable = "markdown";
 ```
 
@@ -66,9 +56,7 @@ func main() {
 
   fmt.Println(buff.String())
 }
-```
-
-{{< /card >}}
+```{{< /card >}}
 
 Or you can use card pane as a wrapper for multiple cards anywhere in your markdown.
 
