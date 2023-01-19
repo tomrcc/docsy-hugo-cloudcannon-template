@@ -1,15 +1,19 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 {{ $col_id := .color | default "primary" }}
 {{ $height := .height | default "auto"  }}
-{{ $type := .type | default "" }} 
-<a id="td-block-{{ .Ordinal }}" class="td-offset-anchor"></a>
+{{ if eq true .type }}
+	{{ $type := "" }} 
+{{ end }}
+{{ if eq false .type }}
+	{{ $type := "section" }} 
+{{ end }}
 <section class="row td-box td-box--{{ $col_id }} td-box--gradient td-box--height-{{ $height }}">
 	<div class="col">
 		<div class="row {{ $type }}">
 			{{ if eq .Page.File.Ext "md" }}
-				{{ .Inner | markdownify }}
+				{{ .text | markdownify }}
 			{{ else }}
-				{{ .Inner | htmlUnescape | safeHTML }}
+				{{ .text | htmlUnescape | safeHTML }}
 			{{ end }}
 			{{ with .link_down }}
 				{{ partial "bookshop" (slice "link_down" . ) }}
