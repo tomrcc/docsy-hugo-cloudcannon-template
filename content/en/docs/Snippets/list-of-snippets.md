@@ -1,6 +1,11 @@
 ---
-title: List of Snippets
-layout: list
+categories: ["Examples", "Placeholders"]
+tags: ["shortcodes","docs","snippets"] 
+title: "List of Snippets/Shortcodes"
+linkTitle: "List of Snippets/Shortcodes"
+weight: 10
+description: >
+  A list of helpful shortcodes to reuse throughout your docs.
 ---
 ## Snippets/Shortcodes
 
