@@ -1,4 +1,5 @@
 ---
+layout: list
 categories: ["Examples", "Placeholders"]
 tags: ["bookshop","docs"] 
 title: "Bookshop Components"
