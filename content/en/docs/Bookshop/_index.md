@@ -1,8 +1,11 @@
 ---
-title: Bookshop
-menu:
-  main:
-    weight: 40
+categories: ["Examples", "Placeholders"]
+tags: ["bookshop","docs"] 
+title: "Bookshop Components"
+linkTitle: "Building pages with Bookshop"
+weight: 11
+description: >
+  How to use Bookshop to build pages in CloudCannon.
 content_blocks:
   - _bookshop_name: cover
     title: Bookshop List
