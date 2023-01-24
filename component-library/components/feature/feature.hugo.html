@@ -5,8 +5,8 @@
   <div class="mb-0">
   {{ .text }}
   </div>
-  {{ with .url }}
-    <a href="{{ . }}">Read More</a>
+  {{ with .link }}
+    <a href="{{ .url }}">{{ .url_text }}</a>
   {{ end }}
 </div>  
 

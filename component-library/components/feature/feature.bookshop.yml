@@ -10,15 +10,17 @@ spec:
 blueprint:
   title: A title
   text: Some text
-  url: https://github.com/gohugoio/hugo
-  url_text: Link text
+  link: 
+    url: https://github.com/gohugoio/hugo
+    url_text: Read More
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   title: A title
   text: Some text
-  url: https://github.com/gohugoio/hugo
-  url_text: Link text
+  link: 
+    url: https://github.com/gohugoio/hugo
+    url_text: Read More
   
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
