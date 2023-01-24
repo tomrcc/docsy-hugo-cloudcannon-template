@@ -43,30 +43,8 @@ func main() {
   fmt.Println(buff.String())
 }
 ```
-{{< card header="Header" title="Title" subtitle="Sub" footer="Foot" >}}```go
-func main() {
-  input := `var foo = "bar";`
-
-  lexer := lexers.Get("javascript")
-  iterator, _ := lexer.Tokenise(nil, input)
-  style := styles.Get("github")
-  formatter := html.New(html.WithLineNumbers())
-
-  var buff bytes.Buffer
-  formatter.Format(&buff, style, iterator)
-
-  fmt.Println(buff.String())
-}
-```{{< /card >}}
 
 Or you can use card pane as a wrapper for multiple cards anywhere in your markdown.
-
-{{< cardpane >}}{{< card header="Card" title="Card" subtitle="Used to display some grouped information to the user" footer="End " >}}1. Insert the card pane snippet into your markdown using the snippet selector in the markdown toolbar.
-2. Edit the card pane.
-3. Use the top toolbar to insert cards into the card pane{{< /card >}}
-{{< card header="Card" title="Card" subtitle="Used to display some grouped information to the user" footer="End" >}}1. Insert the card pane snippet into your markdown using the snippet selector in the markdown toolbar.
-2. Edit the card pane.
-3. Use the top toolbar to insert cards into the card pane{{< /card >}}{{< /cardpane >}}
 
 ### Tabs
 
