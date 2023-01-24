@@ -12,6 +12,7 @@ blueprint:
   size: lg
   type: primary
   url: https://github.com/google/docsy-example
+  text: Learn More
 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -20,6 +21,7 @@ preview:
   size: lg
   type: primary
   url: https://github.com/google/docsy-example
+  text: Learn More
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
