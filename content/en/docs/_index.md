@@ -1,6 +1,6 @@
 ---
-title: Documentations
-linkTitle: Documentationz
+title: Documentation
+linkTitle: Documentation
 weight: 20
 menu:
   main:
