@@ -20,7 +20,7 @@ preview:
   text: "Section"
   color: warning
   height: auto
-  type: ""
+  type: true
   feature:
     - bookshop:feature
     - bookshop:feature
