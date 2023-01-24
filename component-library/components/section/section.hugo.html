@@ -1,14 +1,15 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 {{ $col_id := .color | default "primary" }}
 {{ $height := .height | default "auto"  }}
-{{ $type := .type }} 
+{{ $type := .type }}
+{{ $id := .id }}
 {{ if eq false .type }}
 	{{ $type = "section" }}
 {{ end }}
 {{ if eq true .type }}
 	{{ $type = "" }} 
 {{ end }}
-<section class="row td-box td-box--{{ $col_id }} td-box--gradient td-box--height-{{ $height }}">
+<section id="{{ $id }}" class="row td-box td-box--{{ $col_id }} td-box--gradient td-box--height-{{ $height }}">
 	<div class="col">
 		{{ with .heading }}
 			<div class="col-12">

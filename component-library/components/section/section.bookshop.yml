@@ -14,6 +14,7 @@ blueprint:
   color: light
   height: auto
   type: true
+  id: Section_ID
   feature: [bookshop:feature]
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -23,6 +24,7 @@ preview:
   color: warning
   height: auto
   type: true
+  id: Section_ID
   feature:
     - bookshop:feature
     - bookshop:feature
@@ -76,6 +78,10 @@ _inputs:
     label: Section Type
     comment: Horizontal?
     type: checkbox
+  id:
+    label: ID
+    comment: Used in conjunction with Link Down arrow. Give this section an ID for the Link Down component to link to.
+    type: text 
 
   
 
