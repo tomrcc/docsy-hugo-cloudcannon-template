@@ -6,6 +6,9 @@
 <section class="row td-box td-box--{{ $col_id }} position-relative td-box--gradient td-box--height-{{ $height }}">
 	<div class="container text-center td-arrow-down">
 		<div class="h4 mb-0">
+			{{ with .heading }}
+				<h1>{{ . }}</h1>
+			{{ end }}
 			{{ if eq .Page.File.Ext "md" }}
 				{{ .text | markdownify }}
 			{{ else }}

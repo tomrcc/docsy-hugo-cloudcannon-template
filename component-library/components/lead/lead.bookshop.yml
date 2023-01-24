@@ -12,12 +12,14 @@ blueprint:
   color: primary
   height: auto
   text: This is a lead section.
+  heading: This can have a heading.
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   color: primary
   height: auto
   text: This is a lead section.
+  heading: This can have a heading.
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
