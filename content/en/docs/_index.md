@@ -7,8 +7,8 @@ menu:
 
 _inputs:
   title:
-    label: Title
-    comment: Set the title to be displayed at top of the page.
+    label: Page Title
+    comment: Set the title to be displayed at top of the page and in the tab.
     type: text
   linkTitle:
     label: Link Title
