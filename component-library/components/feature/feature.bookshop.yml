@@ -2,7 +2,7 @@
 spec:
   structures:
   label: "Feature"
-  description:
+  description: A feature to be used inside a section.
   icon:
   tags: []
 
@@ -26,3 +26,24 @@ preview:
   
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  icon:
+    label: Icon
+    comment: Set an icon using Font Awesome Icons. Include the prefix, 'fas' or 'fab' followed by your icon.
+    type: text
+  title:
+    label: Title
+    comment: The title for the feature.
+    type: text
+  text:
+    label: Text
+    comment: The main text content of the feature.
+    type: markdown
+  url:
+    label: Url
+    comment: The url of the page to link to.
+    type: url
+  url_text:
+    label: Link Text
+    comment: The text to be displayed for the clickable link.
+    type: text
+

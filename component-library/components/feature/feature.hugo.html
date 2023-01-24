@@ -8,7 +8,7 @@
     {{- .title -}}
   </h4>
   <div class="mb-0">
-  {{ .text }}
+    {{ .text | markdownify }}
   </div>
   {{ with .link }}
     <a href="{{ .url }}">{{ .url_text }}</a>
