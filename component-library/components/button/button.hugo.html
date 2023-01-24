@@ -3,5 +3,5 @@
 {{ $type := .type }}
 {{ $url := .url }}
 <a class="btn btn-{{ $type }} btn-{{ $type }} mr-3 mb-4" href="{{ $url }}">
-    {{ .text }} <i class="{{ if not (or (hasPrefix $icon "fas ") (hasPrefix $icon "fab ")) }}fas {{ end }}{{ $icon }} ml-2"></i>
+    {{ .text }} <i class="fas {{ $icon }} ml-2"></i>
 </a>
