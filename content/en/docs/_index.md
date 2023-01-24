@@ -5,6 +5,16 @@ weight: 20
 menu:
   main:
     weight: 20
+
+_inputs:
+  title:
+    label: Title
+    comment: Set the title to be displayed at top of the page.
+    type: text
+  linkTitle:
+    label: Link Title
+    comment: Set the link that appears in the navigation.
+    type: text
 ---
 {{% pageinfo %}}
 This is a placeholder page that shows you how to use this template site.
