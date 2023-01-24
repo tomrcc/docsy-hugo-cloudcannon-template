@@ -60,7 +60,7 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
+title = "Goldydocs-CloudCannon"
 description = "A Docsy example site"
 languageName ="English"
 # Weight used for sorting.
