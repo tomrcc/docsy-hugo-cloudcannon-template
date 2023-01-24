@@ -7,15 +7,13 @@
   {{ .text }}
   </div>
   {{ with .url }}
-  <p>
     <a href="{{ . }}">
       {{ with $url_text }}
         {{ $url_text }}
       {{ else }}
-        Read More
+        <p>Read More</p>
       {{ end }}
     </a>
-  </p>
   {{ end }}
 </div>  
 
