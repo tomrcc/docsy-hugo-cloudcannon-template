@@ -9,6 +9,7 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  heading: This is another section
   text: Inner text
   color: light
   height: auto
@@ -17,6 +18,7 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
+  heading: This is another section
   text: "Section"
   color: warning
   height: auto

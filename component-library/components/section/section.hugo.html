@@ -10,6 +10,11 @@
 {{ end }}
 <section class="row td-box td-box--{{ $col_id }} td-box--gradient td-box--height-{{ $height }}">
 	<div class="col">
+		{{ with .heading }}
+			<div class="col-12">
+				<h1 class="text-center">{{ .heading }}</h1>
+			</div>
+		{{ end }}
 		<div class="row {{ $type }}">
 			{{ if eq .Page.File.Ext "md" }}
 				{{ .text | markdownify }}
