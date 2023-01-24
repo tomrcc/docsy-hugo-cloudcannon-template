@@ -50,13 +50,6 @@ Or you can use card pane as a wrapper for multiple cards anywhere in your markdo
 
 Similar to cards above, you can use tabs inside a tab pane to display tabbed information. Unlike cards, tabs can only be used inside the tab pane wrapper.
 
-{{< tabpane text=true right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages" disabled=true >}}{{< /tab >}}
-{{< tab header="Javascript" lang="javascript" disabled=false >}}const hello = "hello";{{< /tab >}}
-{{< tab header="Go" lang="go" disabled=false >}}```go func main() {   input := `var foo = "bar";`    lexer := lexers.Get("javascript")   iterator, _ := lexer.Tokenise(nil, input)   style := styles.Get("github")   formatter := html.New(html.WithLineNumbers())    var buff bytes.Buffer   formatter.Format(&buff, style, iterator)    fmt.Println(buff.String()) } ```{{< /tab >}}
-{{< tab header="Javascript" lang="js" disabled=false >}}```javascript
-const something = "wont highlight";
-```{{< /tab >}}{{< /tabpane >}}
-
 ### Readfile
 
 Readfile allows you to import the contents of an external file into a document.
@@ -67,13 +60,9 @@ Readfile allows you to import the contents of an external file into a document.
 
 Embed external content into a Docsy page as an inline frame.
 
-{{< iframe src="https://cloudcannon.com/" width="80%" tryautoheight=true style="border: none;" sandbox=false name="CloudCannon" id="CloudCannon" sub="Your browser cannot display embedded frames. You can access the embedded page via the following link" >}}
-
 ### Redoc
 
 Renders API documentation from an OpenAPI YAML or JSON file.
-
-{{< redoc "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v2.0/yaml/petstore.yaml" >}}
 
 ### Swagger UI
 
