@@ -11,7 +11,7 @@ spec:
 blueprint:
   icon: fa-cubes
   title: A title
-  Inner: Some inner
+  inner: Some inner
   url: https://github.com/gohugoio/hugo
   url_text: Link text
 
@@ -19,7 +19,7 @@ blueprint:
 preview:
   icon: fa-cubes
   title: A title
-  Inner: Some inner
+  inner: Some inner
   url: https://github.com/gohugoio/hugo
   url_text: Link text
   
