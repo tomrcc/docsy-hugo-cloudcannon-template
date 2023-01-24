@@ -13,7 +13,7 @@ blueprint:
   color: light
   height: auto
   type:
-  feature: [bookshop:features:feature]
+  feature: [bookshop:feature]
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
