@@ -1,14 +1,14 @@
 {{ $icon := .icon }}
 {{ $url_text := .url_text }}
 <div id="feature" class="col-lg-4 mb-5 mb-lg-0 text-center">
-  {{/*  <div class="mb-4 h1">
+  <div class="mb-4 h1">
     <i class='{{ $icon }}'></i>
-  </div>  */}}
+  </div>
   <h4 class="h3">
     {{- .title -}}
   </h4>
   <div class="mb-0">
-  {{ .inner }}
+  {{ .text }}
   </div>
   {{ with .url }}
   <p>

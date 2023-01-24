@@ -9,17 +9,17 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  icon: fa-cubes
+  icon: fas fa-cubes
   title: A title
-  inner: Some inner
+  text: Some text
   url: https://github.com/gohugoio/hugo
   url_text: Link text
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  icon: fa-cubes
+  icon: fas fa-cubes
   title: A title
-  inner: Some inner
+  text: Some text
   url: https://github.com/gohugoio/hugo
   url_text: Link text
   
