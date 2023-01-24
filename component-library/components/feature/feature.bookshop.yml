@@ -1,7 +1,6 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-    - content_blocks
   label: "Feature"
   description:
   icon:
@@ -9,7 +8,6 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  icon: fas fa-cubes
   title: A title
   text: Some text
   url: https://github.com/gohugoio/hugo
@@ -17,7 +15,6 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  icon: fas fa-cubes
   title: A title
   text: Some text
   url: https://github.com/gohugoio/hugo
