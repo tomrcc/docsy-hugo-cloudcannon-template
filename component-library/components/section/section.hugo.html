@@ -17,7 +17,7 @@
 				{{ .text | htmlUnescape | safeHTML }}
 			{{ end }}
 			{{ with .feature }}
-				{{ range . }}
+				{{ range .feature }}
 					{{ partial "bookshop" (slice "feature" . ) }}
 				{{ end }}
 			{{ end }}
