@@ -16,13 +16,9 @@
 			{{ else }}
 				{{ .text | htmlUnescape | safeHTML }}
 			{{ end }}
-				{{/*  {{ range .feature }}
-					{{ partial "bookshop" . }}
-				{{ end }}  */}}
+				{{ range .feature }}
+					{{ partial "bookshop" (slice "feature" . ) }}
+				{{ end }}
 		</div>
 	</div>
-
-				{{ range .feature }}
-					{{ partial "bookshop" . }}
-				{{ end }}  
 </section>
