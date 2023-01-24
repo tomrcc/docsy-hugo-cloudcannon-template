@@ -17,11 +17,30 @@ content_blocks:
     height: auto
     text: This is a lead section.
   - _bookshop_name: section
-    text: Inner text
+    text:
     color: light
     height: auto
     type:
-    feature: []
+    feature:
+      - _bookshop_name: feature
+        icon: fa-cubes
+        title: Feature 1
+        Inner: Test
+        url: https://github.com/gohugoio/hugo
+        url_text: Github
+      - _bookshop_name: feature
+        icon: fa-cubes
+        title: Feature 1
+        Inner: Test
+        url: https://github.com/gohugoio/hugo
+        url_text: Github
+      - _bookshop_name: feature
+        icon: fa-cubes
+        title: Feature 1
+        Inner: Test
+        url: https://github.com/gohugoio/hugo
+        url_text: Github
+
 ---
 {{< blocks/section color="dark" >}}
 {{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
