@@ -11,6 +11,10 @@ content_blocks:
     background_image: /images/featured-background.jpg
     height: full
     byline:
+    link_down:
+      _bookshop_name: link_down
+      color: warning
+      id: section
   - _bookshop_name: lead
     color: primary
     height: auto
@@ -26,15 +30,26 @@ content_blocks:
     text: ''
     color: light
     height: auto
-    type: false
-    link_down:
+    type:
     feature:
-      _bookshop_name: feature
-      icon: fa-cubes
-      title: A title
-      Inner: Some inner
-      url: https://github.com/gohugoio/hugo
-      url_text: Link text
+      - _bookshop_name: feature
+        icon: fa-cubes
+        title: A title
+        Inner: Some inner
+        url: https://github.com/gohugoio/hugo
+        url_text: Link text
+      - _bookshop_name: feature
+        icon: fa-cubes
+        title: A title
+        Inner: Some inner
+        url: https://github.com/gohugoio/hugo
+        url_text: Link text
+      - _bookshop_name: feature
+        icon: fa-cubes
+        title: A title
+        Inner: Some inner
+        url: https://github.com/gohugoio/hugo
+        url_text: Link text
 ---
 {{< blocks/section color="dark" >}}
 {{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
