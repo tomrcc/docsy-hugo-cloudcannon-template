@@ -2,8 +2,8 @@
 spec:
   structures:
   label: "Button"
-  description:
-  icon:
+  description: A simple customizable button.
+  icon: smart_button
   tags: []
 
 # Defines the structure of this component, as well as the default values
@@ -25,3 +25,37 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  icon:
+    label: Icon
+    comment: Add a Font Awesome icon to your button. Follows the format fas fa-cubes.
+    type: text
+  size:
+    label: Size
+    comment: Select a size for the button.
+    type: select
+    options:
+      values:
+        - sm
+        - lg
+  type:
+    label: Type
+    comment: Select a button type from Bootstrap.
+    type: select
+      options:
+        values:
+          - primary
+          - secondary
+          - success
+          - warning
+          - outline-primary
+          - outline-secondary
+          - outline-success
+          - outline-warning
+  url:
+    label: Url
+    comment: The url for the address the button links to.
+    type: url
+  text:
+    label: Text
+    comment: The inner text of the button.
+    type: text
