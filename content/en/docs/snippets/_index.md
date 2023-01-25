@@ -21,10 +21,6 @@ Used to grab the users attention, and alert them to something important.
 
 {{< alert color="danger" title="An alert" >}}To display some important information{{< /alert >}}
 
-<div class="c-card c-card--clickable c-card--preview-top"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:warning" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text ">An alert</p><p class="c-card__subtext">To display some important information</p></div></div></div></div>
-
-<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" title="Click and drag to move" role="presentation" draggable="true" width="15" height="15" />
-
 ### Card
 
 A basic card to display information. The main content of the card is Markdown, which supports syntax highlighting, links and everything else usually supported by Markdown.
