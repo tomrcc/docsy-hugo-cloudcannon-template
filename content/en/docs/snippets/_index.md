@@ -40,7 +40,7 @@ console.log(string);
 ```{{< /card >}}
 {{< card header="A Different Card" title="Not Code" subtitle="Just random text" footer="Ka kite anō" >}}Just some normal markdown over here!{{< /card >}}{{< /cardpane >}}
 
-## Tabs
+### Tabs
 
 A way to display tabbed information. Tabs must be used within a tab pane. Tabs can be plain text, or code depending on which option is selected in Tab Pane. Tabs automatically detect which language to be highlighted through each Tabs header if the appropriate fields are selected in the parent Tab Pane. Has the ability to disable individual tabs, so they can be used as a label.
 
@@ -73,3 +73,9 @@ An easy way to display images in your markdown.
 You can nest snippets inside each other, as shown with this Figure snippet inside the Card snippet.
 
 {{< card header="A card with image" title="Card/Image" subtitle="Using a figure inside of a card" footer="See ya" >}}{{< figure src="/images/featured-sunset-get.png" title="A nested image" alt="A nested image" caption="Hope it works" >}}{{< /card >}}
+
+### Iframe
+
+Used to embed a website directly in your markdown.
+
+{{< iframe src="https://cloudcannon.com" width="80%" tryautoheight=false style="min-height:50vh; border:none;" sandbox=false sub="Your browser cannot display embedded frames. You can access the embedded page via the following link:" >}}
