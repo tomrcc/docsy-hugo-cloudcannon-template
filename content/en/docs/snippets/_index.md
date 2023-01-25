@@ -25,7 +25,7 @@ Used to grab the users attention, and alert them to something important.
 
 A basic card to display information. The main content of the card is Markdown, which supports syntax highlighting, links and everything else usually supported by Markdown.
 
-{{< card header="asda" title="asdasd" subtitle="asdasd" footer="sada" >}}aaa{{< /card >}}
+{{< card header="header" title="title" >}}{{< /card >}}
 
 ##
 
