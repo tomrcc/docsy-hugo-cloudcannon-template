@@ -19,10 +19,6 @@ _inputs:
     label: Link Title
     comment: Sets the title for the navigation link.
     type: text
-  weight:
-    label: Weight
-    comment: Sets the weight of the menu item. The higher the weight, the further down the menu item is.
-    type: number
 ---
 
 <!--add blocks of content here to add more sections to the community page -->
