@@ -27,15 +27,17 @@ console.log(something);
 
 ## Tabs
 {{< tabpane text=false right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages:" disabled=true >}}{{< /tab >}}
-{{< tab header="html" lang="html" disabled=false >}}&lt;code&gt;<br>&lt;h1&gt;Code Highlighting in Tabs&lt;/h1&gt;
+{{< tab header="HTML" lang="HTML" disabled=false >}}&lt;code&gt;<br>&lt;h1&gt;Code Highlighting in Tabs&lt;/h1&gt;
 
 &lt;p&gt;Tabs do not require markdown to enable highlighting. This is instead determined in the Tab Pane settings.&lt;/p&gt;
 
 &lt;/code&gt;
 
-<br>&lt;h1&gt;Code Highlighting in Tabs&lt;/h1&gt;
+```html
 
-&lt;p&gt;Tabs do not require markdown to enable highlighting. This is instead determined in the Tab Pane settings.&lt;/p&gt;{{< /tab >}}
+<h1>Code Highlighting in Tabs</h1>
+<p>Tabs do not require markdown to enable highlighting. This is instead determined in the Tab Pane settings.</p>
+```{{< /tab >}}
 {{< tab header="Javascript" lang="js" disabled=false >}}const something = "works?"
 
 // works?{{< /tab >}}{{< /tabpane >}}
