@@ -1,12 +1,6 @@
 # Read the CloudCannon documentation for more information on how to use this file:
 # https://cloudcannon.com/documentation/articles/setting-global-configuration/?ssg=Hugo
 
-_inputs:
-  weight:
-    label: Weight
-    comment: Sets the weight of the menu item. The higher the weight, the further down the menu item is.
-    type: number
-
 _editables: &md_editables
   text:
     italic: true
@@ -835,13 +829,6 @@ collections_config:
     _enabled_editors:
       - content
       - visual
-  examples:
-    path: content/en/docs/Examples
-    output: true
-    icon: description
-    _enabled_editors:
-      - content
-      - visual
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
@@ -879,3 +866,9 @@ source_editor:
 # Timezone of your site in IANA format. This is used by date and datetime inputs
 # within the CloudCannon Data Editor.
 timezone: Etc/UTC
+
+_inputs:
+  weight:
+    label: Weight
+    comment: Sets the weight of the menu item. The higher the weight, the further down the menu item is.
+    type: number
