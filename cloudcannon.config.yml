@@ -837,6 +837,13 @@ collections_config:
     _enabled_editors:
       - content
       - visual
+  examples:
+    path: content/en/docs/examples
+    output: true
+    icon: description
+    _enabled_editors:
+      - content
+      - visual
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
