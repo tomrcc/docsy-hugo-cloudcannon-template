@@ -24,4 +24,7 @@ console.log(something);
 ```{{< /card >}}
 
 ## Tabs
-{{< tabpane text=false right=true langEqualsHeader=true persistLang=false >}}{{< /tabpane >}}
+{{< tabpane text=false right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages:" disabled=true >}}{{< /tab >}}
+{{< tab header="Javascript" lang="js" disabled=false >}}const something = "works?"
+
+// works?{{< /tab >}}{{< /tabpane >}}
