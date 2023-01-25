@@ -15,3 +15,11 @@ Snippets, also known in Hugo as shortcodes are small reusable pieces of code tha
 
 ### Page Info
 {{% pageinfo color="primary" %}}This is some information about the page{{% /pageinfo %}}
+
+Card
+
+{{% card header="Card Header" title="Javascript code" subtitle="A jazzy subtitle." footer="Last but not least" %}}```javascript
+const highlighting = true
+
+console.log(highlighting)
+```{{% /card %}}
