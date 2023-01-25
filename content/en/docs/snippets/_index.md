@@ -26,7 +26,7 @@ console.log(something);
 {{< /card >}}
 
 ## Tabs
-{{< tabpane text=false right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages:" disabled=true >}}{{< /tab >}}
+{{< tabpane text=true right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages:" disabled=true >}}{{< /tab >}}
 {{< tab header="HTML" lang="HTML" disabled=false >}}&lt;code&gt;<br>&lt;h1&gt;Code Highlighting in Tabs&lt;/h1&gt;
 
 &lt;p&gt;Tabs do not require markdown to enable highlighting. This is instead determined in the Tab Pane settings.&lt;/p&gt;
