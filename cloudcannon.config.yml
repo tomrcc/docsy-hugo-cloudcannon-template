@@ -802,7 +802,7 @@ _snippets:
 collections_config:
   pages:
     output: true
-    filter: strict
+    filter: all
     parse_branch_index: true
     path: content/en
     icon: home
