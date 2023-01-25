@@ -27,6 +27,10 @@ console.log(something);
 
 ## Tabs
 {{< tabpane text=false right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages:" disabled=true >}}{{< /tab >}}
+{{< tab header="HTML" lang="html" disabled=false >}}```html
+<h1>This is a headin</h1>
+<p>This is a paragraph</p>
+```{{< /tab >}}
 {{< tab header="Javascript" lang="js" disabled=false >}}const something = "works?"
 
 // works?{{< /tab >}}{{< /tabpane >}}
