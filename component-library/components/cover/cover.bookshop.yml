@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "Cover"
   description: A landing page type of block that fills the top of the page.
-  icon:
+  icon: web
   tags: []
 
 # Defines the structure of this component, as well as the default values

@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "Section"
   description: Meant as a general-purpose content container. It comes in two “flavors”, one for general content and one with styling more suitable for wrapping a horizontal row of feature sections.
-  icon:
+  icon: segment
   tags: []
 
 # Defines the structure of this component, as well as the default values

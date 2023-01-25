@@ -2,8 +2,8 @@
 spec:
   structures:
   label: "link_down"
-  description: An arrow linking to an id
-  icon: 
+  description: An arrow linking to a section with an id.
+  icon: expand_more
   tags: []
 
 # Defines the structure of this component, as well as the default values

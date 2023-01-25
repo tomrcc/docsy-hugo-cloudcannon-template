@@ -3,7 +3,7 @@ spec:
   structures:
   label: "Feature"
   description: A feature to be used inside a section.
-  icon:
+  icon: add_link
   tags: []
 
 # Defines the structure of this component, as well as the default values
