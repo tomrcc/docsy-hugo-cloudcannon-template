@@ -17,14 +17,16 @@ Snippets, also known in Hugo as shortcodes are small reusable pieces of code tha
 {{< alert color="danger" title="An alert" >}}To display some important information{{< /alert >}}
 
 ### Card
-{{< card header="A plain card " title="Javascript" subtitle="You can use markdown for code highlighting" footer="A parting message" >}}```javascript
+{{< card header="A plain card " title="Javascript" subtitle="You can use markdown for code highlighting" footer="A parting message" >}}
+```javascript
 const something = "hello world";
 console.log(something);
 // hello world
-```{{< /card >}}
+```
+{{< /card >}}
 
 ## Tabs
-{{< tabpane text=true right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages:" disabled=true >}}{{< /tab >}}
+{{< tabpane text=false right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages:" disabled=true >}}{{< /tab >}}
 {{< tab header="Javascript" lang="js" disabled=false >}}const something = "works?"
 
 // works?{{< /tab >}}{{< /tabpane >}}
