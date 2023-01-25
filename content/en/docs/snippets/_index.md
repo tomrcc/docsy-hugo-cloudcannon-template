@@ -21,6 +21,10 @@ Used to grab the users attention, and alert them to something important.
 
 {{< alert color="danger" title="An alert" >}}To display some important information{{< /alert >}}
 
+<div class="c-card c-card--clickable c-card--preview-top"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:warning" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text ">An alert</p><p class="c-card__subtext">To display some important information</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" title="Click and drag to move" role="presentation" draggable="true" width="15" height="15" />
+
 ### Card
 
 A basic card to display information. The main content of the card is Markdown, which supports syntax highlighting, links and everything else usually supported by Markdown.
@@ -57,8 +61,12 @@ border: solid 1px black;
 
 ### Figure
 
-One of the ways to easily display images in your markdown.<br>
+One of the ways to easily display images in your markdown.
 
-Card with image<br><br>
+{{< figure src="/images/featured-sunset-get.png" title="An image" caption="Images are stored in Static folder" >}}
+
+### Card with Figure
+
+You can nest snippets inside each other, as shown with this Figure snippet inside the Card snippet.
 
 {{< card header="A card with image" title="Card/Image" subtitle="Using a figure inside of a card" footer="See ya" >}}{{< figure src="/images/featured-sunset-get.png" title="A nested image" alt="A nested image" caption="Hope it works" >}}{{< /card >}}
