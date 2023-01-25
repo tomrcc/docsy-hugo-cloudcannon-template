@@ -521,10 +521,9 @@ _snippets:
       named_args:
         - source_key: text
           editor_key: text
-          optional: true
+          optional: false
           remove_empty: false
           type: boolean
-          default: false
         - source_key: right
           editor_key: right
           optional: true
