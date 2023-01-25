@@ -522,7 +522,7 @@ _snippets:
         - source_key: text
           editor_key: text
           optional: true
-          remove_empty: true
+          remove_empty: false
           type: boolean
           default: false
         - source_key: right
