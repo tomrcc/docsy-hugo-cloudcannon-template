@@ -16,9 +16,9 @@ Snippets, also known in Hugo as shortcodes are small reusable pieces of code tha
 ### Page Info
 {{% pageinfo color="primary" %}}This is some information about the page{{% /pageinfo %}}
 
-Card
-
-{{< card header="HJead" title="title" subtitle="siub" footer="fopt" >}}```javascript
-const something = "sytring";
-console.log(something)l
+### Card
+{{< card header="A plain card " title="Javascript" subtitle="You can use markdown for code highlighting" footer="A parting message" >}}```javascript
+const something = "hello world";
+console.log(something);
+// hello world
 ```{{< /card >}}
