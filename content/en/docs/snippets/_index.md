@@ -10,13 +10,21 @@ description: |
 Snippets, also known in Hugo as shortcodes are small reusable pieces of code that you can include in your markdown files.<br><br>Here are some of the ones you can use in Docsy:
 
 ### Page Info
+
+Used to display important information about the page.
+
 {{% pageinfo color="primary" %}}This is some information about the page{{% /pageinfo %}}
 
 ### Alert
 
+Used to grab the users attention, and alert them to something important.
+
 {{< alert color="danger" title="An alert" >}}To display some important information{{< /alert >}}
 
 ### Card
+
+A basic card to display information. The main content of the card is Markdown, which supports syntax highlighting, links and everything else usually supported by Markdown.
+
 {{< card header="A plain card " title="Javascript" subtitle="You can use markdown for code highlighting" footer="A parting message" >}}
 ```javascript
 const something = "hello world";
@@ -26,6 +34,9 @@ console.log(something);
 {{< /card >}}
 
 ## Tabs
+
+A way to display tabbed information. Tabs must be used within a tab pane. Tabs can be plain text, or code depending on which option is selected in Tab Pane. Tabs automatically detect which language to be highlighted through each Tabs header if the appropriate fields are selected in the parent Tab Pane. Has the ability to disable individual tabs, so they can be used as a label.
+
 {{< tabpane text=false right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages:" disabled=true >}}{{< /tab >}}
 {{< tab header="HTML" lang="HTML" disabled=false >}}```html
 
