@@ -57,6 +57,8 @@ border: solid 1px black;
 
 ### Figure
 
-One of the ways to easily display images in your markdown.
+One of the ways to easily display images in your markdown.<br>
 
-{{< figure src="/images/featured-sunset-get.png" title="A random image" alt="Placeholder Image" caption="A sunset image" attr="By Andy Warhol" width="500px" height="500px" >}}
+Card with image<br><br>
+
+{{< card header="A card with image" title="Card/Image" subtitle="Using a figure inside of a card" footer="See ya" >}}{{< figure src="/images/featured-sunset-get.png" title="A nested image" alt="A nested image" caption="Hope it works" >}}{{< /card >}}
