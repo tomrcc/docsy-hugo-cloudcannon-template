@@ -59,4 +59,4 @@ border: solid 1px black;
 
 One of the ways to easily display images in your markdown.
 
-{{< figure src="/images/featured-sunset-get.png" title="A random image" alt="Placeholder Image" caption="A sunset image" attr="- Andy Warhol" width="500px" height="500px" >}}
+{{< figure src="/images/featured-sunset-get.png" title="A random image" alt="Placeholder Image" caption="A sunset image" attr="By Andy Warhol" width="500px" height="500px" >}}
