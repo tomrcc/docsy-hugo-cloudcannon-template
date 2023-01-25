@@ -41,16 +41,16 @@ _inputs:
     label: Type
     comment: Select a button type from Bootstrap.
     type: select
-      options:
-        values:
-          - primary
-          - secondary
-          - success
-          - warning
-          - outline-primary
-          - outline-secondary
-          - outline-success
-          - outline-warning
+    options:
+      values:
+        - primary
+        - secondary
+        - success
+        - warning
+        - outline-primary
+        - outline-secondary
+        - outline-success
+        - outline-warning
   url:
     label: Url
     comment: The url for the address the button links to.
