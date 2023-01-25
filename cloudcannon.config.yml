@@ -95,7 +95,6 @@ _snippets:
         - No text defined
       icon: warning
       gallery:
-        image: /preview-images/alert.png
         text: An alert
       view: gallery
     picker_preview:
