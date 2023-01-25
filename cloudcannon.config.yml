@@ -838,7 +838,7 @@ collections_config:
       - content
       - visual
   examples:
-    path: content/en/docs/examples
+    path: content/en/docs/Examples
     output: true
     icon: description
     _enabled_editors:
