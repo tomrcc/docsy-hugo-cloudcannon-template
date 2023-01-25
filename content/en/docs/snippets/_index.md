@@ -31,15 +31,15 @@ console.log(something);
 
 <h1>Code Highlighting in Tabs</h1>
 <p>Tabs do not usually require markdown to enable highlighting. This is instead determined in the Tab Pane settings.</p>
-<span>If a certain language is having trouble, like HTML use Markdown highlighting as a fall bac</span>
+<span>If a certain language is having trouble, like with HTML tags, use Markdown highlighting as a fall back</span>
 ```{{< /tab >}}
 {{< tab header="Javascript" lang="js" disabled=false >}}const something = "works?"
 
 // works?{{< /tab >}}
-{{< tab header="CSS" lang="CSS" disabled=false >}}.class \{
+{{< tab header="CSS" lang="CSS" disabled=false >}}.class {
 
 min-height: 98vh;
 
 border: solid 1px black;
 
-\}{{< /tab >}}{{< /tabpane >}}
+}{{< /tab >}}{{< /tabpane >}}
