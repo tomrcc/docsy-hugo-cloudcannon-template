@@ -30,8 +30,12 @@ const something = "Hello World";
 console.log(something);
 // Hello World
 ```{{< /card >}}
-
-##
+{{< cardpane >}}{{< card header="Nested Card" title="Javascript" subtitle="Code highlighting" footer="See Ya" >}}```javascript
+const string = "something random";
+console.log(string);
+// something random
+```{{< /card >}}
+{{< card header="A Different Card" title="Not Code" subtitle="Just random text" footer="Ka kite" >}}Just some normal markdown over he{{< /card >}}{{< /cardpane >}}
 
 ## Tabs
 
@@ -59,7 +63,7 @@ border: solid 1px black;
 
 One of the ways to easily display images in your markdown.
 
-{{< figure src="/images/featured-sunset-get.png" title="An image" caption="Images are stored in Static folder" width="20vw" height="20vh" >}}
+{{< figure src="/images/featured-sunset-get.png" title="An image" caption="Images are stored in Static folder" width="200" height="200" >}}
 
 ### Card with Figure
 
