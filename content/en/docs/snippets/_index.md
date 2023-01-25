@@ -54,3 +54,6 @@ min-height: 98vh;
 border: solid 1px black;
 
 }{{< /tab >}}{{< /tabpane >}}
+
+### Figure
+{{< figure src="/images/featured-sunset-get.png" title="A random image" alt="Placeholder Image" caption="An sunset image" attr="Photographer" width="500px" height="500px" >}}
