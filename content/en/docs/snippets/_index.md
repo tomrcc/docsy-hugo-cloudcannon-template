@@ -21,7 +21,7 @@ Used to grab the users attention, and alert them to something important.
 
 {{< alert color="danger" title="An alert" >}}To display some important information{{< /alert >}}
 
-### Card
+### Cards
 
 A basic card to display information. The main content of the card is Markdown, which supports syntax highlighting, links and everything else usually supported by Markdown.
 
@@ -30,12 +30,15 @@ const something = "Hello World";
 console.log(something);
 // Hello World
 ```{{< /card >}}
+
+Cards can be inserted by themselves into Markdown, or wrapped in a card pane if required to be side by side.
+
 {{< cardpane >}}{{< card header="Nested Card" title="Javascript" subtitle="Code highlighting" footer="See Ya" >}}```javascript
 const string = "something random";
 console.log(string);
 // something random
 ```{{< /card >}}
-{{< card header="A Different Card" title="Not Code" subtitle="Just random text" footer="Ka kite" >}}Just some normal markdown over he{{< /card >}}{{< /cardpane >}}
+{{< card header="A Different Card" title="Not Code" subtitle="Just random text" footer="Ka kite anō" >}}Just some normal markdown over here!{{< /card >}}{{< /cardpane >}}
 
 ## Tabs
 
@@ -61,7 +64,7 @@ border: solid 1px black;
 
 ### Figure
 
-One of the ways to easily display images in your markdown.
+An easy way to display images in your markdown.
 
 {{< figure src="/images/featured-sunset-get.png" title="An image" caption="Images are stored in Static folder" width="200" height="200" >}}
 
