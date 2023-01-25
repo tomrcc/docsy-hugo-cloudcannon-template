@@ -59,7 +59,7 @@ border: solid 1px black;
 
 One of the ways to easily display images in your markdown.
 
-{{< figure src="/images/featured-sunset-get.png" title="An image" caption="Images are stored in Static folder" >}}
+{{< figure src="/images/featured-sunset-get.png" title="An image" caption="Images are stored in Static folder" width="20vw" height="20vh" >}}
 
 ### Card with Figure
 
