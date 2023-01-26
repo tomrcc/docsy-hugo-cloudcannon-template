@@ -25,11 +25,13 @@ Used to grab the users attention, and alert them to something important.
 
 A basic card to display information. The main content of the card is Markdown, which supports syntax highlighting, links and everything else usually supported by Markdown.
 
-{{< card header="Javascript" title="Code Highlighting" footer="A parting gift" >}}```javascript
+{{< card header="Javascript" title="Code Highlighting" footer="A parting gift" >}}
+```javascript
 const something = "Hello World";
 console.log(something);
 // Hello World
-```{{< /card >}}
+```
+{{< /card >}}
 
 Cards can be inserted by themselves into Markdown, or wrapped in a card pane if required to be side by side.
 
@@ -72,10 +74,14 @@ An easy way to display images in your markdown.
 
 You can nest snippets inside each other, as shown with this Figure snippet inside the Card snippet.
 
-{{< card header="A card with image" title="Card/Image" subtitle="Using a figure inside of a card" footer="See ya" >}}{{< figure src="/images/featured-sunset-get.png" title="A nested image" alt="A nested image" caption="Hope it works" >}}{{< /card >}}
+{{< card header="A card with image" title="Card/Image" subtitle="Using a figure inside of a card" footer="See ya" >}}{{< figure src="/images/featured-sunset-get.png" title="A nested image" alt="A nested image" caption="A figure inside a card" >}}{{< /card >}}
 
 ### Iframe
 
 Used to embed a website directly in your markdown.
 
 {{< iframe src="https://cloudcannon.com" width="80%" tryautoheight=false style="min-height:50vh; border:none;" sandbox=false sub="Your browser cannot display embedded frames. You can access the embedded page via the following link:" >}}
+
+### Swagger UI
+
+Placed anywhere inside a page with \`\`\`layout: swagger\`\`\` it renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source. See an example here.<br><br><br><br><br>
