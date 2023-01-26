@@ -90,14 +90,8 @@ Placed anywhere inside a page with
 layout: swagger
 ```
 
-it renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source. See an example here. This file can be hosted anywhere you like, for example in your site’s root /static folder.
-
-### Redoc
-
-Uses the open-source Redoc tool to render reference API documentation from an OpenAPI YAML or JSON file. This can be hosted anywhere you like, for example in your site’s root /static folder, but you can use a URL as well.<br><br>
-
-{{< redoc "/docs/snippets/swaggerui-example/" >}}
+it renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source. This file can be hosted anywhere you like, for example in your site’s root /static folder.<br><br>See an example [here](/docs/snippets/swaggerui-example/).
 
 ###
 
-### <br><br>
+### <br>
