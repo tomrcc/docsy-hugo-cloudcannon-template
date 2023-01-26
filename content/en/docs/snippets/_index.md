@@ -91,7 +91,3 @@ layout: swagger
 ```
 
 it renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source. This file can be hosted anywhere you like, for example in your site’s root /static folder.<br><br>See an example [here](/docs/snippets/swaggerui-example/).
-
-###
-
-### <br>
