@@ -52,7 +52,9 @@ A way to display tabbed information. Tabs must be used within a tab pane. Tabs c
 <h1>Code Highlighting in Tabs</h1>
 <p>Tabs do not usually require markdown to enable highlighting. This is instead determined in the Tab Pane settings.</p>
 <span>If a certain language is having trouble, like with HTML tags, use Markdown highlighting as a fall back</span>
-```{{< /tab >}}
+```
+
+&lt;p&gt;HTML sometimes has trouble with syntax highlighting&lt;/p&gt;{{< /tab >}}
 {{< tab header="Javascript" lang="js" disabled=false >}}const something = "works?"
 
 // works?{{< /tab >}}
