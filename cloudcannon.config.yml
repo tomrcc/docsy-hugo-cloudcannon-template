@@ -426,7 +426,7 @@ _snippets:
         type: text
       lang:
         label: Language
-        comment: The language to be used for syntax highlighting in this tab
+        comment: The language to be used for syntax highlighting in this tab. This field can be left blank if 'Header Specifies Language' is true in Tab Pane.
         type: text
       disabled:
         label: Disabled
@@ -486,7 +486,7 @@ _snippets:
           snippet: true
       text:
         label: Text
-        comment: If the contents of your tabs should be rendered as text rather than code.
+        comment: If the contents of your tabs should be rendered as plain text rather than code.
         type: checkbox
       right:
         label: Right Align
@@ -494,7 +494,7 @@ _snippets:
         type: checkbox
       langEqualsHeader:
         label: Header Specifies Language
-        comment: If the header of each tab is the programming language to be used for syntax highlighting in the tab contents.
+        comment: If the header of each tab is the programming language to be used for syntax highlighting in the tab contents. Language can also be specified inside each tab independently to tab header.
         type: checkbox
       persistLang:
         label: Persist Language
