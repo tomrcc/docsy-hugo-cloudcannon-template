@@ -65,8 +65,10 @@ border: solid 1px black;
 }{{< /tab >}}{{< /tabpane >}}
 {{< highlight "js" >}}const variable = "code stuff";
 console.log(variable); // code stuff{{< /highlight >}}
-{{< tabpane text=false right=true langEqualsHeader=false persistLang=false >}}{{% tab header="html" disabled=false %}}{{< highlight "html" >}}<p>a paragraph</p>{{< /highlight >}}
-{{% tab header="javascript" disabled=false %}}{{< highlight "js" >}}const variable = "A vartiavble!"{{< /highlight >}}{{% /tab %}}{{% /tab %}}{{< /tabpane >}}
+{{< tabpane text=false right=true langEqualsHeader=false persistLang=false >}}{{% tab disabled=false %}}{{< highlight "html" >}}<h1>heading</h1>
+<p>A pargraph</p>
+{{< /highlight >}}{{% /tab %}}
+{{% tab header="javascript" disabled=false %}}{{< highlight "js" >}}const variable = "A string";{{< /highlight >}}{{% /tab %}}{{< /tabpane >}}
 
 ### Figure
 
