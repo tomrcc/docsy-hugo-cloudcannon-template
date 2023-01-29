@@ -420,7 +420,6 @@ _snippets:
           right: align-right
           justify: align-justify
           image_size_attributes: true
-          snippet: true
       header:
         label: Tab Header
         comment: The header for this individual tab
