@@ -347,7 +347,7 @@ _snippets:
           snippet: true
     
   tab:
-    template: hugo_paired_markdown_shortcode_named_args
+    template: hugo_paired_shortcode_named_args
     inline: false
     definitions:
       shortcode_name: tab
