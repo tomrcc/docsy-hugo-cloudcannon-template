@@ -457,7 +457,7 @@ _snippets:
           optional: true
           remove_empty: true
           type: boolean
-          default: true
+          default: false
         - source_key: persistLang
           editor_key: persistLang
           optional: true
