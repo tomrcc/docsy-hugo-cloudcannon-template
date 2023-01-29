@@ -46,23 +46,6 @@ console.log(string);
 
 A way to display tabbed information. Tabs must be used within a tab pane. Tabs can be plain text, or code depending on which option is selected in Tab Pane. Tabs automatically detect which language to be highlighted through each Tabs header if the appropriate fields are selected in the parent Tab Pane. Has the ability to disable individual tabs, so they can be used as a label.
 
-{{< tabpane text=false right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages:" disabled=true >}}{{< /tab >}}
-{{< tab header="HTML" lang="HTML" disabled=false >}}```html
-
-<h1>Code Highlighting in Tabs</h1>
-<p>Tabs do not usually require markdown to enable highlighting. This is instead determined in the Tab Pane settings.</p>
-<span>If a certain language is having trouble, like with HTML tags, use Markdown highlighting as a fall back</span>
-```{{< /tab >}}
-{{< tab header="Javascript" lang="js" disabled=false >}}const something = "works?"
-
-// works?{{< /tab >}}
-{{< tab header="CSS" lang="CSS" disabled=false >}}.class {
-
-min-height: 98vh;
-
-border: solid 1px black;
-
-}{{< /tab >}}{{< /tabpane >}}
 {{< highlight "js" >}}const variable = "code stuff";
 console.log(variable); // code stuff{{< /highlight >}}
 {{< tabpane text=false right=true langEqualsHeader=false persistLang=false >}}{{% tab disabled=false %}}{{< highlight "html" >}}<h1>heading</h1>
