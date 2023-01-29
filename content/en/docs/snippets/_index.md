@@ -63,6 +63,8 @@ min-height: 98vh;
 border: solid 1px black;
 
 }{{< /tab >}}{{< /tabpane >}}
+{{< highlight "js" >}}const variable = "code stuff";
+console.log(variable); // code stuff{{< /highlight >}}
 
 ### Figure
 
