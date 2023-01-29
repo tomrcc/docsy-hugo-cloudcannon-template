@@ -84,10 +84,10 @@ Used to embed a website directly in your markdown.
 
 ### Swagger UI
 
-Placed anywhere inside a page with
+Placed anywhere inside a page with a front matter key of:
 
 ```yaml
-layout: swagger
+type: swagger
 ```
 
 it renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source. This file can be hosted anywhere you like, for example in your site’s root /static folder.<br><br>See an example [here](/docs/snippets/swaggerui-example/).
