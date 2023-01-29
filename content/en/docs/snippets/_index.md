@@ -65,6 +65,14 @@ border: solid 1px black;
 }{{< /tab >}}{{< /tabpane >}}
 {{< highlight "js" >}}const variable = "code stuff";
 console.log(variable); // code stuff{{< /highlight >}}
+{{< tabpane text=false right=true langEqualsHeader=true persistLang=false >}}{{< tab header="Languages:" disabled=true >}}{{< /tab >}}
+{{< tab header="Javascript" disabled=false >}}{{< highlight "js" >}}const tesdt = "this is a tesdt"
+// a comemen{{< /highlight >}}{{< /tab >}}
+{{< tab disabled=false >}}{{< highlight "js" >}}const anotherTest = "No header";
+console.log(anotherTest);
+// "No header";{{< /highlight >}}{{< /tab >}}
+{{< tab header="HTML" disabled=false >}}{{< highlight "html" >}}<h1>HTML Heading</h1>
+<p>A paragraph to test if html hightlighting o</p>{{< /highlight >}}{{< /tab >}}{{< /tabpane >}}
 
 ### Figure
 
