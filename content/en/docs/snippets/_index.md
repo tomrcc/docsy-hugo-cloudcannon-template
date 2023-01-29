@@ -46,9 +46,11 @@ console.log(string);
 
 A way to display tabbed information. Tabs must be used within a tab pane. Tabs can be plain text, or code depending on which option is selected in Tab Pane. Tabs automatically detect which language to be highlighted through each Tabs header if the appropriate fields are selected in the parent Tab Pane. Has the ability to disable individual tabs, so they can be used as a label.
 
-{{% tabpane text=false right=true langEqualsHeader=false persistLang=false %}}{{< tab disabled=false >}}{{< highlight "js" >}}const variable = "A string"{{< /highlight >}}{{< /tab >}}{{% /tabpane %}}
+{{< tabpane text=false right=true langEqualsHeader=false persistLang=false >}}{{< tab disabled=false >}}{{< highlight "js" >}}const variable = "A string";{{< /highlight >}}{{< /tab >}}{{< /tabpane >}}
+
 {{< highlight "js" >}}const variable = "code stuff";
 console.log(variable); // code stuff{{< /highlight >}}
+{{< card >}}{{< highlight "js" >}}const anotherVariable = 123;{{< /highlight >}}{{< /card >}}
 
 ### Figure
 
