@@ -60,7 +60,7 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs-CloudCannon"
+title = "Docsy Cannon"
 description = "A Docsy example site"
 languageName ="English"
 # Weight used for sorting.
@@ -154,6 +154,8 @@ breadcrumb_disable = false
 footer_about_disable = false
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
 navbar_logo = true
+# Set the path to the logo
+navbar_logo_path = "/icons/logo.svg"
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
 navbar_translucent_over_cover_disable = false
 # Enable to show the side bar menu in its compact state.
