@@ -34,7 +34,7 @@ _inputs:
     comment: Select a Logo image.
     type: image
     options:
-      uploads_dir: /../assets/icons
+      uploads_dir: assets/icons
   subtitle:
     label: Subtitle
     comment: Enter a capitalized subtitle.

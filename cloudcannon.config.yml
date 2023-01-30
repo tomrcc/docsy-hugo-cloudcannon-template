@@ -651,7 +651,7 @@ paths:
   includes: layouts
   layouts: layouts
   static: static
-  uploads: static
+  uploads:
   source:
   archetypes: archetypes
   assets: assets
