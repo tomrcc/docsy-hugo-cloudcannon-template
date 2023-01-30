@@ -10,7 +10,7 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   title: A title
-  logo_image: /assets/icons/logo.svg
+  logo_image: /logo.svg
   subtitle: A subtitle
   text: Content
   col_id: warning
