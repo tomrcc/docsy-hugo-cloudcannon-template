@@ -1,5 +1,6 @@
 
 ---
+_schema: post
 title: "Another Great Release"
 linkTitle: "Release New Features"
 date: 2018-01-04

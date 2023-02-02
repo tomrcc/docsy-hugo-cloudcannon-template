@@ -1,4 +1,5 @@
 ---
+_schema: post
 date: 2018-10-06
 title: 'Easy documentation with Docsy'
 linkTitle: 'Announcing Docsy'
