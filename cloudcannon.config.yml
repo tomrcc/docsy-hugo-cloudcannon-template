@@ -602,19 +602,14 @@ collections_config:
       - visual
       - content
     schemas:
+      main:
+        path: schemas/main.md
+        create:
+          path: '{title|slugify}/_index.md'
   blog:
     path: content/en/blog
     output: true
     icon: auto_stories
-    add_options:
-      - name: Add Post
-        icon: edit
-        schema: default
-        base_path: blog
-      - name: Add Post Index
-        icon: edit
-        schema: post_list
-        base_path: blog
     schemas:
       default:
         path: schemas/blog/post.md
@@ -622,7 +617,6 @@ collections_config:
       post_list:
         path: schemas/blog/post_list.md
         name: Post Index Page
-        collection: pages
         create:
           path: '[relative_base_path]/{title|slugify}/_index.md'
     _enabled_editors:
@@ -646,7 +640,6 @@ collections_config:
     path: content/en/docs
     output: true
     icon: description
-    parse_branch_index: true
     schemas:
       default:
         name: Docs Page
@@ -656,9 +649,6 @@ collections_config:
         path: schemas/docs/index.md
         create:
           path: '[relative_base_path]/{title|slugify}/_index.md'
-      home:
-        name: home
-        path: schemas/docs/home.md
     _enabled_editors:
       - content
       - visual
