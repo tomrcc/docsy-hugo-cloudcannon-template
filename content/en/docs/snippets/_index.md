@@ -3,6 +3,8 @@ _schema: index
 title: Snippets
 linkTitle: Snippets
 weight: 10
+tags: []
+categories: []
 description: |
   A list of helpful snippets to reuse throughout your markdown.
 ---

@@ -1,10 +1,10 @@
-
 ---
 _schema: index
 title: "Examples"
 linkTitle: "Examples"
 weight: 3
-date: 2017-01-05
+tags: []
+categories: []
 description: >
   See your project in action!
 ---

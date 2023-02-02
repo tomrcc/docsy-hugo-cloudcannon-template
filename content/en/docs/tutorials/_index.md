@@ -3,7 +3,8 @@ _schema: index
 title: "Tutorials"
 linkTitle: "Tutorials"
 weight: 8
-date: 2017-01-04
+tags: []
+categories: []
 description: >
   Show your user how to work through some end to end examples.
 ---
