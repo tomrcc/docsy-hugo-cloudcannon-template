@@ -1,4 +1,5 @@
 ---
+_schema: index
 title: "Core Tasks"
 linkTitle: "Core Tasks"
 weight: 6

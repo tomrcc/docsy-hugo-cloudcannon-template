@@ -1,4 +1,5 @@
 ---
+_schema: index
 title: Snippets
 linkTitle: Snippets
 weight: 10

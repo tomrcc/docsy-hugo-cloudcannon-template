@@ -1,4 +1,5 @@
 ---
+_schema: index
 title: "Overview"
 linkTitle: "Overview"
 weight: 1

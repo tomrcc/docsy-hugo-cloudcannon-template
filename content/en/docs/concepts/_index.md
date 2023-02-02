@@ -1,5 +1,5 @@
 ---
-_schema: default
+_schema: index
 title: "Concepts"
 linkTitle: "Concepts"
 weight: 4

@@ -1,4 +1,5 @@
 ---
+_schema: index
 categories: ["Examples", "Placeholders"]
 tags: ["test","docs"] 
 title: "Getting Started"

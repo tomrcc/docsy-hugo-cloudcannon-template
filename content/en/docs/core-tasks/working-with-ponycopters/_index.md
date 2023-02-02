@@ -1,5 +1,6 @@
 
 ---
+_schema: index
 title: "Working with Ponycopters"
 linkTitle: "Working with Ponycopters"
 date: 2017-01-05
