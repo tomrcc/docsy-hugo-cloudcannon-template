@@ -1,4 +1,5 @@
 ---
+_schema: bookshop_main
 title: Community Tab
 linkTitle: Community
 menu:
