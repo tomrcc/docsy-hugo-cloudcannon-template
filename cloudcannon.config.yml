@@ -629,6 +629,8 @@ collections_config:
     schemas:
       default:
         path: schemas/docs/default.md
+      single:
+        path: schemas/docs/docs.md
     _enabled_editors:
       - content
       - visual
