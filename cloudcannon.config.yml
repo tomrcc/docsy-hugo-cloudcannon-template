@@ -602,8 +602,8 @@ collections_config:
       - visual
       - content
     schemas:
-      main:
-        path: schemas/main.md
+      default:
+        path: schemas/default.md
         create:
           path: '{title|slugify}/_index.md'
       bookshop_main:
