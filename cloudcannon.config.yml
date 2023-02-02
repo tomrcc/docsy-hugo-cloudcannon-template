@@ -605,6 +605,13 @@ collections_config:
     path: content/en/blog
     output: true
     icon: auto_stories
+    schemas:
+      default:
+        path: schemas/blog/default.md
+        name: Post Index Page
+      post:
+        path: schemas/blog/post.md
+        name: New Post
     _enabled_editors:
       - content
       - visual
@@ -629,8 +636,6 @@ collections_config:
     schemas:
       default:
         path: schemas/docs/default.md
-      single:
-        path: schemas/docs/docs.md
     _enabled_editors:
       - content
       - visual
