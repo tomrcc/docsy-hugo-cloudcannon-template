@@ -645,9 +645,8 @@ collections_config:
         create:
           path: '[relative_base_path]/{title|slugify}/_index.md'
       home:
-        name: ""
+        name: home
         path: schemas/docs/home.md
-        hide: true
     _enabled_editors:
       - content
       - visual
