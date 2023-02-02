@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: "Concepts"
 linkTitle: "Concepts"
 weight: 4

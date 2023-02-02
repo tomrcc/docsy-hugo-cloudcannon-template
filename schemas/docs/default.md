@@ -4,6 +4,6 @@ linkTitle:
 weight:
 date:
 description:
-categories:
+categories: []
 tags: []
 ---
