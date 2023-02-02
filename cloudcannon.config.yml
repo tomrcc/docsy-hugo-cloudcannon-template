@@ -626,6 +626,9 @@ collections_config:
     path: content/en/docs
     output: true
     icon: description
+    schemas:
+      default:
+        path: schemas/docs/default.md
     _enabled_editors:
       - content
       - visual
