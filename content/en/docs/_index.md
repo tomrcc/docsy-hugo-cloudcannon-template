@@ -1,4 +1,5 @@
 ---
+_schema: home
 title: Documentation
 linkTitle: Documentation
 menu:
