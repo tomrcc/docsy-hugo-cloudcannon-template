@@ -606,6 +606,10 @@ collections_config:
         path: schemas/main.md
         create:
           path: '{title|slugify}/_index.md'
+      bookshop_main:
+        path: schemas/bookshop_main.md
+        create:
+          path: '{title|slugify}/_index.md'
   blog:
     path: content/en/blog
     output: true
