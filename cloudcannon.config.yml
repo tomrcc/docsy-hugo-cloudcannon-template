@@ -637,16 +637,17 @@ collections_config:
     parse_branch_index: true
     schemas:
       default:
-        name: Docs page
+        name: Docs Page
         path: schemas/docs/default.md
       index:
         name: Docs Section
-        path: schemas/docs/default.md
+        path: schemas/docs/index.md
         create:
           path: '[relative_base_path]/{title|slugify}/_index.md'
       home:
-        name: Docs Home
+        name: ""
         path: schemas/docs/home.md
+        hide: true
     _enabled_editors:
       - content
       - visual

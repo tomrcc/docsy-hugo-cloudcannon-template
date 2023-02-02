@@ -1,7 +1,8 @@
 ---
 title:
 linkTitle:
-menu:
-  main:
-    weight: 20
+weight:
+description:
+categories: []
+tags: []
 ---
