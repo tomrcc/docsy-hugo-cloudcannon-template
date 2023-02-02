@@ -602,17 +602,29 @@ collections_config:
       - visual
       - content
     schemas:
-      post_list:
-        path: schemas/blog/post_list.md
-        name: Post Index Page
   blog:
     path: content/en/blog
     output: true
     icon: auto_stories
+    add_options:
+      - name: Add Post
+        icon: edit
+        schema: default
+        base_path: blog
+      - name: Add Post Index
+        icon: edit
+        schema: post_list
+        base_path: blog
     schemas:
       default:
         path: schemas/blog/post.md
         name: New Blog Post
+      post_list:
+        path: schemas/blog/post_list.md
+        name: Post Index Page
+        collection: pages
+        create:
+          path: '[relative_base_path]/{title|slugify}/_index.md'
     _enabled_editors:
       - content
       - visual
