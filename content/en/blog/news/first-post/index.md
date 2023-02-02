@@ -7,7 +7,7 @@ description: >-
   The Docsy Hugo theme lets project maintainers and contributors focus on
   content, not on reinventing a website infrastructure from scratch
 author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
-weight: 3
+weight: 0
 resources:
   - src: '**.{png,jpg}'
     title: 'Image #:counter'
