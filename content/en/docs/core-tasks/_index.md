@@ -1,9 +1,10 @@
-
 ---
 title: "Core Tasks"
 linkTitle: "Core Tasks"
 weight: 6
 date: 2017-01-05
+tags: []
+categories:
 description: >
   What can your user do with your project?
 ---
