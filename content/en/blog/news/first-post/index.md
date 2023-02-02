@@ -5,6 +5,7 @@ title: 'Easy documentation with Docsy'
 linkTitle: 'Announcing Docsy'
 description: 'The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch'
 author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
+weight:
 resources:
   - src: '**.{png,jpg}'
     title: 'Image #:counter'
