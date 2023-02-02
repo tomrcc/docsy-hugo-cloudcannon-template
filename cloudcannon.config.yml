@@ -601,17 +601,18 @@ collections_config:
     _enabled_editors:
       - visual
       - content
+    schemas:
+      post_list:
+        path: schemas/blog/post_list.md
+        name: Post Index Page
   blog:
     path: content/en/blog
     output: true
     icon: auto_stories
     schemas:
       default:
-        path: schemas/blog/default.md
-        name: Post Index Page
-      post:
         path: schemas/blog/post.md
-        name: New Post
+        name: New Blog Post
     _enabled_editors:
       - content
       - visual
@@ -640,9 +641,9 @@ collections_config:
         path: schemas/docs/default.md
       index:
         name: Docs Section
-        path: schemas/docs/index.md
+        path: schemas/docs/default.md
         create:
-          path: '{title|slugify}/_index.md'
+          path: '[relative_base_path]/{title|slugify}/_index.md'
     _enabled_editors:
       - content
       - visual
