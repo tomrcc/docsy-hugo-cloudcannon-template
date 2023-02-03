@@ -7,12 +7,12 @@
     <header>
       {{ partial "navbar.html" . }}
     </header>
-    <div class="container-fluid td-default td-outer">
-      <div class="row flex-xl-nowrap">
-        <main role="main" class="td-main col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4">
+    <div class="container-fluid td-outer">
+      <main role="main" class="td-main">
+        <div class="row flex-xl-nowrap">
           {{ block "main" . }}{{ end }}
-        </main>
-      </div>
+        </div>    
+      </main>
       {{ partial "footer.html" . }}
     </div>
     {{ partialCached "scripts.html" . }}
