@@ -603,7 +603,7 @@ collections_config:
       - content
     schemas:
       default:
-        path: schemas/default.md
+        path: schemas/main.md
         create:
           path: '{title|slugify}/_index.md'
       bookshop_main:
