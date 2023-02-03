@@ -18,9 +18,9 @@ content_blocks:
     link_down:
     button: []
   - _bookshop_name: lead
-    color: primary
+    color: light
     height: auto
-    text: This is a lead section.
+    text: This is a lead section
     heading: This can have a heading.
     id: Lead_ID
 ---
