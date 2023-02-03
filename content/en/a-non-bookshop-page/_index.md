@@ -6,7 +6,8 @@ menu:
   main:
     weight: 10
 ---
-##
+{{< cardpane >}}{{< card header="card" title=" title" >}}asdd{{< /card >}}
+{{< card header="asdf" title="asf" subtitle="asdf" footer="asdf" >}},asdjkfba,sdnbv.{{< /card >}}{{< /cardpane >}}
 
 ##
 
