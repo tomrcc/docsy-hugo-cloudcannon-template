@@ -690,6 +690,8 @@ collections_config:
     icon: description
     text_key: name
     description: Configure the sites data.
+    disable_add: true
+    disable_add_folder: true
     documentation:
       url: "https://example.com/documentation/"
       text: Read more about your data collection
