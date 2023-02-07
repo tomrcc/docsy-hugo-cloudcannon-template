@@ -730,6 +730,9 @@ collections_config:
         label: Footer "About" Link
         comment: Turn on to disable the link to the "About" page in the footer.
         type: switch
+      versioning:
+        label: Versioning
+        comment: Set up a versioning system for your documentation. More info [here](https://www.docsy.dev/docs/adding-content/versioning/)
       version_menu:
         label: Version Menu Name
         comment: If versions are enabled, this is the name of the version drop-down menu.
@@ -778,6 +781,26 @@ collections_config:
         label: Github Branch
         comment: Specify a value here if you have would like to reference a branch in your repository that is not the "main" for the other github settings like Edit this page or Create project issue.
         type: text
+      gcs_engine_id:
+        label: Google Custom Search Engine ID
+        comment: The default search option, which uses Google’s index of your public site to generate a search results page. Find out more [here](https://www.docsy.dev/docs/adding-content/navigation/#configure-search-with-a-google-custom-search-engine)
+        type: text
+      # algolia_docsearch:
+      #   label:
+      #   comment:
+      #   type:
+      # offlineSearch:
+      #   label:
+      #   comment:
+      #   type:
+      # offlineSearchSummaryLength:
+      #   label:
+      #   comment:
+      #   type:
+      # offlineSearchMaxResults:
+      #   label:
+      #   comment:
+      #   type:
 
 
 
