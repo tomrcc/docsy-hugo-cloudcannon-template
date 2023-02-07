@@ -772,7 +772,7 @@ collections_config:
         type: url
       github_subdir:
         label: Github Sub Directory
-        comment: "Specify a value here if your content directory is not in your repo’s root directory. For example, a site that is in the "userguide" subdirectory of its repo would specify "userguide". Setting this value means that your edit links will go to the right page."
+        comment: "Specify a value here if your content directory is not in your repo’s root directory. For example, a site that is in the 'userguide' subdirectory of its repo would specify 'userguide'. Setting this value means that your edit links will go to the right page."
         type: text
       github_branch:
         label: Github Branch
