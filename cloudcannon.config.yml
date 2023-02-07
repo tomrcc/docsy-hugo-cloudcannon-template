@@ -601,7 +601,8 @@ collections_config:
     _enabled_editors:
       - visual
       - content
-    text_key: 
+    text_key: title
+    subtext_key: linkTitle
     description: Collection of pages.
     schemas:
       default:
