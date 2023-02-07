@@ -605,6 +605,13 @@ collections_config:
     subtext_key: linkTitle
     description: Collection of pages.
     disable_add_folder: true
+    add_options:
+      - name: Page
+        base_path: /
+        schema: default
+      - name: Bookshop
+        base_path: /
+        schema: bookshop_main
     schemas:
       default:
         path: schemas/main.md
@@ -649,6 +656,7 @@ collections_config:
     subtext_key: linkTitle
     description: An about page built using Bookshop.
     disable_add: true
+    disable_add_folder: true
     _enabled_editors:
       - visual
       - content
@@ -657,6 +665,7 @@ collections_config:
     output: true
     icon: groups
     disable_add: true
+    disable_add_folder: true
     _enabled_editors:
       - content
       - visual
