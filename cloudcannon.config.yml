@@ -624,6 +624,9 @@ collections_config:
     path: content/en/blog
     output: true
     icon: auto_stories
+    text_key: title
+    subtext_key: date
+    description: Collection of blog posts.
     schemas:
       default:
         path: schemas/blog/post.md
@@ -640,6 +643,9 @@ collections_config:
     path: content/en/about
     output: true
     icon: psychology
+    text_key: title
+    subtext_key: linkTitle
+    description: An about page built using Bookshop.
     _enabled_editors:
       - visual
       - content
@@ -654,6 +660,9 @@ collections_config:
     path: content/en/docs
     output: true
     icon: description
+    text_key: title
+    subtext_key: description
+    description: The documentation section.
     schemas:
       default:
         name: Docs Page
