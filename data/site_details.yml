@@ -1,5 +1,5 @@
-baseURL: "/"
 title: "DocsyCannon"
+baseURL: ""
 navbar:
   navbar_logo: true
   navbar_logo_path: "/icons/logo.svg"

@@ -698,6 +698,14 @@ collections_config:
     _enabled_editors:
       - data
     _inputs:
+      title:
+        label: Title
+        comment: The title to use for the site.
+        type: text
+      baseURL:
+        label: Base URL
+        comment: The base URL to use for your site.
+        type: text
       navbar_logo:
         label: Navbar Logo
         comment: Turn on to enable logo in the top left of the navbar.
@@ -726,9 +734,6 @@ collections_config:
         label: Version Menu Name
         comment: If versions are enabled, this is the name of the version drop-down menu.
         type: text
-        documentation:
-          url: https://www.docsy.dev/docs/adding-content/versioning/
-          text: Docsy Versioning
       versions:
         label: Versions
         comment: An array of all versions of the site. When versions are added here, a dropdown will appear in the navbar.
@@ -757,6 +762,22 @@ collections_config:
         label: Latest Version Link
         comment: A link to the latest version inside Archived Version Banner when on.
         type: url
+      github_repo:
+        label: Github Repository
+        comment: "The URL for your site’s source repository. This is used to generate the Edit this page, Create child page, and Create documentation issue links."
+        type: url
+      github_project_repo:
+        label: Seperate project Repo
+        comment: "Specify a value here if you have a separate project repo and you’d like your users to be able to create issues against your project from the relevant docs. The Create project issue link appears only if this is set."
+        type: url
+      github_subdir:
+        label: Github Sub Directory
+        comment: "Specify a value here if your content directory is not in your repo’s root directory. For example, a site that is in the "userguide" subdirectory of its repo would specify "userguide". Setting this value means that your edit links will go to the right page."
+        type: text
+      github_branch:
+        label: Github Branch
+        comment: Specify a value here if you have would like to reference a different branch for the other github settings like Edit this page or Create project issue.
+        type: text
 
 
 
