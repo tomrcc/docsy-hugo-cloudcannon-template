@@ -792,7 +792,8 @@ collections_config:
         type: text
       search:
         label: Search
-.      gcs_engine_id:
+        comment: Configure search options for your site. Read more [here](https://www.docsy.dev/docs/adding-content/navigation/#site-search-options).
+.     gcs_engine_id:
         label: Google Custom Search Engine ID
         comment: "The default search option, which uses Google’s index of your public site to generate a search results page. If you don’t specify a Google Custom Search Engine ID for your project and haven’t enabled any other search options, the search box won’t appear in your site. Read more [here](https://www.docsy.dev/docs/adding-content/navigation/#configure-search-with-a-google-custom-search-engine)."
         type: text
