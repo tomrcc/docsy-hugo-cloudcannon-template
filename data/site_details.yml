@@ -1,25 +1,27 @@
-baseURL: /
-title: DocsyCannon
+baseURL: "/"
+title: "DocsyCannon"
 navbar:
   navbar_logo: true
-  navbar_logo_path: /icons/logo.svg
-  navbar_translucent_over_cover_disable: false
+  navbar_logo_path: "/icons/logo.svg"
+  navbar_translucent_over_cover_disable: true
 footer:
-  copyright: The Docsy Author
-  privacy_policy: https://policies.google.com/privacy
+  copyright: "The Docsy Author"
+  privacy_policy: "https://policies.google.com/privacy"
   footer_about_disable: false
 versions:
-  version_menu: Releases
-  version_menu_pagelinks: false
+  version_menu: "Releases"
+  version_menu_pagelinks: false 
   archived_version: false
-  version: '0.0'
-  url_latest_version: https://example.com
+  current_version: "0.0"
+  url_latest_version: "https://example.com"
   versions:
+    - version:
+      version_url:
 github:
-  github_repo: https://github.com/google/docsy-example
-  github_project_repo: https://github.com/google/docsy
-  github_subdir: ''
-  github_branch: master
+  github_repo:  "https://github.com/google/docsy-example"
+  github_project_repo:  "https://github.com/google/docsy"
+  github_subdir:  ""
+  github_branch: "master"
 search:
   gcs_engine_id: d72aa9b2712488cc3
   algolia_docsearch: false
@@ -32,17 +34,12 @@ user_interface:
   readingtime: false
   feedback:
     enable: true
-    'yes': >-
-      Glad to hear it! Please <a
-      href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we
-      can improve</a>.
-    'no': >-
-      Sorry to hear that. Please <a
-      href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we
-      can improve</a>.
+    yes: 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+    no: 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 sidebar:
   sidebar_menu_foldable: false
   sidebar_cache_limit: 2000
   sidebar_search_disable: false
   sidebar_menu_truncate: 50
   sidebar_menu_compact: false
+  # ul_show: 1
