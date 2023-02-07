@@ -776,7 +776,7 @@ collections_config:
         type: text
       github_branch:
         label: Github Branch
-        comment: Specify a value here if you have would like to reference a branch in your repository that is not the default branch for the other github settings like Edit this page or Create project issue.
+        comment: Specify a value here if you have would like to reference a branch in your repository that is not the "main" for the other github settings like Edit this page or Create project issue.
         type: text
 
 
