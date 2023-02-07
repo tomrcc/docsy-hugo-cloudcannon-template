@@ -601,6 +601,7 @@ collections_config:
     _enabled_editors:
       - visual
       - content
+    text_key: title
     schemas:
       default:
         path: schemas/main.md
