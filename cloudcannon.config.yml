@@ -617,13 +617,6 @@ collections_config:
         path: schemas/main.md
         create:
           path: '{title|slugify}/_index.md'
-        _inputs:
-          type: select
-          options:
-            values:
-              - page
-              - docs
-              - blog
       bookshop_main:
         path: schemas/bookshop_main.md
         create:
