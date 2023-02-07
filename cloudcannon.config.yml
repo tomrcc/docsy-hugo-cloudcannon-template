@@ -706,6 +706,9 @@ collections_config:
         label: Base URL
         comment: The base URL to use for your site.
         type: text
+      navbar:
+        label: Navbar
+        comment: Configure site navbar settings.
       navbar_logo:
         label: Navbar Logo
         comment: Turn on to enable logo in the top left of the navbar.
@@ -718,6 +721,9 @@ collections_config:
         label: Translucent Nav
         comment: Turn on to make navbar translucent when the first item on the page is a "Cover" Bookshop component.
         type: switch
+      footer:
+        label: Footer
+        comment: Configure site footer settings.
       copyright:
         label: Copyright
         comment: The name to be included in the copyright statement in the footer 
@@ -786,8 +792,7 @@ collections_config:
         type: text
       search:
         label: Search
-        comment: Configure search options for your site. **Only one type of search can be enabled at a time.** Read more [here](https://www.docsy.dev/docs/adding-content/navigation/#site-search-options)
-      gcs_engine_id:
+.      gcs_engine_id:
         label: Google Custom Search Engine ID
         comment: "The default search option, which uses Google’s index of your public site to generate a search results page. If you don’t specify a Google Custom Search Engine ID for your project and haven’t enabled any other search options, the search box won’t appear in your site. Read more [here](https://www.docsy.dev/docs/adding-content/navigation/#configure-search-with-a-google-custom-search-engine)."
         type: text
@@ -797,7 +802,7 @@ collections_config:
         type: switch
       offlineSearch:
         label: Local Search with Lunr
-        comment: Lunr is a Javascript-based search option that lets you index your site and make it searchable without the need for external, server-side search services. This is a good option particularly for smaller or non-public sites. Remove any GCSE ID and ensure Algolia DocSearch is set to false. Read more [here](https://www.docsy.dev/docs/adding-content/navigation/#configure-local-search-with-lunr)
+        comment: Lunr is a Javascript-based search option that lets you index your site and make it searchable without the need for external, server-side search services. This is a good option particularly for smaller or non-public sites. Remove any GCSE ID and ensure Algolia DocSearch is set to false. Read more [here](https://www.docsy.dev/docs/adding-content/navigation/#configure-local-search-with-lunr).
         type: switch
       offlineSearchSummaryLength:
         label: Local Search Result Summary 
@@ -807,6 +812,9 @@ collections_config:
         label:  Local Search Max Results
         comment: You can customize the maximum result count of local searches.
         type: number
+      user_interface:
+        label: User Interface
+        comment: Configure the UI on content pages.
       breadcrumb_disable:
         label: Breadcrumbs
         comment: Turn on to disable breadcrumbs in documentation section.
@@ -829,13 +837,34 @@ collections_config:
       yes:
         label: Yes Message
         comment: "The message displayed when a user selects 'Yes'" 
-        type: textarea
+        type: markdown
       no:
         label: No Message
         comment: "The message displayed when a user selects 'No'" 
-        type: textarea
-
-
+        type: markdown
+      sidebar:
+        label: Sidebar Settings
+        comment: Configure the sidebar in docs and blog pages. Read more [here](https://www.docsy.dev/docs/adding-content/navigation/#section-menu)
+      sidebar_menu_foldable:
+        label: Foldable Sidebar Menu
+        comment: Make the sidebar menu foldable by turning this on.
+        type: switch
+      sidebar_cache_limit:
+        label: Sidebar Cache Limit
+        comment: On large sites (default is 2000 pages) the section menu is not generated for each page, but cached for the whole section. The HTML classes for marking the active menu item (and menu path) are then set using JS. You can adjust the limit for activating the cached section here.
+        type: number
+      sidebar_search_disable:
+        label: Sidebar Search Disabled
+        comment: Turn on to disable sidebar search input. This must be turned on if using Algolia DocSearch.
+        type: switch
+      sidebar_menu_truncate:
+        label: Sidebar Menu Truncate
+        comment: The upper limit for how many pages are displayed in the sidebar menu.
+        type: number
+      sidebar_menu_compact:
+        label: Sidebar Menu Compact
+        comment: "Turn on to show only current page’s ancestors, siblings and direct descendants in sidebar menu. By default, the section menu shows the current section fully expanded all the way down."
+        type: switch
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
