@@ -29,8 +29,8 @@ search:
   offlineSearchSummaryLength: 70
   offlineSearchMaxResults: 10
 user_interface:
-  taxonomy_breadcrumb_disable: false
   breadcrumb_disable: false
+  taxonomy_breadcrumb_disable: false
   readingtime: false
   feedback:
     enable: true

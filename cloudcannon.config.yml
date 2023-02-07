@@ -807,6 +807,33 @@ collections_config:
         label:  Local Search Max Results
         comment: You can customize the maximum result count of local searches.
         type: number
+      breadcrumb_disable:
+        label: Breadcrumbs
+        comment: Turn on to disable breadcrumbs in documentation section.
+        type: switch
+      taxonomy_breadcrumb_disable:
+        label: Taxonomy Breadcrumbs
+        comment: Turn on to disable breadcrumbs on the Taxonomy page.
+        type: switch
+      readingtime:
+        label: Reading Time
+        comment: Turn on to enable reading time indicators at the top of content pages.
+        type: switch
+      feedback:
+        label: Feedback
+        comment: Enable feedback for your content pages.
+      enable:
+        label: Enable Feedback
+        comment: Turn on to enable feedback buttons at the bottom of content pages.
+        type: switch
+      yes:
+        label: Yes Message
+        comment: "The message displayed when a user selects 'Yes'" 
+        type: textarea
+      no:
+        label: No Message
+        comment: "The message displayed when a user selects 'No'" 
+        type: textarea
 
 
 

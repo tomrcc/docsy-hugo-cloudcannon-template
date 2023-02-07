@@ -9,7 +9,7 @@
       {{ range .Pages }}
         {{ $manualLink := cond (isset .Params "manuallink") .Params.manualLink ( cond (isset .Params "manuallinkrelref") (relref . .Params.manualLinkRelref) .RelPermalink) }}
         <article class="card article-teaser article-type-{{ with .Type }}{{ ( urlize . ) }}{{ end }}">
-          {{ if not .Site.Params.ui.taxonomy_breadcrumb_disable -}}
+          {{ if not .Site.Data.site_details.user_interface.taxonomy_breadcrumb_disable -}}
             {{/* Use breadcrumb partial, but remove attributes that are invalid or inappropriate in this page-summary context. */ -}}
             {{ partial "breadcrumb.html" .
               | replaceRE ` aria-\w+=\".*?\"|(breadcrumb-item) active|(btn-link) disabled` "$1" | safeHTML
