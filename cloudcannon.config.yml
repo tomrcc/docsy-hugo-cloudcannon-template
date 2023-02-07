@@ -685,6 +685,16 @@ collections_config:
     _enabled_editors:
       - content
       - visual
+  data:
+    path: data
+    icon: description
+    text_key: name
+    description: Configure the sites data.
+    documentation:
+      url: "https://example.com/documentation/"
+      text: Read more about your data collection
+    _enabled_editors:
+      - data
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
