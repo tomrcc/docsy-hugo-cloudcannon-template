@@ -8,7 +8,7 @@ footer:
   copyright: "The Docsy Author"
   privacy_policy: "https://policies.google.com/privacy"
   footer_about_disable: false
-versions:
+versioning:
   version_menu: "Releases"
   version_menu_pagelinks: false 
   archived_version: false
