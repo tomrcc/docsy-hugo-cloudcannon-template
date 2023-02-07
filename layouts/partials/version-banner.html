@@ -3,7 +3,7 @@
   {{ if .Site.Data.site_details.versions.archived_version }}
   {{ $color := "primary" }}
   {{ $latest_version := .Site.Data.site_details.versions.url_latest_version }}
-  {{ $current_version := .Site.Data.site_details.versions.version }}
+  {{ $current_version := .Site.Data.site_details.versions.current_version }}
   <div class="pageinfo pageinfo-{{ $color }}">
     {{ with $current_version }}<p>Version {{ . | markdownify }} of the
       documentation is no longer actively maintained. The site that you are

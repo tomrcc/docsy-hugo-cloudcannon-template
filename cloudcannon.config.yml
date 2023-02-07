@@ -700,7 +700,7 @@ collections_config:
     _inputs:
       navbar_logo:
         label: Navbar Logo
-        comment: Select true to enable logo in the top left of the navbar.
+        comment: Turn on to enable logo in the top left of the navbar.
         type: switch
       navbar_logo_path:
         label: Navbar Logo Path
@@ -708,7 +708,54 @@ collections_config:
         type: image
       navbar_translucent_over_cover_disable:
         label: Translucent Nav
-        comment: Select true to make navbar translucent when the first item on the page is a "Cover" Bookshop component.
+        comment: Turn on to make navbar translucent when the first item on the page is a "Cover" Bookshop component.
+        type: switch
+      copyright:
+        label: Copyright
+        comment: The name to be included in the copyright statement in the footer 
+        type: text
+      privacy_policy:
+        label: Privacy Policy
+        comment: The page to be linked to containing your privacy policy. 
+        type: url
+      footer_about_disable:
+        label: Footer "About" Link
+        comment: Turn on to disable the link to the "About" page in the footer.
+        type: switch
+      version_menu:
+        label: Version Menu Name
+        comment: If versions are enabled, this is the name of the version drop-down menu.
+        type: text
+        documentation:
+          url: https://www.docsy.dev/docs/adding-content/versioning/
+          text: Docsy Versioning
+      versions:
+        label: Versions
+        comment: An array of all versions of the site.
+        type: array
+      version:
+        label: Version
+        comment: The version name.
+        type: text
+      url:
+        label: Version URL
+        comment: The link to the version.
+        type: url
+      current_version:
+        label: Default Version
+        comment: Sets the version, contained in your versions list that will be the default version when users navigate to your site.
+        type: text
+      version_menu_pagelinks:
+        label: Version Menu Pagelinks
+        comment: If this is on, then links in the version drop-down menu point to the current page in the other version, instead of the main page.
+        type: switch
+      archived_version:
+        label: Archived Version Banner
+        comment: "Turned on, this adds a note at the top of every page in the archived docs to let readers know that they’re seeing an unmaintained snapshot."
+        type: switch
+      url_latest_version:
+        label: Latest Version Link
+        comment: Turn on to give readers a link to the latest version inside Archived Version Banner when on.
         type: switch
 
 
