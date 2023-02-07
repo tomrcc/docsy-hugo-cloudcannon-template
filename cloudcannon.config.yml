@@ -697,6 +697,21 @@ collections_config:
       text: Read more about your data collection
     _enabled_editors:
       - data
+    _inputs:
+      navbar_logo:
+        label: Navbar Logo
+        comment: Select true to enable logo in the top left of the navbar.
+        type: switch
+      navbar_logo_path:
+        label: Navbar Logo Path
+        comment: Link to your logo, anywhere in the sites static folder.
+        type: image
+      navbar_translucent_over_cover_disable:
+        label: Translucent Nav
+        comment: Select true to make navbar translucent when the first item on the page is a "Cover" Bookshop component.
+        type: switch
+
+
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
