@@ -601,7 +601,8 @@ collections_config:
     _enabled_editors:
       - visual
       - content
-    text_key: title
+    text_key: 
+    description: Collection of pages.
     schemas:
       default:
         path: schemas/main.md
