@@ -9,14 +9,14 @@ footer:
   privacy_policy: "https://policies.google.com/privacy"
   footer_about_disable: false
 versioning:
-  version_menu: "Releases"
-  version_menu_pagelinks: false 
-  archived_version: false
-  current_version: "0.0"
-  url_latest_version: "https://example.com"
   versions:
     - version:
       version_url:
+  version_menu: "Releases"
+  current_version: "0.0"
+  version_menu_pagelinks: false 
+  archived_version: false
+  url_latest_version: "https://example.com"
 github:
   github_repo:  "https://github.com/google/docsy-example"
   github_project_repo:  "https://github.com/google/docsy"

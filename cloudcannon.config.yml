@@ -731,7 +731,7 @@ collections_config:
           text: Docsy Versioning
       versions:
         label: Versions
-        comment: An array of all versions of the site.
+        comment: An array of all versions of the site. When versions are added here, a dropdown will appear in the navbar.
         type: array
       version:
         label: Version
@@ -742,7 +742,7 @@ collections_config:
         comment: The link to the version.
         type: url
       current_version:
-        label: Default Version
+        label: Current Version
         comment: Sets the version, contained in your versions list that will be the default version when users navigate to your site.
         type: text
       version_menu_pagelinks:
@@ -755,8 +755,8 @@ collections_config:
         type: switch
       url_latest_version:
         label: Latest Version Link
-        comment: Turn on to give readers a link to the latest version inside Archived Version Banner when on.
-        type: switch
+        comment: A link to the latest version inside Archived Version Banner when on.
+        type: url
 
 
 
