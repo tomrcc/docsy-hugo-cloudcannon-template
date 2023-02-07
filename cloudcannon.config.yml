@@ -767,7 +767,7 @@ collections_config:
         comment: "The URL for your site’s source repository. This is used to generate the Edit this page, Create child page, and Create documentation issue links."
         type: url
       github_project_repo:
-        label: Seperate project Repo
+        label: Seperate Project Repo
         comment: "Specify a value here if you have a separate project repo and you’d like your users to be able to create issues against your project from the relevant docs. The Create project issue link appears only if this is set."
         type: url
       github_subdir:
@@ -776,7 +776,7 @@ collections_config:
         type: text
       github_branch:
         label: Github Branch
-        comment: Specify a value here if you have would like to reference a different branch for the other github settings like Edit this page or Create project issue.
+        comment: Specify a value here if you have would like to reference a branch that is not your main branch for the other github settings like Edit this page or Create project issue.
         type: text
 
 
