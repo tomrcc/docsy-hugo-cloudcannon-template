@@ -604,6 +604,7 @@ collections_config:
     text_key: title
     subtext_key: linkTitle
     description: Collection of pages.
+    disable_add_folder: true
     schemas:
       default:
         path: schemas/main.md
@@ -627,6 +628,7 @@ collections_config:
     text_key: title
     subtext_key: date
     description: Collection of blog posts.
+    disable_add_folder: true
     schemas:
       default:
         path: schemas/blog/post.md
@@ -646,6 +648,7 @@ collections_config:
     text_key: title
     subtext_key: linkTitle
     description: An about page built using Bookshop.
+    disable_add: true
     _enabled_editors:
       - visual
       - content
@@ -653,6 +656,7 @@ collections_config:
     path: content/en/community
     output: true
     icon: groups
+    disable_add: true
     _enabled_editors:
       - content
       - visual
@@ -663,6 +667,7 @@ collections_config:
     text_key: title
     subtext_key: description
     description: The documentation section.
+    disable_add_folder: true
     schemas:
       default:
         name: Docs Page
