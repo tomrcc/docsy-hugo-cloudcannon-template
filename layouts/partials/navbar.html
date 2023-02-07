@@ -1,6 +1,6 @@
 {{ $cover := false }} 
 
-{{ if .Site.Params.ui.navbar_translucent_over_cover_disable }}
+{{ if .Site.Data.site_details.navbar.navbar_translucent_over_cover_disable }}
   {{ with .Page.Params.content_blocks }}
     {{ if and (eq (index . 0)._bookshop_name "cover") }}
       {{ $cover = true }}
@@ -11,8 +11,8 @@
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark  flex-column flex-md-row td-navbar {{- if $cover }} td-navbar-cover {{- end }}">
   <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
     <span class="navbar-brand__logo navbar-logo">
-      {{- if ne .Site.Params.ui.navbar_logo false -}}
-        <img src="{{ .Site.Params.ui.navbar_logo_path }}" alt="Could not find file at {{ .Site.Params.ui.navbar_logo_path }}">
+      {{- if ne .Site.Data.site_details.navbar.navbar_logo false -}}
+        <img src="{{ .Site.Data.site_details.navbar.navbar_logo_path }}" alt="Could not find file at {{ .Site.Data.site_details.navbar.navbar_logo_path }}">
       {{ end -}}
     </span>
     <span class="navbar-brand__name">
@@ -44,7 +44,7 @@
           </a>
         </li>
         {{ end -}}
-        {{ if .Site.Params.versions -}}
+        {{ if .Site.Data.site_details.versions.versions -}}
         <li class="nav-item dropdown me-4 d-none d-lg-block">
           {{ partial "navbar-version-selector.html" . -}}
         </li>
