@@ -21,9 +21,37 @@ fs.readFile('./data/colors.json', 'utf8', function(err, dataFile){
         var replaced = scssFile;
 
         // Change the variables to whatever was set in the data file
-        if (dataFile.primary_color) {
-            const replacementString = dataFile.primary_color;
+        if (dataFile.primary) {
+            const replacementString = dataFile.primary;
             replaced = replaced.replace(/\$primary: .*/g, ('$primary: ' + replacementString + ' !default' + ';'));
+        } 
+        if (dataFile.secondary) {
+            const replacementString = dataFile.secondary;
+            replaced = replaced.replace(/\$secondary: .*/g, ('$secondary: ' + replacementString + ' !default' + ';'));
+        } 
+        if (dataFile.success) {
+            const replacementString = dataFile.success;
+            replaced = replaced.replace(/\$success: .*/g, ('$success: ' + replacementString + ' !default' + ';'));
+        } 
+        if (dataFile.info) {
+            const replacementString = dataFile.info;
+            replaced = replaced.replace(/\$info: .*/g, ('$info: ' + replacementString + ' !default' + ';'));
+        } 
+        if (dataFile.warning) {
+            const replacementString = dataFile.warning;
+            replaced = replaced.replace(/\$warning: .*/g, ('$warning: ' + replacementString + ' !default' + ';'));
+        } 
+        if (dataFile.danger) {
+            const replacementString = dataFile.danger;
+            replaced = replaced.replace(/\$danger: .*/g, ('$danger: ' + replacementString + ' !default' + ';'));
+        } 
+        if (dataFile.white) {
+            const replacementString = dataFile.white;
+            replaced = replaced.replace(/\$white: .*/g, ('$white: ' + replacementString + ' !default' + ';'));
+        } 
+        if (dataFile.light) {
+            const replacementString = dataFile.light;
+            replaced = replaced.replace(/\$light: .*/g, ('$light: ' + replacementString + ' !default' + ';'));
         } 
         // Write result back to variables.scss
         fs.writeFile('./assets/scss/_variables.scss', replaced, 'utf-8', function (err) {

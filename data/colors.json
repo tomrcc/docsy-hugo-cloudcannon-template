@@ -1,3 +1,10 @@
 {
-  "primary_color": "#e60b0b"
+  "primary": "#000000",
+  "secondary": "#FFA630",
+  "success": "#3772FF",
+  "info": "#C0E0DE",
+  "warning": "#ED6A5A",
+  "danger": "#ED6A5A",
+  "white": "#fff",
+  "light": "#D3F3EE"
 }
