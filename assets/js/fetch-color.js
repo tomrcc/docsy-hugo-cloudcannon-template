@@ -53,6 +53,22 @@ fs.readFile('./data/colors.json', 'utf8', function(err, dataFile){
             const replacementString = dataFile.light;
             replaced = replaced.replace(/\$light: .*/g, ('$light: ' + replacementString + ' !default' + ';'));
         } 
+        if (dataFile.dark) {
+            const replacementString = dataFile.dark;
+            replaced = replaced.replace(/\$dark: .*/g, ('$dark: ' + replacementString + ' !default' + ';'));
+        } 
+        if (dataFile.blue) {
+            const replacementString = dataFile.blue;
+            replaced = replaced.replace(/\$blue: .*/g, ('$blue: ' + replacementString + ' !default' + ';'));
+        } 
+        if (dataFile.orange) {
+            const replacementString = dataFile.orange;
+            replaced = replaced.replace(/\$orange: .*/g, ('$orange: ' + replacementString + ' !default' + ';'));
+        } 
+        if (dataFile.gray-100) {
+            const replacementString = dataFile.gray-100;
+            replaced = replaced.replace(/\$gray-100: .*/g, ('$gray-100: ' + replacementString + ' !default' + ';'));
+        } 
         // Write result back to variables.scss
         fs.writeFile('./assets/scss/_variables.scss', replaced, 'utf-8', function (err) {
             if(err){

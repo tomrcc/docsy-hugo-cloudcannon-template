@@ -884,6 +884,14 @@ collections_config:
         type: color
       light:
         type: color
+      dark:
+        type: color
+      blue:
+        type: color
+      orange:
+        type: color
+      gray-100:
+        type: color
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
