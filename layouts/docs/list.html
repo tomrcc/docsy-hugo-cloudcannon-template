@@ -11,7 +11,7 @@
 	{{ .Content }}
         {{ partial "section-index.html" . }}
 	{{ if (and (not .Params.hide_feedback) (.Site.Data.site_details.user_interface.feedback.enable) (.Site.GoogleAnalytics)) }}
-		{{ partial "feedback.html" .Site.Data.site_details.user_interface.feedback }}
+		{{ partial "feedback.html" . }}
 		<br />
 	{{ end }}
 	{{ if (.Site.DisqusShortname) }}
