@@ -835,11 +835,11 @@ collections_config:
         label: Enable Feedback
         comment: Turn on to enable feedback buttons at the bottom of content pages.
         type: switch
-      yes:
+      yes_message:
         label: Yes Message
         comment: "The message displayed when a user selects 'Yes'" 
         type: markdown
-      no:
+      no_message:
         label: No Message
         comment: "The message displayed when a user selects 'No'" 
         type: markdown
@@ -866,6 +866,24 @@ collections_config:
         label: Sidebar Menu Compact
         comment: "Turn on to show only current page’s ancestors, siblings and direct descendants in sidebar menu. By default, the section menu shows the current section fully expanded all the way down."
         type: switch
+      colors:
+        comment: Customize the sites colors here.
+      primary:
+        type: color
+      secondary:
+        type: color
+      success:
+        type: color
+      info:
+        type: color
+      warning:
+        type: color
+      danger:
+        type: color
+      white:
+        type: color
+      light:
+        type: color
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
