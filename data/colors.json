@@ -1,10 +1,10 @@
 {
-  "primary": "#000000",
-  "secondary": "#FFA630",
-  "success": "#3772FF",
-  "info": "#C0E0DE",
-  "warning": "#ED6A5A",
-  "danger": "#ED6A5A",
-  "white": "#fff",
-  "light": "#D3F3EE"
+  "primary": "#d62828",
+  "secondary": "#8030ff",
+  "success": "#3772ff",
+  "info": "#c0e0de",
+  "warning": "#ed6a5a",
+  "danger": "#ff1c00",
+  "white": "#ffffff",
+  "light": "#d3f3ee"
 }
