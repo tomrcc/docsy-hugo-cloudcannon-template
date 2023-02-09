@@ -890,7 +890,7 @@ collections_config:
         type: color
       orange:
         type: color
-      gray:
+      gray_100:
         type: color
 
 # Control which collections are displayed in the CloudCannon site navigation,
