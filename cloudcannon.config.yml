@@ -54,7 +54,6 @@ _snippets:
           type: string
           allowed_values: &css_colors
             - primary
-            - primary-light
             - secondary
             - success
             - info
@@ -120,7 +119,6 @@ _snippets:
           type: string
           allowed_values: &css_colors
             - primary
-            - primary-light
             - secondary
             - success
             - info
@@ -875,6 +873,8 @@ collections_config:
       orange:
         type: color
       gray:
+        type: color
+      black:
         type: color
 
 # Control which collections are displayed in the CloudCannon site navigation,

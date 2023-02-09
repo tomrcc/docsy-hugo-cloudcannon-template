@@ -25,7 +25,6 @@ _inputs:
     options:
       values:
         - primary
-        - primary-light
         - secondary
         - success
         - info
