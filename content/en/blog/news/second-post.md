@@ -3,7 +3,7 @@ _schema: post
 title: The second blog post
 linkTitle: Second blog post
 date: 2018-10-06T00:10:00Z
-author:
+author: Fake Author
 weight: 2
 description: >
   A short lead description about this content page. Text here can also be
