@@ -1,27 +1,27 @@
-title: "DocsyCannon"
-baseURL: ""
+title: DocsyCannonz
+baseURL: ''
 navbar:
   navbar_logo: true
-  navbar_logo_path: "/icons/logo.svg"
+  navbar_logo_path: /icons/logo.svg
   navbar_translucent_over_cover_disable: true
 footer:
-  copyright: "The Docsy Author"
-  privacy_policy: "https://policies.google.com/privacy"
+  copyright: The Docsy Author
+  privacy_policy: https://policies.google.com/privacy
   footer_about_disable: false
 versioning:
   versions:
     - version:
       version_url:
-  version_menu: "Releases"
-  current_version: "0.0"
-  version_menu_pagelinks: false 
+  version_menu: Releases
+  current_version: '0.0'
+  version_menu_pagelinks: false
   archived_version: false
-  url_latest_version: "https://example.com"
+  url_latest_version: https://example.com
 github:
-  github_repo:  "https://github.com/google/docsy-example"
-  github_project_repo:  "https://github.com/google/docsy"
-  github_subdir:  ""
-  github_branch: "master"
+  github_repo: https://github.com/google/docsy-example
+  github_project_repo: https://github.com/google/docsy
+  github_subdir: ''
+  github_branch: master
 search:
   gcs_engine_id: d72aa9b2712488cc3
   algolia_docsearch: false
@@ -34,12 +34,15 @@ user_interface:
   readingtime: false
   feedback:
     enable: true
-    yes_message: 'Glad to hear it! Please tell us [how we can improve](https://github.com/USERNAME/REPOSITORY/issues/new).'
-    no_message: "Sorry to hear that. Please tell us [how we can improve](https://github.com/USERNAME/REPOSITORY/issues/new)."
+    yes_message: >-
+      Glad to hear it! Please tell us [how we can
+      improve](https://github.com/USERNAME/REPOSITORY/issues/new).
+    no_message: >-
+      Sorry to hear that. Please tell us [how we can
+      improve](https://github.com/USERNAME/REPOSITORY/issues/new).
 sidebar:
   sidebar_menu_foldable: false
   sidebar_search_disable: false
   sidebar_menu_compact: false
   sidebar_menu_truncate: 50
   sidebar_cache_limit: 2000
-  # ul_show: 1
