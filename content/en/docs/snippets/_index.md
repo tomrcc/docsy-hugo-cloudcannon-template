@@ -55,9 +55,7 @@ A way to display tabbed information. Tabs must be used within a tab pane. Tabs c
 <h1>Code Highlighting in Tabs</h1>
 <p>Tabs do not usually require markdown to enable highlighting. This is instead determined in the Tab Pane settings.</p>
 <span>If a certain language is having trouble, like with HTML tags, use Markdown highlighting as a fall back</span>
-```
-
-&lt;p&gt;HTML sometimes has trouble with syntax highlighting&lt;/p&gt;{{< /tab >}}
+```{{< /tab >}}
 {{< tab header="Javascript" lang="js" disabled=false >}}const something = "works?"
 
 // works?{{< /tab >}}
@@ -73,13 +71,13 @@ border: solid 1px black;
 
 An easy way to display images in your markdown.
 
-{{< figure src="/images/featured-sunset-get.png" title="An image" caption="Images are stored in Static folder" width="200" height="200" >}}
+{{< figure src="/images/placeholder-bg.jpg" title="An image" alt="A motherboard" caption="Images are stored in Static folder" attr="Photo by Pok Rie from Pexels" attrlink="https://www.pexels.com/photo/tilt-shift-photography-of-motherboard-1432794/" width="200" height="200" >}}
 
 ### Card with Figure
 
 You can nest snippets inside each other, as shown with this Figure snippet inside the Card snippet.
 
-{{< card header="A card with image" title="Card/Image" subtitle="Using a figure inside of a card" footer="See ya" >}}{{< figure src="/images/featured-sunset-get.png" title="A nested image" alt="A nested image" caption="A figure inside a card" >}}{{< /card >}}
+{{< card header="A card with image" title="Card/Image" subtitle="Using a figure inside of a card" footer="See ya" >}}{{< figure src="/images/placeholder-bg.jpg" title="A nested image" alt="A nested image" caption="A figure inside a card" attr="Photo by Pok Rie from Pexels" attrlink="https://www.pexels.com/photo/tilt-shift-photography-of-motherboard-1432794/" >}}{{< /card >}}
 
 ### Iframe
 
