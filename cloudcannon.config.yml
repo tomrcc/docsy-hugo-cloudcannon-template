@@ -65,7 +65,7 @@ _snippets:
             - dark
             - blue
             - orange
-            - gray
+            - gray-100
             - gray-200
             - gray-300
             - gray-400
@@ -139,7 +139,7 @@ _snippets:
             - dark
             - blue
             - orange
-            - gray
+            - gray-100
             - gray-200
             - gray-300
             - gray-400
