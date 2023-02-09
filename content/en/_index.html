@@ -1,6 +1,6 @@
 ---
 _schema: bookshop_main
-title:
+title: DocsyCannon
 linkTitle:
 menu:
   main:
@@ -16,8 +16,8 @@ content_blocks:
       code!
     col_id: warning
     background_image: /images/placeholder-bg.jpg
-    height: full
-    byline: A byline
+    height: max
+    byline:
     link_down:
       _bookshop_name: link_down
       color: light
@@ -36,22 +36,22 @@ content_blocks:
         url: https://github.com/tomrcc/docsy-hugo-cloudcannon-template
         text: Download
   - _bookshop_name: lead
-    color: primary
+    color: dark
     height: auto
     text: >-
-      Goldydocs provides a single web UI providing visibility into porridge
+      DocsyCannon provides a single web UI providing visibility into porridge
       temperature, chair size, and bed softness metrics! You can even find out
       who’s been eating **your** porridge.
 
 
-      (Sadly, Goldydocs isn’t a real project, but you can use this site as an
+      (Sadly, DocsyCannon isn’t a real site, but you can use this site as an
       example to create your own real websites with [Docsy](https://docsy.dev))
     heading:
     id: home_lead
   - _bookshop_name: section
     heading:
     text: ''
-    color: dark
+    color: gray
     height: auto
     type: true
     feature:
@@ -78,19 +78,49 @@ content_blocks:
         link:
           url: https://twitter.com/docsydocs
           url_text: Read More ...
+  - _bookshop_name: lead
+    color: primary
+    height: auto
+    text: This is a lead section.
+    heading: This can have a heading.
+    id: Lead_ID
   - _bookshop_name: section
     heading: This is another section
-    text: ''
-    color: orange
+    text: >-
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis,
+      eligendi provident. Dolores quisquam deleniti rem? Excepturi animi nemo
+      vero. Hic tenetur itaque sint at molestias accusantium velit asperiores
+      sunt ipsum aliquam quae illum consequatur dolore ut nam maiores possimus
+      voluptate reiciendis, fugiat dignissimos. Incidunt inventore molestias
+      quasi. Tempora voluptate nisi qui accusantium harum expedita ullam porro!
+      Vel nihil maxime rem corrupti aliquam dolorum voluptatibus dicta fugiat
+      fugit quod recusandae iure dolor ipsum unde necessitatibus, dolorem soluta
+      eos inventore qui ducimus minima at. Rerum optio voluptatem molestias
+      porro, sint commodi suscipit molestiae nulla est! Quae consequatur ad
+      quasi magni non porro?
+    color: info
     height: auto
     type: true
-    feature: []
-  - _bookshop_name: section
-    heading: This is another section
-    text: Inner text
-    color: black
-    height: auto
-    type: true
-    id:
-    feature: []
+    feature:
+      - _bookshop_name: feature
+        icon: fas fa-cubes
+        title: A title
+        text: Some text
+        link:
+          url: https://github.com/gohugoio/hugo
+          url_text: Read More
+      - _bookshop_name: feature
+        icon: fas fa-cubes
+        title: A title
+        text: Some text
+        link:
+          url: https://github.com/gohugoio/hugo
+          url_text: Read More
+      - _bookshop_name: feature
+        icon: fas fa-cubes
+        title: A title
+        text: Some text
+        link:
+          url: https://github.com/gohugoio/hugo
+          url_text: Read More
 ---
