@@ -678,7 +678,7 @@ collections_config:
     _inputs:
       title:
         label: Title
-        comment: The title to use for the site.
+        comment: The title to use for the navbar and site head.
         type: text
       baseURL:
         label: Base URL
