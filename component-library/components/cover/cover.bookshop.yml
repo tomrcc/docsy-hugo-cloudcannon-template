@@ -63,7 +63,7 @@ _inputs:
         - orange
         - lightGray
         - gray
-        - dark_gray
+        - darkgray
         - black
   background_image:
     label: Background Image

@@ -67,7 +67,7 @@ _snippets:
             - orange
             - lightGray
             - gray
-            - dark_gray
+            - darkgray
             - black
         - source_key: title
           editor_key: title
@@ -135,7 +135,7 @@ _snippets:
             - orange
             - lightGray
             - gray
-            - dark_gray
+            - darkgray
             - black
     preview:
       text:
@@ -882,7 +882,7 @@ collections_config:
         type: color
       gray:
         type: color
-      dark_gray:
+      darkgray:
         type: color
 
 # Control which collections are displayed in the CloudCannon site navigation,

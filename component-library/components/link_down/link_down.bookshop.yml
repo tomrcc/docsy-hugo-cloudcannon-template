@@ -38,7 +38,7 @@ _inputs:
         - orange
         - lightGray
         - gray
-        - dark_gray
+        - darkgray
         - black
   id:
     label: ID

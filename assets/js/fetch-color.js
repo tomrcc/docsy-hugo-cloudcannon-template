@@ -73,9 +73,9 @@ fs.readFile('./data/colors.json', 'utf8', function(err, dataFile){
             const replacementString = dataFile.gray;
             replaced = replaced.replace(/\$gray: .*/g, ('$gray: ' + replacementString + ' !default' + ';'));
         } 
-        if (dataFile.dark_gray) {
-            const replacementString = dataFile.dark_gray;
-            replaced = replaced.replace(/\$dark_gray: .*/g, ('$dark_gray: ' + replacementString + ' !default' + ';'));
+        if (dataFile.darkgray) {
+            const replacementString = dataFile.darkgray;
+            replaced = replaced.replace(/\$darkgray: .*/g, ('$darkgray: ' + replacementString + ' !default' + ';'));
         } 
         // Write result back to variables.scss
         fs.writeFile('./assets/scss/_variables.scss', replaced, 'utf-8', function (err) {
