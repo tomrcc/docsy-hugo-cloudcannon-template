@@ -61,8 +61,7 @@ _inputs:
         - dark
         - blue
         - orange
-        - lightGray
-        - gray
+        - lightgray
         - darkgray
         - black
   background_image:

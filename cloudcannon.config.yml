@@ -65,8 +65,7 @@ _snippets:
             - dark
             - blue
             - orange
-            - lightGray
-            - gray
+            - lightgray
             - darkgray
             - black
         - source_key: title
@@ -133,8 +132,7 @@ _snippets:
             - dark
             - blue
             - orange
-            - lightGray
-            - gray
+            - lightgray
             - darkgray
             - black
     preview:
@@ -878,9 +876,7 @@ collections_config:
         type: color
       orange:
         type: color
-      lightGray:
-        type: color
-      gray:
+      lightgray:
         type: color
       darkgray:
         type: color

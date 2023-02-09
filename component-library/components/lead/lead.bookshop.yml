@@ -43,8 +43,7 @@ _inputs:
         - dark
         - blue
         - orange
-        - lightGray
-        - gray
+        - lightgray
         - darkgray
         - black
   height:
