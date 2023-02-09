@@ -36,7 +36,7 @@ _inputs:
         - dark
         - blue
         - orange
-        - light_gray
+        - lightGray
         - gray
         - dark_gray
         - black

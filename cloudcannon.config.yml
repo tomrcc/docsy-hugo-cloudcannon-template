@@ -65,7 +65,7 @@ _snippets:
             - dark
             - blue
             - orange
-            - light_gray
+            - lightGray
             - gray
             - dark_gray
             - black
@@ -133,7 +133,7 @@ _snippets:
             - dark
             - blue
             - orange
-            - light_gray
+            - lightGray
             - gray
             - dark_gray
             - black
@@ -878,7 +878,7 @@ collections_config:
         type: color
       orange:
         type: color
-      light_gray:
+      lightGray:
         type: color
       gray:
         type: color

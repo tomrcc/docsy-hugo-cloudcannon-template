@@ -65,9 +65,9 @@ fs.readFile('./data/colors.json', 'utf8', function(err, dataFile){
             const replacementString = dataFile.orange;
             replaced = replaced.replace(/\$orange: .*/g, ('$orange: ' + replacementString + ' !default' + ';'));
         } 
-        if (dataFile.light_gray) {
-            const replacementString = dataFile.light_gray;
-            replaced = replaced.replace(/\$light_gray: .*/g, ('$light_gray: ' + replacementString + ' !default' + ';'));
+        if (dataFile.lightGray) {
+            const replacementString = dataFile.lightGray;
+            replaced = replaced.replace(/\$lightGray: .*/g, ('$lightGray: ' + replacementString + ' !default' + ';'));
         } 
         if (dataFile.gray) {
             const replacementString = dataFile.gray;
