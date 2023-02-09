@@ -1,18 +1,21 @@
 ---
-title: "Parameter Reference"
-linkTitle: "Parameter Reference"
+_schema: default
+title: Parameter Reference
+linkTitle: Parameter Reference
 weight:
-tags: []
-categories: []
 description: >
-  A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
+  A short lead description about this content page. It can be **bold** or
+  _italic_ and can be split over multiple paragraphs.
+categories: []
+tags: []
 ---
-
-{{% pageinfo %}}
+{{% pageinfo color="primary" %}}
 This is a placeholder page. Replace it with your own content.
 {{% /pageinfo %}}
 
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
+{{< alert color="danger" title="Alert New" >}}newnewnew{{< /alert >}}
+
+Text can be **bold**, *italic*, or <s>strikethrough</s>. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
 
 There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.
 
@@ -20,7 +23,9 @@ There should be whitespace between paragraphs. Vape migas chillwave sriracha pou
 
 > There should be no margin above this first sentence.
 >
+>
 > Blockquotes should be a lighter gray with a border along the left side in the secondary color.
+>
 >
 > There should be no margin below this final sentence.
 
@@ -34,7 +39,6 @@ On big screens, paragraphs and headings should not take up the full container wi
 
 Scenester tumeric pickled, authentic crucifix post-ironic fam freegan VHS pork belly 8-bit yuccie PBR&B. **I love this life we live in**.
 
-
 ## Second Header 2
 
 > This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
@@ -45,7 +49,7 @@ Scenester tumeric pickled, authentic crucifix post-ironic fam freegan VHS pork b
 This is a code block following a header.
 ```
 
-Next level leggings before they sold out, PBR&B church-key shaman echo park. Kale chips occupy godard whatever pop-up freegan pork belly selfies. Gastropub Belinda subway tile woke post-ironic seitan. Shabby chic man bun semiotics vape, chia messenger bag plaid cardigan. 
+Next level leggings before they sold out, PBR&B church-key shaman echo park. Kale chips occupy godard whatever pop-up freegan pork belly selfies. Gastropub Belinda subway tile woke post-ironic seitan. Shabby chic man bun semiotics vape, chia messenger bag plaid cardigan.
 
 #### Header 4
 
@@ -61,17 +65,13 @@ Next level leggings before they sold out, PBR&B church-key shaman echo park. Kal
 
 ###### Header 6
 
-| What      | Follows         |
-|-----------|-----------------|
-| A table   | A header        |
-| A table   | A header        |
-| A table   | A header        |
+<table><thead><tr><th>What</th><th>Follows</th></tr></thead><tbody><tr><td>A table</td><td>A header</td></tr><tr><td>A table</td><td>A header</td></tr><tr><td>A table</td><td>A header</td></tr></tbody></table>
 
-----------------
+---
 
 There's a horizontal rule above and below this.
 
-----------------
+---
 
 Here is an unordered list:
 
@@ -87,15 +87,15 @@ And an ordered list:
 
 And an unordered task list:
 
-- [x] Create a Hugo theme
-- [x] Add task lists to it
-- [ ] Take a vacation
+* \[x\] Create a Hugo theme
+* \[x\] Add task lists to it
+* \[ \] Take a vacation
 
 And a "mixed" task list:
 
-- [ ] Pack bags
-- ?
-- [ ] Travel!
+* \[ \] Pack bags
+* ?
+* \[ \] Travel!
 
 And a nested list:
 
@@ -113,42 +113,29 @@ And a nested list:
 
 Definition lists can be used with Markdown syntax. Definition headers are bold.
 
-Name
-: Godzilla
+Name : Godzilla
 
-Born
-: 1952
+Born : 1952
 
-Birthplace
-: Japan
+Birthplace : Japan
 
-Color
-: Green
+Color : Green
 
-
-----------------
+---
 
 Tables should have bold headings and alternating shaded rows.
 
-| Artist            | Album           | Year |
-|-------------------|-----------------|------|
-| Michael Jackson   | Thriller        | 1982 |
-| Prince            | Purple Rain     | 1984 |
-| Beastie Boys      | License to Ill  | 1986 |
+<table><thead><tr><th>Artist</th><th>Album</th><th>Year</th></tr></thead><tbody><tr><td>Michael Jackson</td><td>Thriller</td><td>1982</td></tr><tr><td>Prince</td><td>Purple Rain</td><td>1984</td></tr><tr><td>Beastie Boys</td><td>License to Ill</td><td>1986</td></tr></tbody></table>
 
 If a table is too wide, it should scroll horizontally.
 
-| Artist            | Album           | Year | Label       | Awards   | Songs     |
-|-------------------|-----------------|------|-------------|----------|-----------|
-| Michael Jackson   | Thriller        | 1982 | Epic Records | Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical | Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life |
-| Prince            | Purple Rain     | 1984 | Warner Brothers Records | Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal | Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain |
-| Beastie Boys      | License to Ill  | 1986 | Mercury Records | noawardsbutthistablecelliswide | Rhymin & Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill |
+<table><thead><tr><th>Artist</th><th>Album</th><th>Year</th><th>Label</th><th>Awards</th><th>Songs</th></tr></thead><tbody><tr><td>Michael Jackson</td><td>Thriller</td><td>1982</td><td>Epic Records</td><td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical</td><td>Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life</td></tr><tr><td>Prince</td><td>Purple Rain</td><td>1984</td><td>Warner Brothers Records</td><td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal</td><td>Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain</td></tr><tr><td>Beastie Boys</td><td>License to Ill</td><td>1986</td><td>Mercury Records</td><td>noawardsbutthistablecelliswide</td><td>Rhymin &amp; Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill</td></tr></tbody></table>
 
-----------------
+---
 
 Code snippets like `var foo = "bar";` can be shown inline.
 
-Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
+Also, `this should vertically align` <s><code>with this</code></s> <s>and this</s>.
 
 Code can also be shown in a block element.
 
@@ -181,12 +168,9 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 Inline code inside table cells should still be distinguishable.
 
-| Language    | Code               |
-|-------------|--------------------|
-| Javascript  | `var foo = "bar";` |
-| Ruby        | `foo = "bar"{`      |
+<table><thead><tr><th>Language</th><th>Code</th></tr></thead><tbody><tr><td>Javascript</td><td><code>var foo = "bar";</code></td></tr><tr><td>Ruby</td><td><code>foo = "bar"{</code></td></tr></tbody></table>
 
-----------------
+---
 
 Small images should be shown at their actual size.
 
@@ -196,19 +180,12 @@ Large images should always scale down and fit in the content container.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg/1024px-Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg)
 
-_The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA._
-
+*The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.*
 
 ## Components
 
 ### Alerts
 
-{{< alert >}}This is an alert.{{< /alert >}}
-{{< alert title="Note" >}}This is an alert with a title.{{< /alert >}}
-{{% alert title="Note" %}}This is an alert with a title and **Markdown**.{{% /alert %}}
-{{< alert color="success" >}}This is a successful alert.{{< /alert >}}
-{{< alert color="warning" >}}This is a warning.{{< /alert >}}
-{{< alert color="warning" title="Warning" >}}This is a warning with a title.{{< /alert >}}
-
+{{< alert color="danger" >}}This is an alert.{{< /alert >}} {{< alert color="danger" title="Note" >}}This is an alert with a title.{{< /alert >}} {{% alert title="Note" %}}This is an alert with a title and **Markdown**.{{% /alert %}} {{< alert color="success" >}}This is a successful alert.{{< /alert >}} {{< alert color="warning" >}}This is a warning.{{< /alert >}} {{< alert color="warning" title="Warning" >}}This is a warning with a title.{{< /alert >}}
 
 ## Another Heading
