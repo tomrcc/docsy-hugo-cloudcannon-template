@@ -16,15 +16,24 @@
 				<h1 class="text-center">{{ . }}</h1>
 			</div>
 		{{ end }}
-		<div class="row {{ $type }}">
-			{{ if eq .Page.File.Ext "md" }}
-				{{ .text | markdownify }}
-			{{ else }}
-				{{ .text | htmlUnescape | safeHTML }}
-			{{ end }}
-				{{ range .feature }}
-					{{ partial "bookshop" (slice "feature" . )}}
+		<div class="row">
+			<div class="col">
+				{{ if .text }}
+					<div class="row mb-5">
+						{{ if eq .Page.File.Ext "md" }}
+						{{ .text | markdownify }}
+						{{ else }}
+						{{ .text | htmlUnescape | safeHTML }}
+						{{ end }}
+					</div>
 				{{ end }}
+				<div class="row {{ $type }} align-items-center">
+					{{/*  needs margin top  */}}
+					{{ range .feature }}
+						{{ partial "bookshop" (slice "feature" . )}}
+					{{ end }}
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
