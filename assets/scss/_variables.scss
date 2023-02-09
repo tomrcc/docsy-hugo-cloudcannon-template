@@ -24,12 +24,11 @@ $warning: #ED6A5A !default;
 $danger: #ED6A5A !default;
 $white: #fff !default;
 $light: #D3F3EE !default;
-
 $dark: #403F4C !default;
+$black: #000 !default;
 $blue: #72A1E5 !default;
 $orange: #BA5A31 !default;
-$lightgray: #adb5bd !default;
-$darkgray: #222 !default;
+$gray: #adb5bd !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #eee !default;
 $gray-300: #dee2e6 !default;
@@ -39,7 +38,6 @@ $gray-600: #797676 !default;
 $gray-700: #495057 !default;
 $gray-800: #333 !default;
 $gray-900: #222 !default;
-$black: #000 !default;
 
 $code-color: darken($secondary, 20%) !default;
 

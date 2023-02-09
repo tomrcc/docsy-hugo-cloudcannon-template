@@ -60,9 +60,8 @@ _inputs:
         - light
         - dark
         - blue
+        - gray
         - orange
-        - lightgray
-        - darkgray
         - black
   background_image:
     label: Background Image

@@ -10,7 +10,6 @@
   "dark": "#403f4c",
   "blue": "#72a1e5",
   "orange": "#ba5a31",
-  "lightgray": "#e2e4e6",
-  "darkgray": "#6e6c6c",
+  "gray": "#e2e4e6",
   "black": "#000"
 }
