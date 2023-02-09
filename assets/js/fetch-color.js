@@ -65,8 +65,8 @@ fs.readFile('./data/colors.json', 'utf8', function(err, dataFile){
             const replacementString = dataFile.orange;
             replaced = replaced.replace(/\$orange: .*/g, ('$orange: ' + replacementString + ' !default' + ';'));
         } 
-        if (dataFile.gray-100) {
-            const replacementString = dataFile.gray-100;
+        if (dataFile.gray_100) {
+            const replacementString = dataFile.gray_100;
             replaced = replaced.replace(/\$gray-100: .*/g, ('$gray-100: ' + replacementString + ' !default' + ';'));
         } 
         // Write result back to variables.scss
