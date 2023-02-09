@@ -79,10 +79,6 @@ _snippets:
         - key: message
         - No text defined
       icon: warning
-      gallery:
-        - key: message
-        - text: An alert
-      view: gallery
     picker_preview:
       text: Alert
       subtext: An alert with color options
@@ -669,7 +665,7 @@ collections_config:
       - visual
   data:
     path: data
-    icon: description
+    icon: save
     text_key: name
     description: Configure the sites data.
     disable_add: true
