@@ -9,7 +9,10 @@
                 {{ template "community-links-list" . }}
             </div>
         {{ end }}
-        <p>{{ .text.left.left_ending }} <a href="{{ .text.left.left_ending_link }}">{{ .text.left.left_ending_link_text }}</a>
+        {{ with .text.left.left_ending }}
+        
+        <p>{{ .text.left.left_ending }}</p><a href="{{ .text.left.left_ending_link }}">{{ .text.left.left_ending_link_text }}</a>
+        {{ end }}
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
         <h2>{{ .text.right.right_heading }}</h2>
@@ -19,7 +22,7 @@
                 {{ template "community-links-list" . }}
             </div>
         {{ end }}
-        <p>{{ .text.right.right_ending }} <a href="{{ .text.right.right_ending_link }}">{{ .text.right.right_ending_link_text }}</a>
+        <p>{{ .text.right.right_ending }}</p><a href="{{ .text.right.right_ending_link }}">{{ .text.right.right_ending_link_text }}</a>
     </div>
 </section>
 
