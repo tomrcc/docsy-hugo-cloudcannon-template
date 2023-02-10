@@ -4,8 +4,6 @@
 {{ partial "bookshop_bindings" `.Params.content_blocks` }}
 {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
 
-{{ partial "community_links.html" . }}
-
 <div class="td-content">
     {{ .Content }}
 </div>
