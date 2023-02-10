@@ -16,15 +16,7 @@ blueprint:
       conclusion_text:
       conclusion_link:
       conclusion_link_text:
-  right:
-    right_heading: Right
-    right_sub_heading: Right
-    conclusion:
-      conclusion_text:
-      conclusion_link:
-      conclusion_link_text:
-  links:
-    user:
+    links:
       - name: User mailing list
         url: 'https://example.org/mail'
         icon: fa fa-envelope
@@ -37,7 +29,14 @@ blueprint:
         url: 'https://example.org/stack'
         icon: fab fa-stack-overflow
         desc: Practical questions and curated answers
-    developer:
+  right:
+    right_heading: Right
+    right_sub_heading: Right
+    conclusion:
+      conclusion_text:
+      conclusion_link:
+      conclusion_link_text:
+    links:
       - name: GitHub
         url: 'https://github.com/google/docsy'
         icon: fab fa-github
@@ -55,21 +54,13 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   left:
-    left_heading: Left Heading
-    left_sub_heading: Left sub paragraph
+    left_heading: Left
+    left_sub_heading: Left sub
     conclusion:
       conclusion_text: ""
       conclusion_link: ""
       conclusion_link_text: ""
-  right:
-    right_heading: Right Heading
-    right_sub_heading: Right sub paragraph
-    conclusion:
-      conclusion_text: ""
-      conclusion_link: ""
-      conclusion_link_text: ""
-  links:
-    user:
+    links:
       - name: User mailing list
         url: 'https://example.org/mail'
         icon: fa fa-envelope
@@ -82,7 +73,14 @@ preview:
         url: 'https://example.org/stack'
         icon: fab fa-stack-overflow
         desc: Practical questions and curated answers
-    developer:
+  right:
+    right_heading: Right
+    right_sub_heading: Right
+    conclusion:
+      conclusion_text: ""
+      conclusion_link: ""
+      conclusion_link_text: ""
+    links:
       - name: GitHub
         url: 'https://github.com/google/docsy'
         icon: fab fa-github
@@ -95,5 +93,6 @@ preview:
         url: 'https://example.org/mail'
         icon: fa fa-envelope
         desc: Discuss development issues around the project
+
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

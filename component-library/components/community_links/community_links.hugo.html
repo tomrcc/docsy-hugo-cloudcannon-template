@@ -1,5 +1,3 @@
-{{ $links := .links }}
-
 <section class="row td-box td-box--4 td-box--gradient td-box--height-auto linkbox">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
         {{ with .left.left_heading }}
@@ -8,7 +6,7 @@
         {{ with .left.left_sub_heading }}
             <p>{{ . }}</p>
         {{ end }}
-        {{ with $links.user }}
+        {{ with .left.links }}
             <ul>
                 {{ range . }}
                     <li title="{{ .name }}">
@@ -29,7 +27,7 @@
         {{ with .right.right_sub_heading }}
             <p>{{ . }}</p>
         {{ end }}
-        {{ with $links.developer }}
+        {{ with .right.links }}
             <ul>
                 {{ range . }}
                     <li title="{{ .name }}">
