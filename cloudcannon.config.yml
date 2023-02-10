@@ -155,6 +155,8 @@ _snippets:
         label: Message
         comment: The message to display.
         type: text
+        options:
+          empty_type: string
   
   card:
     template: hugo_paired_shortcode_named_args
