@@ -139,10 +139,6 @@ _snippets:
         - key: color
         - No color defined
       icon: info
-      gallery: 
-        image: /preview-images/pageinfo.png
-        text: A banner to display page info.
-      view: gallery
     picker_preview:
       text: Page Info
       subtext: A banner to display page info.
@@ -196,10 +192,6 @@ _snippets:
         - key: message
         - No text defined
       icon: tab
-      gallery: 
-        image: /preview-images/card.png
-        text: A basic card
-      view: gallery
     picker_preview:
       text: Card
       subtext: A basic card
@@ -278,10 +270,6 @@ _snippets:
       subtext:
         - A wrapper used to display multiple cards
       icon: dashboard
-      gallery: 
-        image: /preview-images/cardpane.png
-        text: A wrapper for cards to be displayed next to each other
-      view: gallery
     picker_preview:
       text: Card Pane
       subtext: A wrapper for cards to be displayed next to each other
@@ -328,10 +316,6 @@ _snippets:
         - key: content
         - No content defined
       icon: tab
-      gallery: 
-        image: /preview-images/tabpane.png
-        text: A tab to be used inside a tabpane wrapper
-      view: gallery
     picker_preview:
       text: Tab
       subtext: A tab to be used inside a tabpane wrapper
@@ -423,10 +407,6 @@ _snippets:
       text: Tab Pane
       subtext: Wraps a group of tabs
       icon: dashboard
-      gallery:
-        image: /preview-images/tabpane.png
-        text: A set of tabs
-      view: gallery
     picker_preview:
       text: Tab Pane
       subtext: A set of tabs
@@ -513,10 +493,6 @@ _snippets:
       subtext:
         - Embed a webpage on the page
       icon: dashboard
-      gallery: 
-        image: /preview-images/iframe.png
-        text: Embed a site on the page
-      view: gallery
     picker_preview:
       text: iframe
       subtext: Embed a site on the page
@@ -583,10 +559,6 @@ _snippets:
       subtext:
         - Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
       icon: description
-      gallery: 
-        image: /preview-images/swaggerui.png
-        text: Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
-      view: gallery
     picker_preview:
       text: Swagger UI
       subtext: Placed inside a page with the `swagger` layout, this will render Swagger UI using any OpenAPI YAML or JSON file as source.
