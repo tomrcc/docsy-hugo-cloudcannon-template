@@ -922,6 +922,8 @@ collections_config:
         type: color
       black:
         type: color
+      links:
+        type: color
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.

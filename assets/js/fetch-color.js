@@ -73,6 +73,10 @@ fs.readFile('./data/colors.json', 'utf8', function(err, dataFile){
             const replacementString = dataFile.black;
             replaced = replaced.replace(/\$black: .*/g, ('$black: ' + replacementString + ' !default' + ';'));
         } 
+        if (dataFile.links) {
+            const replacementString = dataFile.links;
+            replaced = replaced.replace(/\$links: .*/g, ('$links: ' + replacementString + ' !default' + ';'));
+        }
         // Write result back to variables.scss
         fs.writeFile('./assets/scss/_variables.scss', replaced, 'utf-8', function (err) {
             if(err){
