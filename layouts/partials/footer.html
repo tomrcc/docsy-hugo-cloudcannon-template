@@ -1,4 +1,4 @@
-{{ $links := .Site.Data.community.links -}}
+{{ $links := .Site.Data.footer.links -}}
 <footer class="bg-dark align-items-center row d-print-none">
   <div class="container-fluid flex-shrink-1 mx-sm-5">
     <div class="row">
@@ -17,9 +17,9 @@
         {{ end }}
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2 text-white">
-        {{ with .Site.Data.site_details.footer.copyright }}<small>&copy; {{ now.Year}} {{ . }} {{ T "footer_all_rights_reserved" }}</small>{{ end }}
-        {{ with .Site.Data.site_details.footer.privacy_policy }}<p class=""><a href="{{ . }}" target="_blank" rel="noopener">{{ T "footer_privacy_policy" }}</a></p>{{ end }}
-        {{ if not .Site.Data.site_details.footer.footer_about_disable -}}
+        {{ with .Site.Data.footer.copyright }}<small>&copy; {{ now.Year}} {{ . }} {{ T "footer_all_rights_reserved" }}</small>{{ end }}
+        {{ with .Site.Data.footer.privacy_policy }}<p class=""><a href="{{ . }}" target="_blank" rel="noopener">{{ T "footer_privacy_policy" }}</a></p>{{ end }}
+        {{ if not .Site.Data.footer.footer_about_disable -}}
           {{ with .Site.GetPage "about" }}<p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>{{ end }}
         {{ end }}
       </div>

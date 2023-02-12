@@ -1,13 +1,5 @@
 title: DocsyCannon
 baseURL: ''
-navbar:
-  navbar_logo: true
-  navbar_logo_path: /icons/logo.svg
-  navbar_translucent_over_cover_disable: true
-footer:
-  copyright: The Docsy Author
-  privacy_policy: https://policies.google.com/privacy
-  footer_about_disable: false
 versioning:
   versions:
     - version:
