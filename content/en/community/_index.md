@@ -6,7 +6,7 @@ menu:
   main:
     weight: 40
 content_blocks:
-  - _bookshop_name: lead
+  - _bookshop_name: section/lead
     color: primary
     height: med
     heading: Join the Docsy community
@@ -14,7 +14,7 @@ content_blocks:
       Docsy is an open source project that anyone in the community can use,
       improve, and enjoy. We'd love you to join us! Here's a few ways to find
       out what's happening and get involved.
-  - _bookshop_name: community_links
+  - _bookshop_name: section/community_links
     left:
       left_heading: Learn and Connect
       left_sub_heading: 'Using or want to use Goldydocs? Find out more here:'

@@ -30,7 +30,7 @@
 				<div class="row {{ $type }} align-items-center justify-content-center">
 					{{/*  needs margin top  */}}
 					{{ range .feature }}
-						{{ partial "bookshop" (slice "feature" . )}}
+						{{ partial "bookshop" (slice "simple/feature" . )}}
 					{{ end }}
 				</div>
 			</div>

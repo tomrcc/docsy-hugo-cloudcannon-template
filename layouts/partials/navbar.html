@@ -2,7 +2,7 @@
 
 {{ if .Site.Data.navbar.navbar_translucent_over_cover_disable }}
   {{ with .Page.Params.content_blocks }}
-    {{ if and (eq (index . 0)._bookshop_name "cover") }}
+    {{ if and (eq (index . 0)._bookshop_name "section/cover") }}
       {{ $cover = true }}
     {{ end }}
   {{ end }}

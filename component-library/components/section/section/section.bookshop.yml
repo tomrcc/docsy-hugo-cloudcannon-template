@@ -15,7 +15,7 @@ blueprint:
   height: auto
   type: true
   id: Section_ID
-  feature: [bookshop:feature]
+  feature: [bookshop:simple/feature]
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -26,8 +26,8 @@ preview:
   type: true
   id: Section_ID
   feature:
-    - bookshop:feature
-    - bookshop:feature
+    - bookshop:simple/feature
+    - bookshop:simple/feature
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

@@ -17,8 +17,8 @@ blueprint:
   background_image: /featured-background.jpg
   height: med
   byline: A byline
-  link_down: bookshop:link_down
-  button: [bookshop:button]
+  link_down: bookshop:generic/link_down
+  button: [bookshop:generic/button]
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
