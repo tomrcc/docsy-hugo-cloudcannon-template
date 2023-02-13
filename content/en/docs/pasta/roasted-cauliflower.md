@@ -15,32 +15,35 @@ tags:
 ---
 ## Ingredients
 
-<div>Onions</div>
+Onions
 
-<div>Garlic</div>
+Garlic
 
-<div>Cauliflower</div>
+Cauliflower
 
-<div>Cherry Tomatoes</div>
+Cherry Tomatoes
 
-<div>Parsley</div>
+Parsley
 
-<div>Peas</div>
+Peas
 
-<div>Anchovies</div>
+Anchovies
 
-<div>Chilli Flakes</div>
+Chilli Flakes
 
-<div>Olive Oil</div>
+Olive Oil
 
-<div>Pasta</div>
+Parmesan
 
-<div> </div>
-
-Test
-
-Test
-
-Test
+Pasta
 
 ## Method
+
+1. &nbsp;Oven preheating 180°C and a big pot of water heating up.
+2. Cut up onions, garlic and cauliflower and add to a baking tray.
+3. Tear up anchovies, sprinkle chilli, toss with lots of olive oil.
+4. Roast for 30 mins
+5. Add halved cherry tomatoes and peas.
+6. Roast for 10 mins.
+7. Get pasta on.
+8. Toss roasted stuff through pasta.
