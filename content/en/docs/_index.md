@@ -1,7 +1,7 @@
 ---
 _schema: home
-title: Documentation
-linkTitle: Documentation
+title: Recipes
+linkTitle: Recipes
 menu:
   main:
     weight: 20
