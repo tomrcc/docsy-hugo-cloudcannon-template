@@ -15,7 +15,7 @@ github:
   github_subdir: ''
   github_branch: master
 search:
-  gcs_engine_id: d72aa9b2712488cc3
+  gcs_engine_id: ''
   algolia_docsearch: false
   offlineSearch: false
   offlineSearchSummaryLength: 70
