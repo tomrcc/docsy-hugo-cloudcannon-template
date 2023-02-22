@@ -5,15 +5,6 @@ linkTitle: Documentation
 menu:
   main:
     weight: 20
-_inputs:
-  title:
-    label: Page Title
-    comment: Set the title to be displayed at top of the page and in the tab.
-    type: text
-  linkTitle:
-    label: Link Title
-    comment: Set the link that appears in the navigation.
-    type: text
 ---
 {{% pageinfo color="primary" %}}
 This is a placeholder page that shows you how to use this template site.

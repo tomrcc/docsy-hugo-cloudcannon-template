@@ -1,5 +1,5 @@
 ---
-_schema: bookshop_main
+_schema: page
 title: Community Tab
 linkTitle: Community
 menu:

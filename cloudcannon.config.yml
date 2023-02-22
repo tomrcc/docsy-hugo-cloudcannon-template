@@ -591,16 +591,9 @@ collections_config:
       - name: Page
         base_path: /
         schema: default
-      - name: Bookshop
-        base_path: /
-        schema: bookshop_main
     schemas:
       default:
-        path: schemas/main.md
-        create:
-          path: '{title|slugify}/_index.md'
-      bookshop_main:
-        path: schemas/bookshop_main.md
+        path: schemas/page.md
         create:
           path: '{title|slugify}/_index.md'
   blog:
@@ -623,18 +616,6 @@ collections_config:
     _enabled_editors:
       - content
       - visual
-  about:
-    path: content/en/about
-    output: true
-    icon: psychology
-    text_key: title
-    subtext_key: linkTitle
-    description: An about page built using Bookshop.
-    disable_add: true
-    disable_add_folder: true
-    _enabled_editors:
-      - visual
-      - content
   docs:
     path: content/en/docs
     output: true
@@ -652,18 +633,6 @@ collections_config:
         path: schemas/docs/default.md
         create:
           path: '[relative_base_path]/{title|slugify}/_index.md'
-    _enabled_editors:
-      - content
-      - visual
-  community:
-    path: content/en/community
-    output: true
-    icon: groups
-    text_key: title
-    subtext_key: linkTitle
-    description: A page to direct users to community links.
-    disable_add: true
-    disable_add_folder: true
     _enabled_editors:
       - content
       - visual
