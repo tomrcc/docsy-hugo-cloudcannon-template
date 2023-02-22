@@ -655,6 +655,18 @@ collections_config:
     _enabled_editors:
       - content
       - visual
+  community:
+    path: content/en/community
+    output: true
+    icon: groups
+    text_key: title
+    subtext_key: linkTitle
+    description: A page to direct users to community links.
+    disable_add: true
+    disable_add_folder: true
+    _enabled_editors:
+      - content
+      - visual
   data:
     path: data
     icon: save
