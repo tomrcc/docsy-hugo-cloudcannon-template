@@ -2,9 +2,9 @@
 spec:
   structures:
     - content_blocks
-  label: "Community_links"
-  description:
-  icon:
+  label: "Community Links"
+  description: A section to list links to related pages.
+  icon: people
   tags: []
 
 # Defines the structure of this component, as well as the default values
@@ -12,10 +12,6 @@ blueprint:
   left:
     left_heading: Left
     left_sub_heading: Left sub
-    conclusion:
-      conclusion_text:
-      conclusion_link:
-      conclusion_link_text:
     links:
       - name: User mailing list
         url: 'https://example.org/mail'
@@ -29,6 +25,10 @@ blueprint:
         url: 'https://example.org/stack'
         icon: fab fa-stack-overflow
         desc: Practical questions and curated answers
+    conclusion:
+      conclusion_text:
+      conclusion_link:
+      conclusion_link_text:
   right:
     right_heading: Right
     right_sub_heading: Right
@@ -56,10 +56,6 @@ preview:
   left:
     left_heading: Left
     left_sub_heading: Left sub
-    conclusion:
-      conclusion_text: ""
-      conclusion_link: ""
-      conclusion_link_text: ""
     links:
       - name: User mailing list
         url: 'https://example.org/mail'
@@ -73,6 +69,10 @@ preview:
         url: 'https://example.org/stack'
         icon: fab fa-stack-overflow
         desc: Practical questions and curated answers
+    conclusion:
+      conclusion_text: ""
+      conclusion_link: ""
+      conclusion_link_text: ""
   right:
     right_heading: Right
     right_sub_heading: Right
