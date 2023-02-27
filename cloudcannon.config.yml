@@ -793,6 +793,10 @@ collections_config:
         label: Taxonomy Breadcrumbs
         comment: Turn on to disable breadcrumbs on the Taxonomy page.
         type: switch
+      page_meta_links_disabled:
+        label: Page Meta Links
+        comment: Turn on to disable page meta links in the sidebar of docs and blog sections.
+        type: switch
       readingtime:
         label: Reading Time
         comment: Turn on to enable reading time indicators at the top of content pages.
