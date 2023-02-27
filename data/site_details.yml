@@ -24,6 +24,7 @@ user_interface:
   breadcrumb_disable: false
   taxonomy_breadcrumb_disable: false
   readingtime: false
+  page_meta_links_disabled: false
   feedback:
     enable: true
     yes_message: >-
