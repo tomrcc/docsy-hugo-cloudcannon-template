@@ -47,10 +47,6 @@ a {
     color: $links;
 }
 
-li {
-    list-style: none;
-}
-
 // Adjust anchors vs the fixed menu.
 @include media-breakpoint-up(md) {
     .td-offset-anchor:target {
