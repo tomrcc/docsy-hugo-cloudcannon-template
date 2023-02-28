@@ -22,7 +22,11 @@
           </aside>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
             {{ partial "version-banner.html" . }}
-            {{ if not .Site.Data.site_details.user_interface.breadcrumb_disable }}{{ partial "breadcrumb.html" . }}{{ end }}
+            {{ if not .Site.Data.site_details.user_interface.breadcrumb_disable }}
+              {{ if ne (.Site.GetPage "section" "docs") .Page }}
+                {{ partial "breadcrumb.html" . }}
+              {{ end }}
+            {{ end }}
             {{ block "main" . }}{{ end }}
           </main>
         </div>
