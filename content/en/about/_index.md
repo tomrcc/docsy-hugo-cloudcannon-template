@@ -50,24 +50,28 @@ content_blocks:
     id:
   - _bookshop_name: section/community_links
     left:
-      left_heading: Left
-      left_sub_heading:
+      left_heading: Learn and Connect
+      left_sub_heading: 'Using or want to use Docsy? Find out more here:'
       links:
-        - name: User mailing list
+        - name: Documentation
           url: https://example.org/mail
           icon: fa fa-envelope
-          desc: Discussion and help from your fellow users
-        - name: User mailing list
-          url: https://example.org/mail
-          icon: fa fa-envelope
-          desc: Discussion and help from your fellow users
+          desc: Documentation for DocsyCannon made using DocsyCannon
+        - name: GitHub
+          url: /
+          icon: fab fa-github
+          desc: The repository containing the DocsyCannon template
+        - name: CloudCannon
+          url: https://cloudcannon.com/
+          icon: fa fa-cloud
+          desc: Host and edit your site on CloudCannon for full editing experience
       conclusion:
         conclusion_text:
         conclusion_link:
         conclusion_link_text:
     right:
-      right_heading: Right
-      right_sub_heading:
+      right_heading: Develop and Contribute
+      right_sub_heading: 'If you have any improvements or issues related to DocsyCannon:'
       conclusion:
         conclusion_text:
         conclusion_link:
@@ -77,12 +81,4 @@ content_blocks:
           url: https://github.com/google/docsy
           icon: fab fa-github
           desc: Development takes place here!
-        - name: Slack
-          url: https://example.org/slack
-          icon: fab fa-slack
-          desc: Chat with other project developers
-        - name: Developer mailing list
-          url: https://example.org/mail
-          icon: fa fa-envelope
-          desc: Discuss development issues around the project
 ---
