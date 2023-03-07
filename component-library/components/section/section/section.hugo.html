@@ -13,12 +13,12 @@
 	<div class="container">
 		<div class="col">
 			{{ with .heading }}
-					<h1 class="row">{{ . }}</h1>
+					<h1 class="text-center mb-4">{{ . }}</h1>
 			{{ end }}
 			<div class="row">
 				<div class="col">
 					{{ if .text }}
-						<div class="row mb-5">
+						<div class="row lead mb-5">
 							{{ if eq .Page.File.Ext "md" }}
 							{{ .text | markdownify }}
 							{{ else }}
