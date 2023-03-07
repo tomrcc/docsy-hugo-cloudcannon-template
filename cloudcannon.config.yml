@@ -655,12 +655,6 @@ collections_config:
         type: text
         options:
           empty_type: string
-      baseURL:
-        label: Base URL
-        comment: The base URL to use for your site.
-        type: text
-        options:
-          empty_type: string
       navbar:
         label: Navbar
         comment: Configure site navbar settings.
