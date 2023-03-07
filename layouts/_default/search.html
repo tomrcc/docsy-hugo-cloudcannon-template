@@ -3,9 +3,8 @@
   <div class="col-12 col-md-8 offset-md-2">
     <h2 class="ms-4">{{ .Title }}</h2>
     {{ with .Site.Data.site_details.search.gcs_engine_id }}
-		<script async src="https://cse.google.com/cse.js?cx=4000904be408c49c7">
-		</script>
-		<div class="gcse-search"></div>
+      <script async src="https://cse.google.com/cse.js?cx={{ . }}"></script>
+      <div class="gcse-search"></div>
     {{ end }}
   </div>
 </section>

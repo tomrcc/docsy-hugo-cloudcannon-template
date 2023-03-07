@@ -764,18 +764,6 @@ collections_config:
         label: Algolia DocSearch
         comment: As an alternative to GCSE, you can use [Algolia DocSearch](https://docsearch.algolia.com/) with this theme. Algolia DocSearch is free for public documentation sites. Docsy supports Algolia DocSearch v3. Remove GCSE ID, Local Search set to false, and disable the sidebar search. Read more [here](https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch).
         type: switch
-      offlineSearch:
-        label: Local Search with Lunr
-        comment: Lunr is a Javascript-based search option that lets you index your site and make it searchable without the need for external, server-side search services. This is a good option particularly for smaller or non-public sites. Remove any GCSE ID and ensure Algolia DocSearch is set to false. Read more [here](https://www.docsy.dev/docs/adding-content/navigation/#configure-local-search-with-lunr).
-        type: switch
-      offlineSearchSummaryLength:
-        label: Local Search Result Summary 
-        comment: You can customize the summary length of local search results.
-        type: number
-      offlineSearchMaxResults:
-        label:  Local Search Max Results
-        comment: You can customize the maximum result count of local searches.
-        type: number
       user_interface:
         label: User Interface
         comment: Configure the UI on content pages.

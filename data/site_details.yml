@@ -16,9 +16,6 @@ github:
 search:
   gcs_engine_id: ''
   algolia_docsearch: false
-  offlineSearch: true
-  offlineSearchSummaryLength: 70
-  offlineSearchMaxResults: 10
 user_interface:
   breadcrumb_disable: false
   taxonomy_breadcrumb_disable: false
