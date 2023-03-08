@@ -30,7 +30,7 @@ user_interface:
       Sorry to hear that. Please tell us [how we can
       improve](https://github.com/USERNAME/REPOSITORY/issues/new).
 sidebar:
-  collapsed_sidebar_title: Open
+  collapsed_sidebar_title:
   collapsed_sidebar_icon_centered: false
   sidebar_menu_foldable: true
   sidebar_search_disable: false
