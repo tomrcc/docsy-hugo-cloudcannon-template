@@ -1,3 +1,7 @@
+title: DocsyCannon template
+description: A technical documentation site template
+
+# So that 'hugo serve' has the correct prefix
 baseURL: 'https://localhost'
 
 # Will give values to .Lastmod etc.
@@ -12,12 +16,12 @@ enableMissingTranslationPlaceholders: true
 enableRobotsTXT: true
 
 # Language configuration
-# languages:
-#   en:
-#     title: Goldydocs
-#     description: A Docsy example site
-#     languageName: English
-#     weight: 1
+languages:
+  en:
+    title: DocsyCannon
+    description: A technical documentation site
+    languageName: English
+    weight: 1
 #   'no':
 #     title: Goldydocs
 #     description: Docsy er operativsystem for skyen
@@ -34,7 +38,7 @@ enableRobotsTXT: true
 #     time_format_blog: 2006.01.02
 
 # Comment out to enable taxonomies in Docsy
-# disableKinds = ["taxonomy", "taxonomyTerm"]
+# disableKinds: ["taxonomy", "taxonomyTerm"]
 
 # You can add your own taxonomies
 taxonomies:
@@ -50,7 +54,7 @@ params:
     taxonomyCloudTitle:
       - Tag Cloud
       - Categories
-# set taxonomyPageHeader = [] to hide taxonomies on the page headers
+# set taxonomyPageHeader: [] to hide taxonomies on the page headers
     taxonomyPageHeader:
       - tags
       - categories
@@ -69,7 +73,7 @@ markup:
     # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
     style: tango
     # Uncomment if you want your chosen highlight style used for code blocks without a specified language
-    # guessSyntax = "true"
+    # guessSyntax: "true"
 
 # Configure how URLs look like per section.
 permalinks:
