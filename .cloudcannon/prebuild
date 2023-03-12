@@ -1,3 +1,2 @@
-hugo mod clean
 npm i
 npm run prebuild:fetch-color
